@@ -1,0 +1,61 @@
+2023-09-18 18:38:01.064 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-09-18 18:38:02.241 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-18 18:38:02.247 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-09-18 18:38:02.251 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-09-18 18:38:02.272 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-09-18 18:38:02.275 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-09-18 18:38:02.289 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-09-18 18:38:03.315 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-18 18:38:03.321 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-09-18 18:38:03.321 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-09-18 18:38:03.328 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-09-18 18:38:03.329 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-18 18:38:03.329 +00:00 [INF] Hosting environment: Production
+2023-09-18 18:38:03.329 +00:00 [INF] Content root path: C:\ABS\cc-disco\client\TestClient
+2023-09-18 18:38:03.331 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-09-18 18:38:03.338 +00:00 [INF] Handling file TestClientRequests\ScheduleRequests\ScheduleDraftDataRequestConfig.json
+2023-09-18 18:38:03.390 +00:00 [INF] Defined as create schedule request
+2023-09-18 18:38:03.481 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-1", "scheduleId": "test_us-20359-1", "destination": "Local", "scheduleSingle": { "cronExpression": "* * * ? ?" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-09-18 18:38:03.488 +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-31-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-31-20-01-CA-3E-0B-0A-09-2A-20-2A-20-2A-20-3F-20-3F-8A-7D-09-0A-07-00-01-02-03-04-05-06
+2023-09-18 18:38:03.491 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-09-18 18:38:04.523 +00:00 [INF] Bus "createScheduleBus" started
+2023-09-18 18:38:04.582 +00:00 [INF] Binary is sent 1-th time
+2023-09-18 18:38:04.680 +00:00 [INF] Binary is sent 2-st time
+2023-09-18 18:38:04.789 +00:00 [INF] Binary is sent 3-nd time
+2023-09-18 18:38:04.900 +00:00 [INF] Binary is sent 4-rd time
+2023-09-18 18:38:04.964 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-1", "scheduleId": "test-client - test_us-20359-1", "executed": "2023-09-18T18:38:04.644250400Z" }
+2023-09-18 18:38:05.008 +00:00 [INF] Binary is sent 5-th time
+2023-09-18 18:38:05.124 +00:00 [INF] File TestClientRequests\ScheduleRequests\ScheduleDraftDataRequestConfig.json handling has been finished.
+2023-09-18 18:38:05.124 +00:00 [INF] Handling file TestClientRequests\ScheduleRequests\ScheduleLocationDataRequestConfig.json
+2023-09-18 18:38:05.125 +00:00 [INF] Defined as create schedule request
+2023-09-18 18:38:05.128 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-3", "scheduleId": "test_us-20359-3", "destination": "Local", "scheduleSingle": { "cronExpression": "* * * ? ?" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-09-18 18:38:05.129 +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-33-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-33-20-01-CA-3E-0B-0A-09-2A-20-2A-20-2A-20-3F-20-3F-92-7D-05-0A-03-00-01-02
+2023-09-18 18:38:05.141 +00:00 [INF] Binary is sent 1-th time
+2023-09-18 18:38:05.236 +00:00 [INF] Binary is sent 2-st time
+2023-09-18 18:38:05.306 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-3", "scheduleId": "test-client - test_us-20359-3", "executed": "2023-09-18T18:38:05.147406400Z" }
+2023-09-18 18:38:05.345 +00:00 [INF] Binary is sent 3-nd time
+2023-09-18 18:38:05.456 +00:00 [INF] Binary is sent 4-rd time
+2023-09-18 18:38:05.568 +00:00 [INF] Binary is sent 5-th time
+2023-09-18 18:38:05.678 +00:00 [INF] File TestClientRequests\ScheduleRequests\ScheduleLocationDataRequestConfig.json handling has been finished.
+2023-09-18 18:38:05.678 +00:00 [INF] Handling file TestClientRequests\ScheduleRequests\ScheduleWeatherDataRequestConfig.json
+2023-09-18 18:38:05.678 +00:00 [INF] Defined as create schedule request
+2023-09-18 18:38:05.681 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-4", "scheduleId": "test_us-20359-4", "destination": "Local", "scheduleRange": { "cronExpression": "0/5 * * ? ?", "start": "00:05:00.000", "end": "00:00:00.000", "intervalMilliseconds": "300000" }, "weatherDataTypes": { "dataType": [ "Unknown", "WetTemperature", "DryTemperature", "RelativeWindSpeed", "TrueWindDirection", "SeaWaterTemperature", "SeaWaterDepth", "AirPressure", "RelativeHumidity", "Swell", "SeaScale" ] } }
+2023-09-18 18:38:05.683 +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-34-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-34-20-01-D2-3E-2D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-12-0C-30-30-3A-30-35-3A-30-30-2E-30-30-30-1A-0C-30-30-3A-30-30-3A-30-30-2E-30-30-30-20-E0-A7-12-A2-7D-0D-0A-0B-00-01-02-04-05-06-07-08-09-0A-0B
+2023-09-18 18:38:05.689 +00:00 [INF] Binary is sent 1-th time
+2023-09-18 18:38:05.792 +00:00 [INF] Binary is sent 2-st time
+2023-09-18 18:38:05.844 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-4", "scheduleId": "test-client - test_us-20359-4", "executed": "2023-09-18T18:38:05.694241800Z" }
+2023-09-18 18:38:05.898 +00:00 [INF] Binary is sent 3-nd time
+2023-09-18 18:38:06.007 +00:00 [INF] Binary is sent 4-rd time
+2023-09-18 18:38:06.117 +00:00 [INF] Binary is sent 5-th time
+2023-09-18 18:38:06.226 +00:00 [INF] File TestClientRequests\ScheduleRequests\ScheduleWeatherDataRequestConfig.json handling has been finished.
+2023-09-18 18:39:16.204 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "b00a3642-2255-4bc3-9bfe-bf4e2b3ff29c", "destination": "Unknown", "executed": "2023-09-18T18:39:15.512401800Z", "dataResponse": { }, "onDemandSingle": { "target": "2023-09-18T18:39:15.250918600Z" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-09-18 18:39:16.331 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "2787fdea-31d8-40f3-ad2b-ae2e4669e9d1", "destination": "Unknown", "executed": "2023-09-18T18:39:15.512401900Z", "dataResponse": { }, "onDemandSingle": { "target": "2023-09-18T18:39:15.250918500Z" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-09-18 18:40:15.453 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "2a642d3a-6d62-4a9b-beca-2283e544788d", "destination": "Unknown", "executed": "2023-09-18T18:40:15.297640300Z", "dataResponse": { }, "onDemandSingle": { "target": "2023-09-18T18:40:15.290636Z" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-09-18 18:40:15.506 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "454a68bd-b9b7-4ec5-9250-d65c87688ed7", "destination": "Unknown", "executed": "2023-09-18T18:40:15.354586900Z", "dataResponse": { }, "onDemandSingle": { "target": "2023-09-18T18:40:15.348673200Z" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-09-18 18:40:15.976 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "ff9229ad-09ef-45d4-9906-76976c44e533", "destination": "Unknown", "executed": "2023-09-18T18:40:15.418728700Z", "dataResponse": { }, "onDemandRange": { "start": "2023-09-18T18:35:15.406400600Z", "end": "2023-09-18T18:40:15.406400600Z", "intervalMilliseconds": "300000" }, "weatherDataTypes": { "dataType": [ "Unknown", "WetTemperature", "DryTemperature", "RelativeWindSpeed", "TrueWindDirection", "SeaWaterTemperature", "SeaWaterDepth", "AirPressure", "RelativeHumidity", "Swell", "SeaScale" ] } }
+2023-09-18 18:41:15.511 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "c075529c-62e0-4819-823d-3351a86290cb", "destination": "Unknown", "executed": "2023-09-18T18:41:15.354620700Z", "dataResponse": { }, "onDemandSingle": { "target": "2023-09-18T18:41:15.331842Z" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-09-18 18:41:15.536 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "cb120f5b-4742-42c7-9cb1-cd2e4f9c95cb", "destination": "Unknown", "executed": "2023-09-18T18:41:15.385094600Z", "dataResponse": { }, "onDemandSingle": { "target": "2023-09-18T18:41:15.377030500Z" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-09-18 18:42:15.614 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "3eb3c06a-caeb-4370-aab7-ea38960cdc36", "destination": "Unknown", "executed": "2023-09-18T18:42:15.447377100Z", "dataResponse": { }, "onDemandSingle": { "target": "2023-09-18T18:42:15.440636300Z" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-09-18 18:42:15.644 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "90e4493d-7ce5-4b8c-82c4-0293be58be2f", "destination": "Unknown", "executed": "2023-09-18T18:42:15.481582200Z", "dataResponse": { }, "onDemandSingle": { "target": "2023-09-18T18:42:15.472798100Z" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-09-18 18:43:15.649 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "19650bc9-b121-4aed-b780-de9eba01d612", "destination": "Unknown", "executed": "2023-09-18T18:43:15.490965900Z", "dataResponse": { }, "onDemandSingle": { "target": "2023-09-18T18:43:15.484838600Z" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-09-18 18:43:15.686 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "0f70183c-d0a5-4120-a9b5-a0f25f3a561d", "destination": "Unknown", "executed": "2023-09-18T18:43:15.534844900Z", "dataResponse": { }, "onDemandSingle": { "target": "2023-09-18T18:43:15.524021Z" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }

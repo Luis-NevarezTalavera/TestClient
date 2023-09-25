@@ -1,0 +1,33 @@
+2023-08-29 21:21:24.198 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-08-29 21:21:25.405 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-08-29 21:21:25.417 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-08-29 21:21:25.421 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-08-29 21:21:25.437 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-08-29 21:21:25.440 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-08-29 21:21:25.455 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-08-29 21:21:26.466 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-08-29 21:21:26.483 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-08-29 21:21:26.483 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-08-29 21:21:26.492 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-08-29 21:21:26.493 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-29 21:21:26.494 +00:00 [INF] Hosting environment: Production
+2023-08-29 21:21:26.494 +00:00 [INF] Content root path: C:\ABS\cc-disco-new\cc-disco\client\TestClient
+2023-08-29 21:21:26.496 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-08-29 21:21:26.505 +00:00 [INF] Handling file Examples\TestScenario1\OnDemandLocationRangeRequestConfig.json
+2023-08-29 21:21:26.555 +00:00 [INF] Defined as on demand request
+2023-08-29 21:21:26.730 +00:00 [INF] Created DiscoDataRequest object with payload: { "requestId": "Test US-21122-1", "destination": "Local", "onDemandRange": { "start": "2023-07-26T14:23:52Z", "end": "2023-07-27T14:23:52Z", "intervalMilliseconds": "3600000" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-08-29 21:21:26.738 +00:00 [INF] Sending binary: 0A-0F-54-65-73-74-20-55-53-2D-32-31-31-32-32-2D-31-10-01-D2-3E-15-0A-06-08-F8-D8-84-A6-06-12-06-08-F8-FB-89-A6-06-18-80-DD-DB-01-92-7D-05-0A-03-00-01-02
+2023-08-29 21:21:26.742 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-08-29 21:21:27.779 +00:00 [INF] Bus "onDemandRequestBus" started
+2023-08-29 21:21:27.835 +00:00 [INF] Binary is sent 1-th time
+2023-08-29 21:21:30.840 +00:00 [INF] Binary is sent 2-st time
+2023-08-29 21:21:33.844 +00:00 [INF] Binary is sent 3-nd time
+2023-08-29 21:21:36.850 +00:00 [INF] File Examples\TestScenario1\OnDemandLocationRangeRequestConfig.json handling has been finished.
+2023-08-29 21:21:36.850 +00:00 [INF] Handling file Examples\TestScenario1\OnDemandLocationSingleRequestConfig.json
+2023-08-29 21:21:36.851 +00:00 [INF] Defined as on demand request
+2023-08-29 21:21:36.852 +00:00 [INF] Created DiscoDataRequest object with payload: { "requestId": "Test US-21122-2", "destination": "Local", "onDemandSingle": { "target": "2023-07-27T14:23:52Z" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-08-29 21:21:36.855 +00:00 [INF] Sending binary: 0A-0F-54-65-73-74-20-55-53-2D-32-31-31-32-32-2D-32-10-01-CA-3E-08-0A-06-08-F8-FB-89-A6-06-92-7D-05-0A-03-00-01-02
+2023-08-29 21:21:36.863 +00:00 [INF] Binary is sent 1-th time
+2023-08-29 21:21:39.876 +00:00 [INF] Binary is sent 2-st time
+2023-08-29 21:21:42.880 +00:00 [INF] Binary is sent 3-nd time
+2023-08-29 21:21:45.893 +00:00 [INF] File Examples\TestScenario1\OnDemandLocationSingleRequestConfig.json handling has been finished.

@@ -1,0 +1,42 @@
+1c1
+< ScheduleRequests-sa20360-1 
+---
+> ScheduleRequests-sa20360-2 
+19,20c19,20
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-1", "scheduleId": "test_us-20359-1", "destination": "Local", "scheduleSingle": { "cronExpression": "0 0 0 1 1 ? 2099" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-31-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-31-20-01-CA-3E-12-0A-10-30-20-30-20-30-20-31-20-31-20-3F-20-32-30-39-39-8A-7D-09-0A-07-00-01-02-03-04-05-06
+---
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-1", "scheduleId": "test_us-20359-1", "destination": "Local", "scheduleSingle": { "cronExpression": "* * * ? ?" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-31-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-31-20-01-CA-3E-0B-0A-09-2A-20-2A-20-2A-20-3F-20-3F-8A-7D-09-0A-07-00-01-02-03-04-05-06
+25c25
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-1", "executed": "YYYY-MM-DDThh:mm:ss.sssssssss", "error": { "code": "BAD_REQUEST", "message": "CRON expression is invalid. Wrong number of parts in the `0 0 0 1 1 ? 2099` cron expression, you can only use 5 or 6 (with seconds) part-based expressions." } }
+---
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-1", "scheduleId": "test-client - test_us-20359-1", "executed": "YYYY-MM-DDThh:mm:ss.sssssssss" }
+32,33c32,33
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-2", "scheduleId": "test_us-20359-2", "destination": "Local", "scheduleRange": { "cronExpression": "0 0 0 1 1 ? 2099", "start": "10:54:54:457", "end": "19:28:16:324", "intervalMilliseconds": "5000" }, "fuelDataTypes": { "dataType": [ "Unknown", "TankLevel_HeavyFuelOil", "TankLevel_MarineDieselOil", "TankLevel_LightFuelOil", "TankLevel_LiquefiedNaturalGas", "TankLevel_Ethanol", "TankLevel_Methanol", "TankLevel_Propane", "TankLevel_Butane" ] } }
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-32-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-32-20-01-D2-3E-31-0A-10-30-20-30-20-30-20-31-20-31-20-3F-20-32-30-39-39-12-0C-31-30-3A-35-34-3A-35-34-3A-34-35-37-1A-0C-31-39-3A-32-38-3A-31-36-3A-33-32-34-20-88-27-9A-7D-0B-0A-09-00-01-02-03-04-05-06-07-08
+---
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-2", "scheduleId": "test_us-20359-2", "destination": "Local", "scheduleRange": { "cronExpression": "* * * ? ?", "start": "10:54:54:457", "end": "19:28:16:324", "intervalMilliseconds": "5000" }, "fuelDataTypes": { "dataType": [ "Unknown", "TankLevel_HeavyFuelOil", "TankLevel_MarineDieselOil", "TankLevel_LightFuelOil", "TankLevel_LiquefiedNaturalGas", "TankLevel_Ethanol", "TankLevel_Methanol", "TankLevel_Propane", "TankLevel_Butane" ] } }
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-32-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-32-20-01-D2-3E-2A-0A-09-2A-20-2A-20-2A-20-3F-20-3F-12-0C-31-30-3A-35-34-3A-35-34-3A-34-35-37-1A-0C-31-39-3A-32-38-3A-31-36-3A-33-32-34-20-88-27-9A-7D-0B-0A-09-00-01-02-03-04-05-06-07-08
+43,44c43,44
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-3", "scheduleId": "test_us-20359-3", "destination": "Local", "scheduleSingle": { "cronExpression": "0 0 0 1 1 ? 2099" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-33-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-33-20-01-CA-3E-12-0A-10-30-20-30-20-30-20-31-20-31-20-3F-20-32-30-39-39-92-7D-05-0A-03-00-01-02
+---
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-3", "scheduleId": "test_us-20359-3", "destination": "Local", "scheduleSingle": { "cronExpression": "* * * ? ?" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-33-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-33-20-01-CA-3E-0B-0A-09-2A-20-2A-20-2A-20-3F-20-3F-92-7D-05-0A-03-00-01-02
+46d45
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-3", "executed": "YYYY-MM-DDThh:mm:ss.sssssssss", "error": { "code": "BAD_REQUEST", "message": "CRON expression is invalid. Wrong number of parts in the `0 0 0 1 1 ? 2099` cron expression, you can only use 5 or 6 (with seconds) part-based expressions." } }
+47a47
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-3", "scheduleId": "test-client - test_us-20359-3", "executed": "YYYY-MM-DDThh:mm:ss.sssssssss" }
+54,56c54,55
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-4", "scheduleId": "test_us-20359-4", "destination": "Local", "scheduleRange": { "cronExpression": "0 0 0 1 1 ? 2099", "start": "10:54:54:457", "end": "19:28:16:324", "intervalMilliseconds": "5000" }, "weatherDataTypes": { "dataType": [ "Unknown", "WetTemperature", "DryTemperature", "RelativeWindSpeed", "TrueWindDirection", "SeaWaterTemperature", "SeaWaterDepth", "AirPressure", "RelativeHumidity", "Swell", "SeaScale" ] } }
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-34-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-34-20-01-D2-3E-31-0A-10-30-20-30-20-30-20-31-20-31-20-3F-20-32-30-39-39-12-0C-31-30-3A-35-34-3A-35-34-3A-34-35-37-1A-0C-31-39-3A-32-38-3A-31-36-3A-33-32-34-20-88-27-A2-7D-0D-0A-0B-00-01-02-04-05-06-07-08-09-0A-0B
+< YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Binary is sent 1-th time
+---
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-4", "scheduleId": "test_us-20359-4", "destination": "Local", "scheduleRange": { "cronExpression": "* * * ? ?", "start": "10:54:54:457", "end": "19:28:16:324", "intervalMilliseconds": "5000" }, "weatherDataTypes": { "dataType": [ "Unknown", "WetTemperature", "DryTemperature", "RelativeWindSpeed", "TrueWindDirection", "SeaWaterTemperature", "SeaWaterDepth", "AirPressure", "RelativeHumidity", "Swell", "SeaScale" ] } }
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-34-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-34-20-01-D2-3E-2A-0A-09-2A-20-2A-20-2A-20-3F-20-3F-12-0C-31-30-3A-35-34-3A-35-34-3A-34-35-37-1A-0C-31-39-3A-32-38-3A-31-36-3A-33-32-34-20-88-27-A2-7D-0D-0A-0B-00-01-02-04-05-06-07-08-09-0A-0B
+57a57
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] Binary is sent 1-th time
+62a63,64
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] DiscoDataResponse Received message: { "requestId": "3ec2b8ae-7b30-4c36-9738-f44364bb7713", "destination": "Unknown", "executed": "YYYY-MM-DDThh:mm:ss.sssssssss", "dataResponse": { }, "onDemandSingle": { "target": "YYYY-MM-DDThh:mm:ss.sssssssss" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+> YYYY-MM-DD hh:mm:ss.sss +00:00 [INF] DiscoDataResponse Received message: { "requestId": "41e4ec59-9514-4b73-b2f3-2b63c5c5bc3b", "destination": "Unknown", "executed": "YYYY-MM-DDThh:mm:ss.sssssssss", "dataResponse": { }, "onDemandSingle": { "target": "YYYY-MM-DDThh:mm:ss.sssssssss" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }

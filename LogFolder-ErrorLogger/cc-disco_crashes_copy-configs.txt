@@ -1,0 +1,58 @@
+<<< CONTAINER HAS NO CONFIG FILES >>>
+
+C:\app\config>cd client-configs
+
+C:\app\config\client-configs>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 323B-661F
+
+ Directory of C:\app\config\client-configs
+
+08/31/2023  02:21 PM    <DIR>          .
+08/31/2023  02:21 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  136,164,704,256 bytes free
+
+C:\app\config\client-configs>cd ..
+
+C:\app\config>cd vendor-configs
+
+C:\app\config\vendor-configs>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 323B-661F
+
+ Directory of C:\app\config\vendor-configs
+
+08/31/2023  02:21 PM    <DIR>          .
+08/31/2023  02:21 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  136,164,704,256 bytes free
+
+<<< COPYING THE CONFIGS TO CONTAINER VIA BATCH FILE >>>
+
+c:\ABS\cc-disco-new\cc-disco>copy_cc-disco-configs.bat 0e9b600392ee
+c:\ABS\cc-disco-new\cc-disco>echo "Copying configs into container "0e9b600392ee
+"Copying configs into container "0e9b600392ee
+c:\ABS\cc-disco-new\cc-disco>docker cp service\ServiceBusConfigurator.Tests\TestData\ValidConfigs\vendor-configs\siemens-config.json 0e9b600392ee:/app/config/vendor-configs
+Successfully copied 2.05kB to 0e9b600392ee:/app/config/vendor-configs
+c:\ABS\cc-disco-new\cc-disco>docker cp client\TestClient\DiscoClientConfig\test-client-config.json 0e9b600392ee:/app/config/client-configs
+Successfully copied 2.05kB to 0e9b600392ee:/app/config/client-configs
+c:\ABS\cc-disco-new\cc-disco>
+
+<<< DISCO CRASHES WITH UNHANDLED EXCEPTION >>>
+
+{"Timestamp":"2023-08-31 14:41:06Z","EventId":0,"LogLevel":"Information","Category":"Rebus.Internals.ConnectionManager","Message":"Initializing RabbitMQ connection manager for transport with input queue \"cc.disco.data.response.siemens-dlq.q\"","State":{"Message":"Initializing RabbitMQ connection manager for transport with input queue \"cc.disco.data.response.siemens-dlq.q\"","{OriginalFormat}":"Initializing RabbitMQ connection manager for transport with input queue \"cc.disco.data.response.siemens-dlq.q\""},"Scopes":[]}
+Unhandled exception. System.InvalidOperationException: Operations that change non-concurrent collections must have exclusive access. A concurrent update was performed on this collection and corrupted its state. The collection's state is no longer correct.
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at Abs.CommonCore.Disco.Router.MessageRouter.ConfigHandler(Object sender, ValidatedConfigModel config) in C:\app\service\Router\MessageRouter.cs:line 94
+   at Abs.CommonCore.Disco.Infrastructure.FolderWatcher.ValidateAndNotify(Object sender, String e) in C:\app\service\Infrastructure\FolderWatcher.cs:line 52
+   at Abs.CommonCore.Platform.ConfigFolderWatcher.ConfigFolderWatcher.FileSystemWatcherOnCreated(Object sender, FileSystemEventArgs e)
+   at System.IO.FileSystemWatcher.NotifyFileSystemEventArgs(WatcherChangeTypes changeType, ReadOnlySpan`1 name)
+   at System.IO.FileSystemWatcher.ParseEventBufferAndNotifyForEach(ReadOnlySpan`1 buffer)
+   at System.IO.FileSystemWatcher.ReadDirectoryChangesCallback(UInt32 errorCode, UInt32 numBytes, AsyncReadState state)
+   at System.IO.FileSystemWatcher.<>c.<StartRaisingEvents>b__85_0(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* overlappedPointer)
+   at System.Threading.ThreadPoolTypedWorkItemQueue`2.System.Threading.IThreadPoolWorkItem.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   

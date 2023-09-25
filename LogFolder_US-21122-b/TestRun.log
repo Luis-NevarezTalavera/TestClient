@@ -1,0 +1,21 @@
+2023-08-29 17:37:34.567 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-08-29 17:38:34.674 +00:00 [INF] Disposing RabbitMQ connection
+2023-08-29 17:38:34.687 +00:00 [INF] Bus "onDemandDataResponseBus" stopped
+2023-08-29 17:38:34.701 +00:00 [INF] Handling file Examples\TestScenario1\OnDemandLocationRangeRequestConfig.json
+2023-08-29 17:38:34.758 +00:00 [INF] Defined as on demand request
+2023-08-29 17:38:34.930 +00:00 [INF] Created DiscoDataRequest object with payload: { "requestId": "Test US-21122-1", "destination": "Local", "onDemandRange": { "start": "2023-07-26T14:23:52Z", "end": "2023-07-27T14:23:52Z", "intervalMilliseconds": "3600000" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-08-29 17:38:34.937 +00:00 [INF] Sending binary: 0A-0F-54-65-73-74-20-55-53-2D-32-31-31-32-32-2D-31-10-01-D2-3E-15-0A-06-08-F8-D8-84-A6-06-12-06-08-F8-FB-89-A6-06-18-80-DD-DB-01-92-7D-05-0A-03-00-01-02
+2023-08-29 17:38:34.942 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-08-29 17:38:35.975 +00:00 [INF] Bus "onDemandRequestBus" started
+2023-08-29 17:38:36.053 +00:00 [INF] Binary is sent 1-th time
+2023-08-29 17:38:39.074 +00:00 [INF] Binary is sent 2-st time
+2023-08-29 17:38:42.092 +00:00 [INF] Binary is sent 3-nd time
+2023-08-29 17:38:45.098 +00:00 [INF] File Examples\TestScenario1\OnDemandLocationRangeRequestConfig.json handling has been finished.
+2023-08-29 17:38:45.098 +00:00 [INF] Handling file Examples\TestScenario1\OnDemandLocationSingleRequestConfig.json
+2023-08-29 17:38:45.099 +00:00 [INF] Defined as on demand request
+2023-08-29 17:38:45.100 +00:00 [INF] Created DiscoDataRequest object with payload: { "requestId": "Test US-21122-2", "destination": "Local", "onDemandSingle": { "target": "2023-07-27T14:23:52Z" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-08-29 17:38:45.103 +00:00 [INF] Sending binary: 0A-0F-54-65-73-74-20-55-53-2D-32-31-31-32-32-2D-32-10-01-CA-3E-08-0A-06-08-F8-FB-89-A6-06-92-7D-05-0A-03-00-01-02
+2023-08-29 17:38:45.110 +00:00 [INF] Binary is sent 1-th time
+2023-08-29 17:38:48.124 +00:00 [INF] Binary is sent 2-st time
+2023-08-29 17:38:51.141 +00:00 [INF] Binary is sent 3-nd time
+2023-08-29 17:38:54.156 +00:00 [INF] File Examples\TestScenario1\OnDemandLocationSingleRequestConfig.json handling has been finished.

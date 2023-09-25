@@ -1,0 +1,68 @@
+2023-09-25 16:53:36.662 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-09-25 16:53:37.843 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-25 16:53:37.848 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-09-25 16:53:37.852 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-09-25 16:53:37.864 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-09-25 16:53:37.867 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-09-25 16:53:37.883 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-09-25 16:53:38.051 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "test_us-20359-sls", "destination": "Local", "executed": "2023-09-25T16:53:09.058382600Z", "dataResponse": { "dataPointCollections": [ ] }, "onDemandSingle": { "target": "2023-09-25T16:53:09.054454400Z" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-09-25 16:53:38.897 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-25 16:53:38.899 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-09-25 16:53:38.900 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-09-25 16:53:38.903 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-09-25 16:53:38.903 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.get-schedules.response.test-client.q"
+2023-09-25 16:53:38.905 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-09-25 16:53:39.972 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-25 16:53:39.975 +00:00 [INF] Bus "getScheduleResponseBus" started
+2023-09-25 16:53:39.975 +00:00 [INF] Successfully created bus instance RebusBus getScheduleResponseBus (isDefaultBus: false)
+2023-09-25 16:53:39.978 +00:00 [INF] Bus "getScheduleResponseBus" setting number of workers to 1
+2023-09-25 16:53:39.978 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-25 16:53:39.978 +00:00 [INF] Hosting environment: Production
+2023-09-25 16:53:39.978 +00:00 [INF] Content root path: C:\ABS\TestClient
+2023-09-25 16:53:39.980 +00:00 [INF] Successfully initialized consumer for "cc.disco.get-schedules.response.test-client.q"
+2023-09-25 16:53:39.987 +00:00 [INF] Handling file TestClientRequests\ScheduleRequestsDelete\BeforeDelete_RequestsGetConfig.json
+2023-09-25 16:53:40.027 +00:00 [INF] Defined as get schedule request
+2023-09-25 16:53:40.035 +00:00 [INF] Created DiscoGetSchedulesRequest object with payload: { "requestId": "test_us-20402-1" }
+2023-09-25 16:53:40.039 +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-34-30-32-2D-31
+2023-09-25 16:53:40.042 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-09-25 16:53:41.072 +00:00 [INF] Bus "getScheduleBus" started
+2023-09-25 16:53:41.111 +00:00 [INF] Binary is sent 1-th time
+2023-09-25 16:53:41.115 +00:00 [INF] DiscoGetSchedulesResponse Received message: { "requestId": "test_us-20402-1", "scheduleIds": [ "test_us-20359-sdr", "test_us-20359-sds", "test_us-20359-slr", "test_us-20359-swr", "test_us-20359-sls", "test_us-20359-sws" ] }
+2023-09-25 16:53:41.131 +00:00 [INF] File TestClientRequests\ScheduleRequestsDelete\BeforeDelete_RequestsGetConfig.json handling has been finished.
+2023-09-25 16:53:41.131 +00:00 [INF] Handling file TestClientRequests\ScheduleRequestsDelete\DeletedRequests_GetConfig.json
+2023-09-25 16:53:41.132 +00:00 [INF] Defined as get schedule request
+2023-09-25 16:53:41.132 +00:00 [INF] Created DiscoGetSchedulesRequest object with payload: { "requestId": "test_us-20402-2" }
+2023-09-25 16:53:41.132 +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-34-30-32-2D-32
+2023-09-25 16:53:41.140 +00:00 [INF] Binary is sent 1-th time
+2023-09-25 16:53:41.142 +00:00 [INF] DiscoGetSchedulesResponse Received message: { "requestId": "test_us-20402-2", "scheduleIds": [ "test_us-20359-sdr", "test_us-20359-sds", "test_us-20359-slr", "test_us-20359-swr", "test_us-20359-sls", "test_us-20359-sws" ] }
+2023-09-25 16:53:41.146 +00:00 [INF] File TestClientRequests\ScheduleRequestsDelete\DeletedRequests_GetConfig.json handling has been finished.
+2023-09-25 16:53:41.146 +00:00 [INF] Handling file TestClientRequests\ScheduleRequestsDelete\Delete_ScheduleDraftRangeDataRequestConfig.json
+2023-09-25 16:53:41.146 +00:00 [INF] Defined as delete schedule request
+2023-09-25 16:53:41.147 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: { "requestId": "test_us-20359-sdr", "scheduleId": "test_us-20359-sdr" }
+2023-09-25 16:53:41.148 +00:00 [INF] Sending binary: 0A-11-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-73-64-72-12-11-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-73-64-72
+2023-09-25 16:53:41.148 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-09-25 16:53:42.172 +00:00 [INF] Bus "deleteScheduleBus" started
+2023-09-25 16:53:42.180 +00:00 [INF] Binary is sent 1-th time
+2023-09-25 16:53:42.205 +00:00 [INF] File TestClientRequests\ScheduleRequestsDelete\Delete_ScheduleDraftRangeDataRequestConfig.json handling has been finished.
+2023-09-25 16:53:42.205 +00:00 [INF] Handling file TestClientRequests\ScheduleRequestsDelete\Delete_ScheduleLocationRangeDataRequestConfig.json
+2023-09-25 16:53:42.205 +00:00 [INF] Defined as delete schedule request
+2023-09-25 16:53:42.205 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: { "requestId": "test_us-20359-slr", "scheduleId": "test_us-20359-slr" }
+2023-09-25 16:53:42.205 +00:00 [INF] Sending binary: 0A-11-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-73-6C-72-12-11-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-73-6C-72
+2023-09-25 16:53:42.210 +00:00 [INF] Binary is sent 1-th time
+2023-09-25 16:53:42.231 +00:00 [INF] File TestClientRequests\ScheduleRequestsDelete\Delete_ScheduleLocationRangeDataRequestConfig.json handling has been finished.
+2023-09-25 16:53:42.231 +00:00 [INF] Handling file TestClientRequests\ScheduleRequestsDelete\Delete_ScheduleWeatherSingleDataRequestConfig.json
+2023-09-25 16:53:42.232 +00:00 [INF] Defined as delete schedule request
+2023-09-25 16:53:42.232 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: { "requestId": "test_us-20359-sws", "scheduleId": "test_us-20359-sws" }
+2023-09-25 16:53:42.232 +00:00 [INF] Sending binary: 0A-11-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-73-77-73-12-11-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-73-77-73
+2023-09-25 16:53:42.233 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-sdr", "scheduleId": "test_us-20359-sdr" }
+2023-09-25 16:53:42.237 +00:00 [INF] Binary is sent 1-th time
+2023-09-25 16:53:42.262 +00:00 [INF] File TestClientRequests\ScheduleRequestsDelete\Delete_ScheduleWeatherSingleDataRequestConfig.json handling has been finished.
+2023-09-25 16:53:42.262 +00:00 [INF] Handling file TestClientRequests\ScheduleRequestsDelete\Delete_ScheduleWeatherSingleDataRequestNegativeConfig.json
+2023-09-25 16:53:42.262 +00:00 [INF] Defined as delete schedule request
+2023-09-25 16:53:42.262 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: { "requestId": "test_us-20359-swsneg", "scheduleId": "test_us-20359-swsneg" }
+2023-09-25 16:53:42.262 +00:00 [INF] Sending binary: 0A-14-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-73-77-73-6E-65-67-12-14-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-73-77-73-6E-65-67
+2023-09-25 16:53:42.269 +00:00 [INF] Binary is sent 1-th time
+2023-09-25 16:53:42.292 +00:00 [INF] File TestClientRequests\ScheduleRequestsDelete\Delete_ScheduleWeatherSingleDataRequestNegativeConfig.json handling has been finished.
+2023-09-25 16:53:42.293 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-slr", "scheduleId": "test_us-20359-slr" }
+2023-09-25 16:53:42.331 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-sws", "scheduleId": "test_us-20359-sws" }
+2023-09-25 16:53:42.355 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-swsneg", "scheduleId": "test_us-20359-swsneg" }

@@ -1,0 +1,95 @@
+2023-09-05 18:01:40.203 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-09-05 18:01:41.373 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 18:01:41.378 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-09-05 18:01:41.380 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-09-05 18:01:41.390 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-09-05 18:01:41.392 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-09-05 18:01:41.406 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-09-05 18:01:42.435 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 18:01:42.438 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-09-05 18:01:42.438 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-09-05 18:01:42.441 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-09-05 18:01:42.442 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-05 18:01:42.442 +00:00 [INF] Hosting environment: Production
+2023-09-05 18:01:42.442 +00:00 [INF] Content root path: c:\ABS\cc-disco-new\cc-disco\client\TestClient
+2023-09-05 18:01:42.445 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-09-05 18:01:42.454 +00:00 [INF] Handling file Examples\ErrorLogger-UnspecifiedDataTypes\OnDemandDraftRequestConfig.json
+2023-09-05 18:01:42.518 +00:00 [INF] Defined as on demand request
+2023-09-05 18:01:42.661 +00:00 [INF] Created DiscoDataRequest object with payload: { "requestId": "ErrorLogger_Headers_invalidLabel", "destination": "Local", "onDemandRange": { "start": "2023-07-26T14:23:52Z", "end": "2023-07-27T14:23:52Z", "intervalMilliseconds": "3600000" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-09-05 18:01:42.670 +00:00 [INF] Sending binary: 0A-20-45-72-72-6F-72-4C-6F-67-67-65-72-5F-48-65-61-64-65-72-73-5F-69-6E-76-61-6C-69-64-4C-61-62-65-6C-10-01-D2-3E-15-0A-06-08-F8-D8-84-A6-06-12-06-08-F8-FB-89-A6-06-18-80-DD-DB-01-8A-7D-09-0A-07-00-01-02-03-04-05-06
+2023-09-05 18:01:42.673 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-09-05 18:01:43.712 +00:00 [INF] Bus "onDemandRequestBus" started
+2023-09-05 18:01:43.766 +00:00 [INF] Binary is sent 1-th time
+2023-09-05 18:01:43.781 +00:00 [INF] File Examples\ErrorLogger-UnspecifiedDataTypes\OnDemandDraftRequestConfig.json handling has been finished.
+
+2023-09-05 18:07:49.198 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-09-05 18:07:50.396 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 18:07:50.402 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-09-05 18:07:50.405 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-09-05 18:07:50.418 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-09-05 18:07:50.422 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-09-05 18:07:50.438 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-09-05 18:07:51.447 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 18:07:51.450 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-09-05 18:07:51.450 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-09-05 18:07:51.454 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-09-05 18:07:51.455 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-05 18:07:51.455 +00:00 [INF] Hosting environment: Production
+2023-09-05 18:07:51.456 +00:00 [INF] Content root path: c:\ABS\cc-disco-new\cc-disco\client\TestClient
+2023-09-05 18:07:51.458 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-09-05 18:07:51.465 +00:00 [INF] Handling file Examples\ErrorLogger-UnspecifiedDataTypes\OnDemandDraftRequestConfig.json
+2023-09-05 18:07:51.530 +00:00 [INF] Defined as on demand request
+2023-09-05 18:07:51.667 +00:00 [INF] Created DiscoDataRequest object with payload: { "requestId": "ErrorLogger_Headers_invalidLabel", "destination": "Local", "onDemandRange": { "start": "2023-07-26T14:23:52Z", "end": "2023-07-27T14:23:52Z", "intervalMilliseconds": "3600000" }, "draftDataTypes": { } }
+2023-09-05 18:07:51.678 +00:00 [INF] Sending binary: 0A-20-45-72-72-6F-72-4C-6F-67-67-65-72-5F-48-65-61-64-65-72-73-5F-69-6E-76-61-6C-69-64-4C-61-62-65-6C-10-01-D2-3E-15-0A-06-08-F8-D8-84-A6-06-12-06-08-F8-FB-89-A6-06-18-80-DD-DB-01-8A-7D-00
+2023-09-05 18:07:51.683 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-09-05 18:07:52.713 +00:00 [INF] Bus "onDemandRequestBus" started
+2023-09-05 18:07:52.773 +00:00 [INF] Binary is sent 1-th time
+2023-09-05 18:07:52.776 +00:00 [INF] File Examples\ErrorLogger-UnspecifiedDataTypes\OnDemandDraftRequestConfig.json handling has been finished.
+
+2023-09-05 18:38:06.845 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-09-05 18:38:08.025 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 18:38:08.030 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-09-05 18:38:08.033 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-09-05 18:38:08.047 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-09-05 18:38:08.050 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-09-05 18:38:08.064 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-09-05 18:38:09.072 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 18:38:09.075 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-09-05 18:38:09.075 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-09-05 18:38:09.084 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-09-05 18:38:09.085 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-05 18:38:09.085 +00:00 [INF] Hosting environment: Production
+2023-09-05 18:38:09.085 +00:00 [INF] Content root path: c:\ABS\cc-disco-new\cc-disco\client\TestClient
+2023-09-05 18:38:09.087 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-09-05 18:38:09.094 +00:00 [INF] Handling file Examples\ErrorLogger-UnspecifiedDataTypes\OnDemandDraftRequestConfig.json
+2023-09-05 18:38:09.135 +00:00 [INF] Defined as on demand request
+2023-09-05 18:38:09.260 +00:00 [INF] Created DiscoDataRequest object with payload: { "requestId": "ErrorLogger_Headers_invalidLabel", "destination": "Local", "onDemandRange": { "start": "2023-07-26T14:23:52Z", "end": "2023-07-27T14:23:52Z", "intervalMilliseconds": "3600000" }, "draftDataTypes": { } }
+2023-09-05 18:38:09.268 +00:00 [INF] Sending binary: 0A-20-45-72-72-6F-72-4C-6F-67-67-65-72-5F-48-65-61-64-65-72-73-5F-69-6E-76-61-6C-69-64-4C-61-62-65-6C-10-01-D2-3E-15-0A-06-08-F8-D8-84-A6-06-12-06-08-F8-FB-89-A6-06-18-80-DD-DB-01-8A-7D-00
+2023-09-05 18:38:09.271 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-09-05 18:38:10.298 +00:00 [INF] Bus "onDemandRequestBus" started
+2023-09-05 18:38:10.351 +00:00 [INF] Binary is sent 1-th time
+2023-09-05 18:38:10.368 +00:00 [INF] File Examples\ErrorLogger-UnspecifiedDataTypes\OnDemandDraftRequestConfig.json handling has been finished.
+
+2023-09-05 18:43:19.225 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-09-05 18:43:20.465 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 18:43:20.471 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-09-05 18:43:20.474 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-09-05 18:43:20.489 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-09-05 18:43:20.492 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-09-05 18:43:20.510 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-09-05 18:43:21.535 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 18:43:21.537 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-09-05 18:43:21.537 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-09-05 18:43:21.541 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-09-05 18:43:21.541 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-05 18:43:21.542 +00:00 [INF] Hosting environment: Production
+2023-09-05 18:43:21.542 +00:00 [INF] Content root path: c:\ABS\cc-disco-new\cc-disco\client\TestClient
+2023-09-05 18:43:21.544 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-09-05 18:43:21.550 +00:00 [INF] Handling file Examples\ErrorLogger-UnspecifiedDataTypes\OnDemandDraftRequestConfig.json
+2023-09-05 18:43:21.591 +00:00 [INF] Defined as on demand request
+2023-09-05 18:43:21.712 +00:00 [INF] Created DiscoDataRequest object with payload: { "requestId": "ErrorLogger_UnspecifiedDataTypes", "destination": "Local", "onDemandRange": { "start": "2023-07-26T14:23:52Z", "end": "2023-07-27T14:23:52Z", "intervalMilliseconds": "3600000" }, "draftDataTypes": { } }
+2023-09-05 18:43:21.720 +00:00 [INF] Sending binary: 0A-20-45-72-72-6F-72-4C-6F-67-67-65-72-5F-55-6E-73-70-65-63-69-66-69-65-64-44-61-74-61-54-79-70-65-73-10-01-D2-3E-15-0A-06-08-F8-D8-84-A6-06-12-06-08-F8-FB-89-A6-06-18-80-DD-DB-01-8A-7D-00
+2023-09-05 18:43:21.723 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-09-05 18:43:22.752 +00:00 [INF] Bus "onDemandRequestBus" started
+2023-09-05 18:43:22.798 +00:00 [INF] Binary is sent 1-th time
+2023-09-05 18:43:22.815 +00:00 [INF] File Examples\ErrorLogger-UnspecifiedDataTypes\OnDemandDraftRequestConfig.json handling has been finished.

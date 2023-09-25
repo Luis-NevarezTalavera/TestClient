@@ -1,0 +1,61 @@
+2023-09-15 14:33:22.402 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-09-15 14:33:23.573 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-15 14:33:23.578 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-09-15 14:33:23.581 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-09-15 14:33:23.590 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-09-15 14:33:23.594 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-09-15 14:33:23.607 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-09-15 14:33:24.636 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-15 14:33:24.638 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-09-15 14:33:24.639 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-09-15 14:33:24.641 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-09-15 14:33:24.642 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-15 14:33:24.642 +00:00 [INF] Hosting environment: Production
+2023-09-15 14:33:24.642 +00:00 [INF] Content root path: C:\ABS\cc-disco\client\TestClient
+2023-09-15 14:33:24.644 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-09-15 14:33:24.651 +00:00 [INF] Handling file TestClientRequests\ScheduleRequests\ScheduleDraftDataRequestConfig.json
+2023-09-15 14:33:24.708 +00:00 [INF] Defined as create schedule request
+2023-09-15 14:33:24.795 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-1", "scheduleId": "test_us-20359-1", "destination": "Local", "scheduleSingle": { "cronExpression": "0 0 0 1 1 ? 2099" }, "draftDataTypes": { "dataType": [ "Unknown", "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-09-15 14:33:24.803 +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-31-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-31-20-01-CA-3E-12-0A-10-30-20-30-20-30-20-31-20-31-20-3F-20-32-30-39-39-8A-7D-09-0A-07-00-01-02-03-04-05-06
+2023-09-15 14:33:24.806 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-09-15 14:33:25.841 +00:00 [INF] Bus "createScheduleBus" started
+2023-09-15 14:33:25.889 +00:00 [INF] Binary is sent 1-th time
+2023-09-15 14:33:25.985 +00:00 [INF] Binary is sent 2-st time
+2023-09-15 14:33:26.059 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-1", "executed": "2023-09-15T14:33:25.890132500Z", "error": { "code": "BAD_REQUEST", "message": "CRON expression is invalid. Wrong number of parts in the `0 0 0 1 1 ? 2099` cron expression, you can only use 5 or 6 (with seconds) part-based expressions." } }
+2023-09-15 14:33:26.089 +00:00 [INF] Binary is sent 3-nd time
+2023-09-15 14:33:26.196 +00:00 [INF] Binary is sent 4-rd time
+2023-09-15 14:33:26.306 +00:00 [INF] Binary is sent 5-th time
+2023-09-15 14:33:26.416 +00:00 [INF] File TestClientRequests\ScheduleRequests\ScheduleDraftDataRequestConfig.json handling has been finished.
+2023-09-15 14:33:26.416 +00:00 [INF] Handling file TestClientRequests\ScheduleRequests\ScheduleFuelDataRequestConfig.json
+2023-09-15 14:33:26.436 +00:00 [INF] Defined as create schedule request
+2023-09-15 14:33:26.439 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-2", "scheduleId": "test_us-20359-2", "destination": "Local", "scheduleRange": { "cronExpression": "0 0 0 1 1 ? 2099", "start": "10:54:54:457", "end": "19:28:16:324", "intervalMilliseconds": "5000" }, "fuelDataTypes": { "dataType": [ "Unknown", "TankLevel_HeavyFuelOil", "TankLevel_MarineDieselOil", "TankLevel_LightFuelOil", "TankLevel_LiquefiedNaturalGas", "TankLevel_Ethanol", "TankLevel_Methanol", "TankLevel_Propane", "TankLevel_Butane" ] } }
+2023-09-15 14:33:26.441 +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-32-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-32-20-01-D2-3E-31-0A-10-30-20-30-20-30-20-31-20-31-20-3F-20-32-30-39-39-12-0C-31-30-3A-35-34-3A-35-34-3A-34-35-37-1A-0C-31-39-3A-32-38-3A-31-36-3A-33-32-34-20-88-27-9A-7D-0B-0A-09-00-01-02-03-04-05-06-07-08
+2023-09-15 14:33:26.450 +00:00 [INF] Binary is sent 1-th time
+2023-09-15 14:33:26.456 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-2", "executed": "2023-09-15T14:33:26.451617500Z", "error": { "code": "BAD_REQUEST", "message": "ScheduleRange start time. The TimeSpan string '10:54:54:457' could not be parsed because at least one of the numeric components is out of range or contains too many digits.\r\nScheduleRange end time. The TimeSpan string '19:28:16:324' could not be parsed because at least one of the numeric components is out of range or contains too many digits." } }
+2023-09-15 14:33:26.556 +00:00 [INF] Binary is sent 2-st time
+2023-09-15 14:33:26.666 +00:00 [INF] Binary is sent 3-nd time
+2023-09-15 14:33:26.776 +00:00 [INF] Binary is sent 4-rd time
+2023-09-15 14:33:26.887 +00:00 [INF] Binary is sent 5-th time
+2023-09-15 14:33:26.996 +00:00 [INF] File TestClientRequests\ScheduleRequests\ScheduleFuelDataRequestConfig.json handling has been finished.
+2023-09-15 14:33:26.997 +00:00 [INF] Handling file TestClientRequests\ScheduleRequests\ScheduleLocationDataRequestConfig.json
+2023-09-15 14:33:27.011 +00:00 [INF] Defined as create schedule request
+2023-09-15 14:33:27.013 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-3", "scheduleId": "test_us-20359-3", "destination": "Local", "scheduleSingle": { "cronExpression": "0 0 0 1 1 ? 2099" }, "locationDataTypes": { "dataType": [ "Unknown", "Latitude", "Longitude" ] } }
+2023-09-15 14:33:27.014 +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-33-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-33-20-01-CA-3E-12-0A-10-30-20-30-20-30-20-31-20-31-20-3F-20-32-30-39-39-92-7D-05-0A-03-00-01-02
+2023-09-15 14:33:27.023 +00:00 [INF] Binary is sent 1-th time
+2023-09-15 14:33:27.045 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-3", "executed": "2023-09-15T14:33:27.018822400Z", "error": { "code": "BAD_REQUEST", "message": "CRON expression is invalid. Wrong number of parts in the `0 0 0 1 1 ? 2099` cron expression, you can only use 5 or 6 (with seconds) part-based expressions." } }
+2023-09-15 14:33:27.132 +00:00 [INF] Binary is sent 2-st time
+2023-09-15 14:33:27.244 +00:00 [INF] Binary is sent 3-nd time
+2023-09-15 14:33:27.354 +00:00 [INF] Binary is sent 4-rd time
+2023-09-15 14:33:27.464 +00:00 [INF] Binary is sent 5-th time
+2023-09-15 14:33:27.573 +00:00 [INF] File TestClientRequests\ScheduleRequests\ScheduleLocationDataRequestConfig.json handling has been finished.
+2023-09-15 14:33:27.573 +00:00 [INF] Handling file TestClientRequests\ScheduleRequests\ScheduleWeatherDataRequestConfig.json
+2023-09-15 14:33:27.592 +00:00 [INF] Defined as create schedule request
+2023-09-15 14:33:27.594 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: { "requestId": "test_us-20359-4", "scheduleId": "test_us-20359-4", "destination": "Local", "scheduleRange": { "cronExpression": "0 0 0 1 1 ? 2099", "start": "10:54:54:457", "end": "19:28:16:324", "intervalMilliseconds": "5000" }, "weatherDataTypes": { "dataType": [ "Unknown", "WetTemperature", "DryTemperature", "RelativeWindSpeed", "TrueWindDirection", "SeaWaterTemperature", "SeaWaterDepth", "AirPressure", "RelativeHumidity", "Swell", "SeaScale" ] } }
+2023-09-15 14:33:27.595 +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-34-12-0F-74-65-73-74-5F-75-73-2D-32-30-33-35-39-2D-34-20-01-D2-3E-31-0A-10-30-20-30-20-30-20-31-20-31-20-3F-20-32-30-39-39-12-0C-31-30-3A-35-34-3A-35-34-3A-34-35-37-1A-0C-31-39-3A-32-38-3A-31-36-3A-33-32-34-20-88-27-A2-7D-0D-0A-0B-00-01-02-04-05-06-07-08-09-0A-0B
+2023-09-15 14:33:27.602 +00:00 [INF] Binary is sent 1-th time
+2023-09-15 14:33:27.602 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "test_us-20359-4", "executed": "2023-09-15T14:33:27.600004300Z", "error": { "code": "BAD_REQUEST", "message": "ScheduleRange start time. The TimeSpan string '10:54:54:457' could not be parsed because at least one of the numeric components is out of range or contains too many digits.\r\nScheduleRange end time. The TimeSpan string '19:28:16:324' could not be parsed because at least one of the numeric components is out of range or contains too many digits." } }
+2023-09-15 14:33:27.702 +00:00 [INF] Binary is sent 2-st time
+2023-09-15 14:33:27.807 +00:00 [INF] Binary is sent 3-nd time
+2023-09-15 14:33:27.922 +00:00 [INF] Binary is sent 4-rd time
+2023-09-15 14:33:28.032 +00:00 [INF] Binary is sent 5-th time
+2023-09-15 14:33:28.141 +00:00 [INF] File TestClientRequests\ScheduleRequests\ScheduleWeatherDataRequestConfig.json handling has been finished.

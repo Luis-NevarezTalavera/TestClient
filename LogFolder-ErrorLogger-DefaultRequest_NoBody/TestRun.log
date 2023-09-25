@@ -1,0 +1,46 @@
+2023-09-05 14:43:55.604 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-09-05 14:43:57.106 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 14:43:57.112 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-09-05 14:43:57.115 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-09-05 14:43:57.130 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-09-05 14:43:57.133 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-09-05 14:43:57.154 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-09-05 14:43:58.159 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 14:43:58.165 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-09-05 14:43:58.165 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-09-05 14:43:58.172 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-09-05 14:43:58.173 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-05 14:43:58.173 +00:00 [INF] Hosting environment: Production
+2023-09-05 14:43:58.173 +00:00 [INF] Content root path: c:\ABS\cc-disco-new\cc-disco\client\TestClient
+2023-09-05 14:43:58.175 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-09-05 14:43:58.182 +00:00 [INF] Handling file Examples\ErrorLogger-DefaultRequest_NoBody\DefaultRequest.json
+2023-09-05 14:43:58.344 +00:00 [INF] Defined as default request
+2023-09-05 14:43:58.344 +00:00 [INF] Created DiscoDataRequest object with payload: ErrorLogger_DefaultRequest_NoRequestBody
+2023-09-05 14:43:58.347 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-09-05 14:43:59.369 +00:00 [INF] Bus "defaultSender" started
+2023-09-05 14:43:59.479 +00:00 [INF] Binary is sent 1-th time
+2023-09-05 14:43:59.483 +00:00 [INF] File Examples\ErrorLogger-DefaultRequest_NoBody\DefaultRequest.json handling has been finished.
+
+2023-09-05 14:57:47.898 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-09-05 14:57:49.089 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 14:57:49.093 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-09-05 14:57:49.096 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-09-05 14:57:49.106 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-09-05 14:57:49.108 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-09-05 14:57:49.120 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-09-05 14:57:50.139 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-09-05 14:57:50.142 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-09-05 14:57:50.143 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-09-05 14:57:50.146 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-09-05 14:57:50.149 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-05 14:57:50.149 +00:00 [INF] Hosting environment: Production
+2023-09-05 14:57:50.149 +00:00 [INF] Content root path: c:\ABS\cc-disco-new\cc-disco\client\TestClient
+2023-09-05 14:57:50.152 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-09-05 14:57:50.162 +00:00 [INF] Handling file Examples\ErrorLogger-DefaultRequest_NoBody\DefaultRequest.json
+2023-09-05 14:57:50.223 +00:00 [INF] Defined as default request
+2023-09-05 14:57:50.223 +00:00 [INF] Created DiscoDataRequest object with payload: ErrorLogger_DefaultRequest_NoRequestBody
+2023-09-05 14:57:50.228 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-09-05 14:57:51.247 +00:00 [INF] Bus "defaultSender" started
+2023-09-05 14:57:51.310 +00:00 [INF] Binary is sent 1-th time
+2023-09-05 14:57:51.313 +00:00 [INF] File Examples\ErrorLogger-DefaultRequest_NoBody\DefaultRequest.json handling has been finished.
+
