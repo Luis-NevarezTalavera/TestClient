@@ -1,0 +1,4 @@
++++ TestRun-ScheduleRequestsGet-Regression_09-26-23-2 +++ 
++++ CC-DISCO +++ 
+{"Timestamp":"2023-09-26 21:15:46Z","EventId":4,"LogLevel":"Error","Category":"Abs.CommonCore.Disco.Console.Program","Message":"Client is not specified in the header of request test_us-20402-2neg","State":{"Message":"Client is not specified in the header of request test_us-20402-2neg","RequestId":"test_us-20402-2neg","{OriginalFormat}":"Client is not specified in the header of request {RequestId}"},"Scopes":[]}
++++ Siemens-Adapter +++ 
