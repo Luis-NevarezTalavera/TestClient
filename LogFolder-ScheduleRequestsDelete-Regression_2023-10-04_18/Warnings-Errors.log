@@ -1,0 +1,10 @@
++++ TestRun-ScheduleRequestsDelete-Regression_2023-10-04_18 +++ 
+Start Date-Time: Wed 10/04/2023 18:38:07.45  
+-----------------------------------------------------------------------  
+ 
++++ disco-service +++ 
+{"container_id":"affdeeb27e0d","container_name":"disco-service","container_type":"application","image":"ghcr.io/abs-wavesight/cc-disco:windows-2019","level":"Error","message":"2023-10-04 18:38:13:465374 fail: Abs.CommonCore.Disco.Console.Program[4] Client is not specified in the header of request test_us-20359-sdrneg","stream":"stdout","timestamp":"2023-10-04T18:38:13.466161900Z"}
++++ siemens-adapter +++ 
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Wed 10/04/2023 18:39:13.07 
