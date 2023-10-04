@@ -1,0 +1,45 @@
+2023-10-04 21:06:13.715 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.test-client.q"
+2023-10-04 21:06:15.071 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-10-04 21:06:15.081 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-10-04 21:06:15.084 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-10-04 21:06:15.100 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-10-04 21:06:15.114 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.test-client.q"
+2023-10-04 21:06:15.129 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.test-client.q"
+2023-10-04 21:06:16.162 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-10-04 21:06:16.164 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-10-04 21:06:16.165 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-10-04 21:06:16.168 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-10-04 21:06:16.169 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.get-schedules.response.test-client.q"
+2023-10-04 21:06:16.171 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.test-client.q"
+2023-10-04 21:06:17.201 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-10-04 21:06:17.204 +00:00 [INF] Bus "getScheduleResponseBus" started
+2023-10-04 21:06:17.204 +00:00 [INF] Successfully created bus instance RebusBus getScheduleResponseBus (isDefaultBus: false)
+2023-10-04 21:06:17.207 +00:00 [INF] Bus "getScheduleResponseBus" setting number of workers to 1
+2023-10-04 21:06:17.208 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-04 21:06:17.208 +00:00 [INF] Hosting environment: Production
+2023-10-04 21:06:17.208 +00:00 [INF] Content root path: C:\ABS\TestClient
+2023-10-04 21:06:17.210 +00:00 [INF] Successfully initialized consumer for "cc.disco.get-schedules.response.test-client.q"
+2023-10-04 21:06:17.220 +00:00 [INF] Handling file TestClientRequests\ScheduleRequestsGet\OnDemandDraftRangeRequestTrimConfig.json
+2023-10-04 21:06:17.282 +00:00 [INF] Defined as on demand request
+2023-10-04 21:06:17.437 +00:00 [INF] Created DiscoDataRequest object with payload: { "requestId": "Test us-22056-1", "destination": "Local", "onDemandRange": { "start": "2023-09-01T00:00:00Z", "end": "2023-09-20T12:00:00Z", "intervalMilliseconds": "3600000" }, "draftDataTypes": { "dataType": [ "Trim" ] } }
+2023-10-04 21:06:17.444 +00:00 [INF] Sending binary: 0A-0F-54-65-73-74-20-75-73-2D-32-32-30-35-36-2D-31-10-01-D2-3E-15-0A-06-08-80-D3-C4-A7-06-12-06-08-C0-BD-AB-A8-06-18-80-DD-DB-01-8A-7D-03-0A-01-06
+2023-10-04 21:06:17.448 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-10-04 21:06:18.478 +00:00 [INF] Bus "onDemandRequestBus" started
+2023-10-04 21:06:18.524 +00:00 [INF] Binary is sent 1-th time
+2023-10-04 21:06:19.535 +00:00 [INF] Binary is sent 2-st time
+2023-10-04 21:06:20.536 +00:00 [INF] File TestClientRequests\ScheduleRequestsGet\OnDemandDraftRangeRequestTrimConfig.json handling has been finished.
+2023-10-04 21:06:20.536 +00:00 [INF] Handling file TestClientRequests\ScheduleRequestsGet\ScheduleRequestsGetConfig-neg.json
+2023-10-04 21:06:20.537 +00:00 [INF] Defined as get schedule request
+2023-10-04 21:06:20.539 +00:00 [INF] Created DiscoGetSchedulesRequest object with payload: { "requestId": "test_us-20402-2neg" }
+2023-10-04 21:06:20.541 +00:00 [INF] Sending binary: 0A-12-74-65-73-74-5F-75-73-2D-32-30-34-30-32-2D-32-6E-65-67
+2023-10-04 21:06:20.541 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-10-04 21:06:21.578 +00:00 [INF] Bus "getScheduleBus" started
+2023-10-04 21:06:21.586 +00:00 [INF] Binary is sent 1-th time
+2023-10-04 21:06:21.610 +00:00 [INF] File TestClientRequests\ScheduleRequestsGet\ScheduleRequestsGetConfig-neg.json handling has been finished.
+2023-10-04 21:06:21.610 +00:00 [INF] Handling file TestClientRequests\ScheduleRequestsGet\_ScheduleRequestsGetConfig.json
+2023-10-04 21:06:21.610 +00:00 [INF] Defined as get schedule request
+2023-10-04 21:06:21.610 +00:00 [INF] Created DiscoGetSchedulesRequest object with payload: { "requestId": "test_us-20402-1" }
+2023-10-04 21:06:21.611 +00:00 [INF] Sending binary: 0A-0F-74-65-73-74-5F-75-73-2D-32-30-34-30-32-2D-31
+2023-10-04 21:06:21.616 +00:00 [INF] Binary is sent 1-th time
+2023-10-04 21:06:21.631 +00:00 [INF] File TestClientRequests\ScheduleRequestsGet\_ScheduleRequestsGetConfig.json handling has been finished.
+2023-10-04 21:06:21.667 +00:00 [INF] DiscoGetSchedulesResponse Received message: { "requestId": "test_us-20402-1", "scheduleIds": [ ] }
