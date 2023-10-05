@@ -1,0 +1,25 @@
+++--- Summary for Test: ScheduleRequests-Regression-TLS_2023-10-05_20 ---++ 
+Start Date-Time: Thu 10/05/2023 20:35:20.66 
+----------------------------------------------------------------------- 
+ 
+Handling files: 9
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 9
+DiscoGetSchedulesRequests: 0
+DiscoDeleteScheduleRequests: 0
+DiscoDataRequests: 0
+ 
+--- Responses --- 
+DiscoScheduleResponses: 8
+DiscoGetSchedulesResponses: 0
+DiscoDataResponses: 21
+ 
+-- BAD_REQUESTs / Warnings / Errors --- 
+TestRun.log BAD_REQUEST: 2
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 2
+siemens-adapter.log Warnings, Errors: 0
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Thu 10/05/2023 20:42:17.09 

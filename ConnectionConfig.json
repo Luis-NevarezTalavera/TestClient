@@ -2,9 +2,9 @@
   "busConnection": {
     "Key": "local",
     "Host": "localhost",
-    "Port": 5672,
-    "HttpPort": 15672,
-    "Protocol": "amqp",
+    "Port": 5671,
+    "HttpPort": 15671,
+    "Protocol": "amqps",
     "Username": "guest",
     "Password": "guest"
   },

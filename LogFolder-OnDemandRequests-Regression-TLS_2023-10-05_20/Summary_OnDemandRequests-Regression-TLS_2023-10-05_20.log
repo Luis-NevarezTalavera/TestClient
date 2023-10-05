@@ -1,0 +1,25 @@
+++--- Summary for Test: OnDemandRequests-Regression-TLS_2023-10-05_20 ---++ 
+Start Date-Time: Thu 10/05/2023 20:28:05.25 
+----------------------------------------------------------------------- 
+ 
+Handling files: 20
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 0
+DiscoGetSchedulesRequests: 0
+DiscoDeleteScheduleRequests: 0
+DiscoDataRequests: 20
+ 
+--- Responses --- 
+DiscoScheduleResponses: 0
+DiscoGetSchedulesResponses: 0
+DiscoDataResponses: 20
+ 
+-- BAD_REQUESTs / Warnings / Errors --- 
+TestRun.log BAD_REQUEST: 0
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 0
+siemens-adapter.log Warnings, Errors: 1
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Thu 10/05/2023 20:29:38.73 
