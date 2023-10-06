@@ -4,13 +4,17 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "OnDemand",
   "Request": {
-    "requestId": "test-client_sa-21162-2",
+    "requestId": "test-client_sa-21122-dsll",
     "destination": "Local",
     "onDemandSingle": {
-      "target": "2023-07-26T14:00:00Z"
+      "target": "2023-07-26T14:23:52Z"
     },
-    "weatherDataTypes": {
-      "dataType": []
+    "locationDataTypes": {
+      "dataType": [
+        "Unknown",
+        "Latitude",
+        "Longitude"
+      ]
     }
   },
   "Headers": {

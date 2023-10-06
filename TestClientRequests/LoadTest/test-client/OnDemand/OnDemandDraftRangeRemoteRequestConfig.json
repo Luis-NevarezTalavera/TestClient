@@ -4,20 +4,26 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "OnDemand",
   "Request": {
-    "requestId": "test-client_sa-21162-1u",
-    "destination": "Unknown",
+    "requestId": "test-client_sa-22056-drdr",
+    "destination": "Remote",
     "onDemandRange": {
       "start": "2023-07-26T14:00:00Z",
       "end": "2023-07-27T14:00:00Z",
       "intervalMilliseconds": "3600000"
     },
-    "weatherDataTypes": {
+    "draftDataTypes": {
       "dataType": [
-        "TrueWindDirection"
+        "Unknown",
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
       ]
     }
   },
   "Headers": {
-    "cc.disco.client":  "test-client"
+    "cc.disco.client": "test-client"
   }
 }

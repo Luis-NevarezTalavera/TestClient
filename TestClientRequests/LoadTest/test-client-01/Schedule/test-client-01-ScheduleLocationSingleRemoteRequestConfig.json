@@ -4,11 +4,11 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "CreateSchedule",
   "Request": {
-    "requestId": "test-client_sa-20359-sls",
-    "scheduleId": "test-client_sa-20359-sls",
-    "destination": "Local",
+    "requestId": "test-client-01_sa-20359-sls",
+    "scheduleId": "test-client-01_sa-20359-sls",
+    "destination": "Remote",
     "scheduleSingle": {
-      "cronExpression": "* * * ? ?"
+      "cronExpression": "0/5 * * ? ?"
     },
     "locationDataTypes": {
       "dataType": [
@@ -19,6 +19,6 @@
     }
   },
   "Headers": {
-    "cc.disco.client": "test-client"
+    "cc.disco.client": "test-client-01"
   }
 }

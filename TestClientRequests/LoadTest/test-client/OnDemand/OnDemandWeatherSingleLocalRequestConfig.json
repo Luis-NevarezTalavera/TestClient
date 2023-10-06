@@ -1,14 +1,13 @@
 ﻿{
-  "DestinationQueue": "cc.disco.create-schedule.request.q",
+  "DestinationQueue": "cc.disco.data.request.q",
   "NSamples": 1,
   "SamplingIntervalInMs": 1,
-  "RequestType": "CreateSchedule",
+  "RequestType": "OnDemand",
   "Request": {
-    "requestId": "test-client_sa-20359-swsneg",
-    "scheduleId": "test-client_sa-20359-swsneg",
+    "requestId": "test-client_sa-21162-dswl",
     "destination": "Local",
-    "scheduleSingle": {
-      "cronExpression": "0/2 * * ? ?"
+    "onDemandSingle": {
+      "target": "2023-07-26T14:00:00Z"
     },
     "weatherDataTypes": {
       "dataType": [
@@ -27,6 +26,6 @@
     }
   },
   "Headers": {
-    "my.disco.client":  "test-client"
+    "cc.disco.client":  "test-client"
   }
 }

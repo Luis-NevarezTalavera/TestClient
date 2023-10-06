@@ -4,8 +4,8 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "OnDemand",
   "Request": {
-    "requestId": "test-client_sa-21162-1u",
-    "destination": "Unknown",
+    "requestId": "test-client_sa-21162-drwr",
+    "destination": "Remote",
     "onDemandRange": {
       "start": "2023-07-26T14:00:00Z",
       "end": "2023-07-27T14:00:00Z",
@@ -13,7 +13,17 @@
     },
     "weatherDataTypes": {
       "dataType": [
-        "TrueWindDirection"
+        "Unknown",
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
       ]
     }
   },

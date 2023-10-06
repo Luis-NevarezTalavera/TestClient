@@ -1,14 +1,15 @@
 ﻿{
-  "DestinationQueue": "cc.disco.create-schedule.request.q",
+  "DestinationQueue": "cc.disco.data.request.q",
   "NSamples": 2,
   "SamplingIntervalInMs": 1000,
-  "RequestType": "CreateSchedule",
+  "RequestType": "OnDemand",
   "Request": {
-    "requestId": "test-client_sa-20359-sds",
-    "scheduleId": "test-client_sa-20359-sds",
+    "requestId": "test-client_sa-22056-drdl",
     "destination": "Local",
-    "scheduleSingle": {
-      "cronExpression": "0/2 * * ? ?"
+    "onDemandRange": {
+      "start": "2023-09-01T00:00:00Z",
+      "end": "2023-09-20T12:00:00Z",
+      "intervalMilliseconds": "3600000"
     },
     "draftDataTypes": {
       "dataType": [

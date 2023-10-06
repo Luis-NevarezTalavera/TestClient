@@ -4,11 +4,11 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "CreateSchedule",
   "Request": {
-    "requestId": "test-client_sa-20359-swsneg",
-    "scheduleId": "test-client_sa-20359-swsneg",
-    "destination": "Local",
+    "requestId": "test-client-01_sa-20359-sws",
+    "scheduleId": "test-client-01_sa-20359-sws",
+    "destination": "Remote",
     "scheduleSingle": {
-      "cronExpression": "0/2 * * ? ?"
+      "cronExpression": "0/5 * * ? ?"
     },
     "weatherDataTypes": {
       "dataType": [
@@ -27,6 +27,6 @@
     }
   },
   "Headers": {
-    "my.disco.client":  "test-client"
+    "cc.disco.client":  "test-client-01"
   }
 }

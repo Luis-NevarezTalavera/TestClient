@@ -2,7 +2,7 @@
   "DestinationQueue": "cc.disco.data.request.q",
   "NSamples": 1,
   "SamplingIntervalInMs": 1,
-  "Request": "ErrorLogger_DefaultRequest_NoRequestBody",
+  "Request": "test-client_sa-21984-1neg",
   "Headers": {
     "cc.disco.client": "test-client"
   }

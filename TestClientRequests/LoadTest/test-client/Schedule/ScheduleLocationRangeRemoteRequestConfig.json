@@ -4,24 +4,20 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "CreateSchedule",
   "Request": {
-    "requestId": "test-client_sa-20359-sdr",
-    "scheduleId": "test-client_sa-20359-sdr",
-    "destination": "Local",
+    "requestId": "test-client_sa-20359-slrr",
+    "scheduleId": "test-client_sa-20359-slrr",
+    "destination": "Remote",
     "scheduleRange": {
       "cronExpression": "0/5 * * ? ?",
       "start": "23:59:59.999",
       "end": "00:00:00.000",
       "intervalMilliseconds": "360000"
     },
-    "draftDataTypes": {
+    "locationDataTypes": {
       "dataType": [
         "Unknown",
-        "MeanDraft",
-        "AftDraft",
-        "ForwardDraft",
-        "MidshipDraftPort",
-        "MidshipDraftStarboard",
-        "Trim"
+        "Latitude",
+        "Longitude"
       ]
     }
   },

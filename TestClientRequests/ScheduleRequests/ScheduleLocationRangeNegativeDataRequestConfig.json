@@ -4,8 +4,8 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "CreateSchedule",
   "Request": {
-    "requestId": "test_us-20359-slrneg",
-    "scheduleId": "test_us-20359-slrneg",
+    "requestId": "test-client_sa-20359-slrneg",
+    "scheduleId": "test-client_sa-20359-slrneg",
     "destination": "Local",
     "scheduleRange": {
       "cronExpression": "0/2 * * ? ?",

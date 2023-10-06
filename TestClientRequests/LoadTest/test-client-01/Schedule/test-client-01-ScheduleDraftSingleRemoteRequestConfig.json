@@ -1,17 +1,14 @@
 ﻿{
   "DestinationQueue": "cc.disco.create-schedule.request.q",
-  "NSamples": 1,
-  "SamplingIntervalInMs": 1,
+  "NSamples": 2,
+  "SamplingIntervalInMs": 1000,
   "RequestType": "CreateSchedule",
   "Request": {
-    "requestId": "test-client_sa-20359-sdr",
-    "scheduleId": "test-client_sa-20359-sdr",
-    "destination": "Local",
-    "scheduleRange": {
-      "cronExpression": "0/5 * * ? ?",
-      "start": "23:59:59.999",
-      "end": "00:00:00.000",
-      "intervalMilliseconds": "360000"
+    "requestId": "test-client-01_sa-20359-sds",
+    "scheduleId": "test-client-01_sa-20359-sds",
+    "destination": "Remote",
+    "scheduleSingle": {
+      "cronExpression": "0/5 * * ? ?"
     },
     "draftDataTypes": {
       "dataType": [
@@ -26,6 +23,6 @@
     }
   },
   "Headers": {
-    "cc.disco.client": "test-client"
+    "cc.disco.client": "test-client-01"
   }
 }
