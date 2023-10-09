@@ -7,8 +7,8 @@
     "requestId": "test-client-1_sa-22056-drdl",
     "destination": "Local",
     "onDemandRange": {
-      "start": "2023-09-01T00:00:00Z",
-      "end": "2023-09-20T12:00:00Z",
+      "start": "2023-07-26T14:00:00Z",
+      "end": "2023-07-27T14:00:00Z",
       "intervalMilliseconds": "3600000"
     },
     "draftDataTypes": {

@@ -1,15 +1,14 @@
 ﻿{
-  "DestinationQueue": "cc.disco.data.request.q",
+  "DestinationQueue": "cc.disco.create-schedule.request.q",
   "NSamples": 2,
   "SamplingIntervalInMs": 1000,
-  "RequestType": "OnDemand",
+  "RequestType": "CreateSchedule",
   "Request": {
-    "requestId": "test-client_sa-22056-drdl",
+    "requestId": "test-client-4_sa-20359-sdsl",
+    "scheduleId": "test-client-4_sa-20359-sdsl",
     "destination": "Local",
-    "onDemandRange": {
-      "start": "2023-07-26T14:00:00Z",
-      "end": "2023-07-27T14:00:00Z",
-      "intervalMilliseconds": "3600000"
+    "scheduleSingle": {
+      "cronExpression": "0/5 * * ? ?"
     },
     "draftDataTypes": {
       "dataType": [
@@ -24,6 +23,6 @@
     }
   },
   "Headers": {
-    "cc.disco.client": "test-client"
+    "cc.disco.client": "test-client-4"
   }
 }
