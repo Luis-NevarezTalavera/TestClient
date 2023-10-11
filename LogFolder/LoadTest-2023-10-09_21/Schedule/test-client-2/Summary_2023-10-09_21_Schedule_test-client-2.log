@@ -1,0 +1,25 @@
+++--- Summary for Test: 2023-10-09_21_Schedule ---++ 
+Start Date-Time:  
+----------------------------------------------------------------------- 
+ 
+Handling files: 24
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 24
+DiscoGetSchedulesRequests: 0
+DiscoDeleteScheduleRequests: 0
+DiscoDataRequests: 0
+ 
+--- Responses --- 
+DiscoScheduleResponses: 24
+DiscoGetSchedulesResponses: 0
+DiscoDataResponses: 60
+ 
+-- BAD_REQUESTs / Warnings / Errors --- 
+TestRun.log BAD_REQUEST: 0
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 0
+siemens-adapter.log Warnings, Errors: 0
+ 
+----------------------------------------------------------------------- 
+End Date-Time:  
