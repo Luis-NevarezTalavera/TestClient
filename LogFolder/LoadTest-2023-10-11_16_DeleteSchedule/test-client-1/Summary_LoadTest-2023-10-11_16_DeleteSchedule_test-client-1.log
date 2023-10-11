@@ -1,19 +1,19 @@
-++--- Summary for Test: 2023-10-09_21_Schedule_test-client-1 ---++ 
-Start Date-Time: 2023-10-09 21:28:32:994
+++--- Summary for Test: LoadTest-2023-10-11_16_DeleteSchedule_test-client-1 ---++ 
+Start Date-Time: Wed 10/11/2023 16:49:47.84 
 ----------------------------------------------------------------------- 
  
-Handling files: 24
+Handling files: 28
  
 --- Requests --- 
-DiscoCreateScheduleRequests: 24
-DiscoGetSchedulesRequests: 0
-DiscoDeleteScheduleRequests: 0
+DiscoCreateScheduleRequests: 0
+DiscoGetSchedulesRequests: 4
+DiscoDeleteScheduleRequests: 24
 DiscoDataRequests: 0
  
 --- Responses --- 
-DiscoScheduleResponses: 24
-DiscoGetSchedulesResponses: 0
-DiscoDataResponses: 60
+DiscoScheduleResponses: 12
+DiscoGetSchedulesResponses: 2
+DiscoDataResponses: 0
  
 -- BAD_REQUESTs / Warnings / Errors --- 
 TestRun.log BAD_REQUEST: 0
@@ -22,4 +22,4 @@ disco-service.log Warnings, Errors: 0
 siemens-adapter.log Warnings, Errors: 0
  
 ----------------------------------------------------------------------- 
-End Date-Time: 2023-10-09 21:35:30:777
+End Date-Time: Wed 10/11/2023 16:51:12.63 
