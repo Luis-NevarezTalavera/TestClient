@@ -1,0 +1,25 @@
+++--- Summary for Test: DeleteSchedule-Regression_2023-10-13_13 ---++ 
+Start Date-Time: Fri 10/13/2023 13:46:31.53 
+----------------------------------------------------------------------- 
+ 
+Handling files: 30
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 0
+DiscoGetSchedulesRequests: 6
+DiscoDeleteScheduleRequests: 24
+DiscoDataRequests: 0
+ 
+--- Responses --- 
+DiscoScheduleResponses: 14
+DiscoGetSchedulesResponses: 4
+DiscoDataResponses: 8319
+ 
+-- BAD_REQUESTs / Warnings / Errors --- 
+TestRun.log BAD_REQUEST: 0
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 2
+siemens-adapter.log Warnings, Errors: 941
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Fri 10/13/2023 13:58:06.30 
