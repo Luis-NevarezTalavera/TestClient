@@ -4,12 +4,12 @@
   "SamplingIntervalInMs": 1000,
   "RequestType": "OnDemand",
   "Request": {
-    "requestId": "test-client_sa-22056-drdl-neg",
+    "requestId": "disco-test-client_sa-22056-drdl-neg",
     "destination": "Local",
     "onDemandRange": {
-      "start": "2023-07-26T14:00:00Z",
-      "end": "2023-07-27T14:00:00Z",
-      "intervalMilliseconds": "3600000"
+      "start": "2023-07-24T14:00:00Z",
+      "end": "2023-07-31T14:00:00Z",
+      "intervalMilliseconds": "60000"
     },
     "draftDataTypes": {
       "dataType": [
@@ -24,6 +24,6 @@
     }
   },
   "Headers": {
-    "disco.client": "test-client"
+    "cc.disco.client": "disco-test-client"
   }
 }

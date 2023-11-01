@@ -4,7 +4,7 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "OnDemand",
   "Request": {
-    "requestId": "test-client_sa-21122-dsll",
+    "requestId": "disco-test-client_sa-21122-dsll",
     "destination": "Local",
     "onDemandSingle": {
       "target": "2023-07-26T14:23:52Z"
@@ -18,6 +18,6 @@
     }
   },
   "Headers": {
-    "cc.disco.client":  "test-client"
+    "cc.disco.client":  "disco-test-client"
   }
 }

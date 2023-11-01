@@ -1,0 +1,26 @@
+++--- Summary for Test: OnDemand-Regression_2023-10-25_20 ---++ 
+Start Date-Time: Wed 10/25/2023 20:04:17.26 
+----------------------------------------------------------------------- 
+ 
+Handling files: 19
+Negative TCs: 5
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 0
+DiscoGetSchedulesRequests: 0
+DiscoDeleteScheduleRequests: 0
+DiscoDataRequests: 19
+ 
+--- Responses --- 
+DiscoScheduleResponses: 0
+DiscoGetSchedulesResponses: 0
+DiscoDataResponses with values: 14
+ 
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT: 2
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 16
+siemens-adapter.log Warnings, Errors: 1
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Wed 10/25/2023 20:07:27.21 

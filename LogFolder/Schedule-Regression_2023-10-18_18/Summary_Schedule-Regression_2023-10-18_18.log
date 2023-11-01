@@ -1,0 +1,25 @@
+++--- Summary for Test: Schedule-Regression_2023-10-18_18 ---++ 
+Start Date-Time: Wed 10/18/2023 18:43:01.85 
+----------------------------------------------------------------------- 
+ 
+Handling files: 9
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 9
+DiscoGetSchedulesRequests: 0
+DiscoDeleteScheduleRequests: 0
+DiscoDataRequests: 0
+ 
+--- Responses --- 
+DiscoScheduleResponses: 8
+DiscoGetSchedulesResponses: 0
+DiscoDataResponses: 41
+ 
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT: 2
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 2
+siemens-adapter.log Warnings, Errors: 0
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Wed 10/18/2023 18:56:32.70 

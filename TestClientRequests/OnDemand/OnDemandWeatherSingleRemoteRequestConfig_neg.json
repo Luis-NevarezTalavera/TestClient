@@ -4,7 +4,7 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "OnDemand",
   "Request": {
-    "requestId": "test-client_sa-21162-dswr-neg",
+    "requestId": "disco-test-client_sa-21162-dswr-neg",
     "destination": "Remote",
     "onDemandSingle": {
       "target": "2023-07-26T14:00:00Z"
@@ -24,5 +24,8 @@
         "SeaScale"
       ]
     }
+  },
+  "Headers": {
+    "disco.client": "disco-test-client"
   }
 }

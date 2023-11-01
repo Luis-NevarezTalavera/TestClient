@@ -1,0 +1,41 @@
++++ Errors Report for: LoadTest-2023-10-18_23_Schedule_disco-test-client-34 +++ 
+Start Date-Time: Wed 10/18/2023 23:05:30.87  
+-----------------------------------------------------------------------  
+ 
++++ TestRun_LoadTest-2023-10-18_23_Schedule_disco-test-client-34.log +++ 
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
++++ disco-service +++ 
++++ siemens-adapter +++ 
+{"container_id":"c21875c4f9bb","container_name":"siemens-adapter","container_type":"application","image":"ghcr.io/abs-wavesight/cc-adapters-siemens:windows-2019","level":"none","message":"2023-10-18 23:22:11:595198 warn: Rebus.Retry.ErrorTracking.InMemErrorTracker[0] Unhandled exception 1 while handling message with ID \"2e79c5ef-1665-4285-ad63-105809b96205\" Abs.CommonCore.Adapters.Siemens.EcoMainWebApiClient.Api.ApiException: Error Request Url: https://ecomain-suite-vessel.siemens-energy.com/EcoMAIN_WebAPI///api/tag-management/tags//historical-data/paged-tag-alias Message:     at Abs.CommonCore.Adapters.Siemens.EcoMainWebApiClient.Api.BaseApi.GetResponseResult[T](RestResponse response, RestRequest request) in C:\\app\\service\\EcoMainWebApiClient\\Api\\BaseApi.cs:line 54    at Abs.CommonCore.Adapters.Siemens.EcoMainWebApiClient.Api.TagApi.Abs.CommonCore.Adapters.Siemens.EcoMainWebApiClient.Api.ITagApi.ApiTagManagementTagsHistoricalDataPagedTagAliasPostAsync(DateTime startDate, DateTime endDate, Int32 invervalMilliseconds, Boolean onlyChangesValues, Int32 pageSize, Int32 pageIndex, String[] tagAliases) in C:\\app\\service\\EcoMainWebApiClient\\Api\\TagApi.cs:line 68    at Abs.CommonCore.Adapters.Siemens.EcoMainWebApiClient.Client.ApiClient.GetTagAliasesHistoricalDataPagedAsync(DateTime startDate, DateTime endDate, Int32 invervalMilliseconds, Boolean onlyChangesValues, Int32 pageSize, Int32 pageIndex, String[] tagAliases) in C:\\app\\service\\EcoMainWebApiClient\\Client\\ApiClient.cs:line 73    at Abs.CommonCore.Adapters.Siemens.DiscoMessagingService.MessageProcessor.FetchAndSetDataPointCollectionsAsync[T](DiscoDataRequest request, DiscoDataResponse response, Int32 page, Func`2 getRequestedTypes, Action`2 setDataType) in C:\\app\\service\\DiscoMessagingService\\MessageProcessor.cs:line 325    at Abs.CommonCore.Adapters.Siemens.DiscoMessagingService.MessageProcessor.SetResponseDataAsync(DiscoDataResponse response, DiscoDataRequest request, Int32 page) in C:\\app\\service\\DiscoMessagingService\\MessageProcessor.cs:line 283    at Abs.CommonCore.Adapters.Siemens.DiscoMessagingService.MessageProcessor.ProcessMessageAsync(DiscoDataRequest request, Int32 page) in C:\\app\\service\\DiscoMessagingService\\MessageProcessor.cs:line 45    at Abs.CommonCore.Adapters.Siemens.DiscoMessagingService.Handlers.DiscoDataRequestHandler.Handle(DiscoDataRequest request) in C:\\app\\service\\DiscoMessagingService\\Handlers\\DiscoDataRequestHandler.cs:line 63    at Rebus.Pipeline.Receive.HandlerInvoker`1.Invoke()    at Rebus.Pipeline.Receive.DispatchIncomingMessageStep.Process(IncomingStepContext context, Func`1 next)    at Rebus.Sagas.LoadSagaDataStep.Process(IncomingStepContext context, Func`1 next)    at Rebus.Pipeline.Receive.ActivateHandlersStep.Process(IncomingStepContext context, Func`1 next)    at Rebus.Pipeline.Receive.HandleRoutingSlipsStep.Process(IncomingStepContext context, Func`1 next)    at Rebus.Pipeline.Receive.DeserializeIncomingMessageStep.Process(IncomingStepContext context, Func`1 next)    at Rebus.DataBus.ClaimCheck.HydrateIncomingMessageStep.Process(IncomingStepContext context, Func`1 next)    at Rebus.Pipeline.Receive.HandleDeferredMessagesStep.Process(IncomingStepContext context, Func`1 next)    at Rebus.Retry.FailFast.FailFastStep.Process(IncomingStepContext context, Func`1 next)    at Rebus.Retry.FailFast.FailFastStep.Process(IncomingStepContext context, Func`1 next)    at Rebus.Retry.Simple.SimpleRetryStrategyStep.DispatchWithTrackerIdentifier(Func`1 next, String identifierToTrackMessageBy, ITransactionContext transactionContext, String messageId, String secondLevelMessageId)","stream":"stdout","timestamp":"2023-10-18T23:22:11.597793Z"}
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Wed 10/18/2023 23:48:18.56 

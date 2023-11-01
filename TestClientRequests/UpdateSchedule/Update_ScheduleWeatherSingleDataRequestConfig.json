@@ -4,8 +4,8 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "CreateSchedule",
   "Request": {
-    "requestId": "test_us-20359-sws",
-    "scheduleId": "test_us-20359-sws",
+    "requestId": "disco-test-client_sa-20359-sws",
+    "scheduleId": "disco-test-client_sa-20359-sws",
     "destination": "Local",
     "scheduleSingle": {
       "cronExpression": "* * * ? ?"
@@ -27,6 +27,6 @@
     }
   },
   "Headers": {
-    "cc.disco.client":  "test-client"
+    "cc.disco.client":  "disco-test-client"
   }
 }

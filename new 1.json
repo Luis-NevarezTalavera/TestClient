@@ -1,0 +1,50 @@
+c:\ABS\cc-platform\logs\site>for /l %i in (9,-1,0) do grep "Hangfire" disco-service-2023-10-2%i_*.log | grep "warn" | wc -l
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-26_*.log   | grep "warn"   | wc -l
+24
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-23_*.log   | grep "warn"   | wc -l
+32
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-20_*.log   | grep "warn"   | wc -l
+31
+
+c:\ABS\cc-platform\logs\site>for /l %i in (9,-1,0) do grep "Hangfire" disco-service-2023-10-1%i_*.log | grep "warn" | wc -l
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-19_*.log   | grep "warn"   | wc -l
+6
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-13_*.log   | grep "warn"   | wc -l
+2
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-12_*.log   | grep "warn"   | wc -l
+0
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-11_*.log   | grep "warn"   | wc -l
+0
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-10_*.log   | grep "warn"   | wc -l
+0
+
+c:\ABS\cc-platform\logs\site>for /l %i in (9,-1,0) do grep "Hangfire" disco-service-2023-10-0%i_*.log | grep "warn" | wc -l
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-09_*.log   | grep "warn"   | wc -l
+0
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-07_*.log   | grep "warn"   | wc -l
+0
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-06_*.log   | grep "warn"   | wc -l
+0
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-05_*.log   | grep "warn"   | wc -l
+0
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-04_*.log   | grep "warn"   | wc -l
+0
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-03_*.log   | grep "warn"   | wc -l
+0
+
+c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-02_*.log   | grep "warn"   | wc -l
+0

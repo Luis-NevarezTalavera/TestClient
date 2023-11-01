@@ -1,0 +1,163 @@
+2023-10-19 14:56:40.847 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.disco-test-client-24.q"
+2023-10-19 14:56:42.680 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-10-19 14:56:42.704 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-10-19 14:56:42.708 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-10-19 14:56:42.763 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-10-19 14:56:42.810 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.disco-test-client-24.q"
+2023-10-19 14:56:42.916 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.disco-test-client-24.q"
+2023-10-19 14:56:44.445 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-10-19 14:56:44.520 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-10-19 14:56:44.520 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-10-19 14:56:44.604 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-10-19 14:56:44.792 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.get-schedules.response.disco-test-client-24.q"
+2023-10-19 14:56:44.913 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.disco-test-client-24.q"
+2023-10-19 14:56:46.200 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-10-19 14:56:46.304 +00:00 [INF] Bus "getScheduleResponseBus" started
+2023-10-19 14:56:46.304 +00:00 [INF] Successfully created bus instance RebusBus getScheduleResponseBus (isDefaultBus: false)
+2023-10-19 14:56:46.342 +00:00 [INF] Bus "getScheduleResponseBus" setting number of workers to 1
+2023-10-19 14:56:46.358 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-19 14:56:46.358 +00:00 [INF] Hosting environment: Production
+2023-10-19 14:56:46.358 +00:00 [INF] Content root path: C:\ABS\TestClient\LoadTest
+2023-10-19 14:56:46.374 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_GetSchedulesConfig.json
+2023-10-19 14:56:46.431 +00:00 [INF] Successfully initialized consumer for "cc.disco.get-schedules.response.disco-test-client-24.q"
+2023-10-19 14:56:46.448 +00:00 [INF] Defined as get schedule request
+2023-10-19 14:56:46.551 +00:00 [INF] Created DiscoGetSchedulesRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20402-1"
+  }
+2023-10-19 14:56:46.563 +00:00 [INF] Sending binary: 0A-1F-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-34-30-32-2D-31
+2023-10-19 14:56:46.572 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-10-19 14:56:48.018 +00:00 [INF] Bus "getScheduleBus" started
+2023-10-19 14:56:48.136 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:48.152 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_GetSchedulesConfig.json handling has been finished.
+2023-10-19 14:56:48.153 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleDraftRangeLocalRequestConfig.json
+2023-10-19 14:56:48.154 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:48.159 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-sdrl",
+    "scheduleId": "disco-test-client-24_sa-20359-sdrl"
+  }
+2023-10-19 14:56:48.160 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-64-72-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-64-72-6C
+2023-10-19 14:56:48.161 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-10-19 14:56:48.310 +00:00 [INF] DiscoGetSchedulesResponse Received message: { "requestId": "disco-test-client-24_sa-20402-1" }
+2023-10-19 14:56:49.566 +00:00 [INF] Bus "deleteScheduleBus" started
+2023-10-19 14:56:49.840 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:49.876 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleDraftRangeLocalRequestConfig.json handling has been finished.
+2023-10-19 14:56:49.876 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleDraftRangeRemoteRequestConfig.json
+2023-10-19 14:56:49.876 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:49.876 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-sdrr",
+    "scheduleId": "disco-test-client-24_sa-20359-sdrr"
+  }
+2023-10-19 14:56:49.876 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-64-72-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-64-72-72
+2023-10-19 14:56:50.040 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.078 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleDraftRangeRemoteRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.078 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleDraftSingleLocalRequestConfig.json
+2023-10-19 14:56:50.079 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:50.079 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-sdsl",
+    "scheduleId": "disco-test-client-24_sa-20359-sdsl"
+  }
+2023-10-19 14:56:50.079 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-64-73-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-64-73-6C
+2023-10-19 14:56:50.124 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.176 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleDraftSingleLocalRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.176 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleDraftSingleRemoteRequestConfig.json
+2023-10-19 14:56:50.177 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:50.177 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-sdsr",
+    "scheduleId": "disco-test-client-24_sa-20359-sdsr"
+  }
+2023-10-19 14:56:50.177 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-64-73-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-64-73-72
+2023-10-19 14:56:50.207 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.222 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleDraftSingleRemoteRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.222 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleLocationRangeLocalRequestConfig.json
+2023-10-19 14:56:50.222 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:50.223 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-slrl",
+    "scheduleId": "disco-test-client-24_sa-20359-slrl"
+  }
+2023-10-19 14:56:50.223 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-6C-72-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-6C-72-6C
+2023-10-19 14:56:50.242 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.253 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleLocationRangeLocalRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.254 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleLocationRangeRemoteRequestConfig.json
+2023-10-19 14:56:50.254 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:50.254 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-slrr",
+    "scheduleId": "disco-test-client-24_sa-20359-slrr"
+  }
+2023-10-19 14:56:50.254 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-6C-72-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-6C-72-72
+2023-10-19 14:56:50.292 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.301 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleLocationRangeRemoteRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.301 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleLocationSinglelocalRequestConfig.json
+2023-10-19 14:56:50.302 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:50.302 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-slsl",
+    "scheduleId": "disco-test-client-24_sa-20359-slsl"
+  }
+2023-10-19 14:56:50.302 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-6C-73-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-6C-73-6C
+2023-10-19 14:56:50.313 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.314 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleLocationSinglelocalRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.314 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleLocationSingleRemoteRequestConfig.json
+2023-10-19 14:56:50.314 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:50.314 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-slsr",
+    "scheduleId": "disco-test-client-24_sa-20359-slsr"
+  }
+2023-10-19 14:56:50.314 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-6C-73-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-6C-73-72
+2023-10-19 14:56:50.326 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.330 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleLocationSingleRemoteRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.330 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleWeatherRangeLocalRequestConfig.json
+2023-10-19 14:56:50.331 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:50.331 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-swrl",
+    "scheduleId": "disco-test-client-24_sa-20359-swrl"
+  }
+2023-10-19 14:56:50.331 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-77-72-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-77-72-6C
+2023-10-19 14:56:50.342 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.342 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleWeatherRangeLocalRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.342 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleWeatherRangeRemoteRequestConfig.json
+2023-10-19 14:56:50.342 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:50.342 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-swrr",
+    "scheduleId": "disco-test-client-24_sa-20359-swrr"
+  }
+2023-10-19 14:56:50.342 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-77-72-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-77-72-72
+2023-10-19 14:56:50.357 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.366 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleWeatherRangeRemoteRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.366 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleWeatherSingleLocalRequestConfig.json
+2023-10-19 14:56:50.367 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:50.367 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-swsl",
+    "scheduleId": "disco-test-client-24_sa-20359-swsl"
+  }
+2023-10-19 14:56:50.367 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-77-73-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-77-73-6C
+2023-10-19 14:56:50.384 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.395 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleWeatherSingleLocalRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.395 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleWeatherSingleRemoteRequestConfig.json
+2023-10-19 14:56:50.395 +00:00 [INF] Defined as delete schedule request
+2023-10-19 14:56:50.396 +00:00 [INF] Created DiscoDeleteScheduleRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20359-swsr",
+    "scheduleId": "disco-test-client-24_sa-20359-swsr"
+  }
+2023-10-19 14:56:50.396 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-77-73-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-33-35-39-2D-73-77-73-72
+2023-10-19 14:56:50.404 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.419 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_ScheduleWeatherSingleRemoteRequestConfig.json handling has been finished.
+2023-10-19 14:56:50.419 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_xGetSchedulesConfig.json
+2023-10-19 14:56:50.420 +00:00 [INF] Defined as get schedule request
+2023-10-19 14:56:50.420 +00:00 [INF] Created DiscoGetSchedulesRequest object with payload: {
+    "requestId": "disco-test-client-24_sa-20402-2"
+  }
+2023-10-19 14:56:50.421 +00:00 [INF] Sending binary: 0A-1F-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-34-5F-73-61-2D-32-30-34-30-32-2D-32
+2023-10-19 14:56:50.439 +00:00 [INF] Binary is sent 1-th time
+2023-10-19 14:56:50.440 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-sdrl", "scheduleId": "disco-test-client-24_sa-20359-sdrl" }
+2023-10-19 14:56:50.452 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-24\DeleteSchedule\Delete_xGetSchedulesConfig.json handling has been finished.
+2023-10-19 14:56:50.523 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-sdrr", "scheduleId": "disco-test-client-24_sa-20359-sdrr" }
+2023-10-19 14:56:50.524 +00:00 [INF] DiscoGetSchedulesResponse Received message: { "requestId": "disco-test-client-24_sa-20402-2" }
+2023-10-19 14:56:50.618 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-sdsl", "scheduleId": "disco-test-client-24_sa-20359-sdsl" }
+2023-10-19 14:56:50.661 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-sdsr", "scheduleId": "disco-test-client-24_sa-20359-sdsr" }
+2023-10-19 14:56:50.719 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-slrl", "scheduleId": "disco-test-client-24_sa-20359-slrl" }
+2023-10-19 14:56:50.777 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-slrr", "scheduleId": "disco-test-client-24_sa-20359-slrr" }
+2023-10-19 14:56:50.906 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-slsl", "scheduleId": "disco-test-client-24_sa-20359-slsl" }
+2023-10-19 14:56:50.968 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-slsr", "scheduleId": "disco-test-client-24_sa-20359-slsr" }
+2023-10-19 14:56:51.056 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-swrl", "scheduleId": "disco-test-client-24_sa-20359-swrl" }
+2023-10-19 14:56:51.142 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-swrr", "scheduleId": "disco-test-client-24_sa-20359-swrr" }
+2023-10-19 14:56:51.241 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-swsl", "scheduleId": "disco-test-client-24_sa-20359-swsl" }
+2023-10-19 14:56:51.314 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-24_sa-20359-swsr", "scheduleId": "disco-test-client-24_sa-20359-swsr" }

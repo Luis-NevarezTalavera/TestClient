@@ -4,7 +4,7 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "OnDemand",
   "Request": {
-    "requestId": "test-client_sa-22056-drdr",
+    "requestId": "disco-test-client_sa-22056-drdr",
     "destination": "Remote",
     "onDemandRange": {
       "start": "2023-07-26T14:00:00Z",
@@ -24,6 +24,6 @@
     }
   },
   "Headers": {
-    "cc.disco.client": "test-client"
+    "cc.disco.client": "disco-test-client"
   }
 }
