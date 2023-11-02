@@ -1,6 +1,6 @@
 ﻿{
   "DestinationQueue": "cc.disco.create-schedule.request.q",
-  "NSamples": 2,
+  "NSamples": 1,
   "SamplingIntervalInMs": 1000,
   "RequestType": "CreateSchedule",
   "Request": {

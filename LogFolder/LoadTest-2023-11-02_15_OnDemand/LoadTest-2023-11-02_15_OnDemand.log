@@ -1,0 +1,136 @@
+++--- Grand Summary Report for LoadTest: LoadTest-2023-11-02_15_OnDemand with Clients qty: 5 ---++ 
++++--- disco-test-client-1 ---+++ 
+++--- Summary for Test: LoadTest-2023-11-02_15_OnDemand_disco-test-client-1 ---++ 
+Start Date-Time: Thu 11/02/2023 15:53:46.21 
+----------------------------------------------------------------------- 
+ 
+Handling files: 72
+negative TCs: 0
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 0
+DiscoGetSchedulesRequests: 0
+DiscoDeleteScheduleRequests: 0
+DiscoDataRequests: 72
+ 
+--- Responses --- 
+DiscoScheduleResponses with scheduleIds: 0
+DiscoGetSchedulesResponses with scheduleIds: 0
+DiscoDataResponses with values: 72
+ 
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT: 0
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 0
+siemens-adapter.log Warnings, Errors: 0
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Thu 11/02/2023 15:55:54.24 
++++--- disco-test-client-2 ---+++ 
+++--- Summary for Test: LoadTest-2023-11-02_15_OnDemand_disco-test-client-2 ---++ 
+Start Date-Time: Thu 11/02/2023 15:53:47.23 
+----------------------------------------------------------------------- 
+ 
+Handling files: 72
+negative TCs: 0
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 0
+DiscoGetSchedulesRequests: 0
+DiscoDeleteScheduleRequests: 0
+DiscoDataRequests: 72
+ 
+--- Responses --- 
+DiscoScheduleResponses with scheduleIds: 0
+DiscoGetSchedulesResponses with scheduleIds: 0
+DiscoDataResponses with values: 72
+ 
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT: 0
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 0
+siemens-adapter.log Warnings, Errors: 0
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Thu 11/02/2023 15:55:55.30 
++++--- disco-test-client-3 ---+++ 
+++--- Summary for Test: LoadTest-2023-11-02_15_OnDemand_disco-test-client-3 ---++ 
+Start Date-Time: Thu 11/02/2023 15:53:48.11 
+----------------------------------------------------------------------- 
+ 
+Handling files: 72
+negative TCs: 0
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 0
+DiscoGetSchedulesRequests: 0
+DiscoDeleteScheduleRequests: 0
+DiscoDataRequests: 72
+ 
+--- Responses --- 
+DiscoScheduleResponses with scheduleIds: 0
+DiscoGetSchedulesResponses with scheduleIds: 0
+DiscoDataResponses with values: 72
+ 
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT: 0
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 0
+siemens-adapter.log Warnings, Errors: 0
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Thu 11/02/2023 15:55:56.05 
++++--- disco-test-client-4 ---+++ 
+++--- Summary for Test: LoadTest-2023-11-02_15_OnDemand_disco-test-client-4 ---++ 
+Start Date-Time: Thu 11/02/2023 15:53:49.16 
+----------------------------------------------------------------------- 
+ 
+Handling files: 72
+negative TCs: 0
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 0
+DiscoGetSchedulesRequests: 0
+DiscoDeleteScheduleRequests: 0
+DiscoDataRequests: 72
+ 
+--- Responses --- 
+DiscoScheduleResponses with scheduleIds: 0
+DiscoGetSchedulesResponses with scheduleIds: 0
+DiscoDataResponses with values: 72
+ 
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT: 0
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 0
+siemens-adapter.log Warnings, Errors: 0
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Thu 11/02/2023 15:55:57.42 
++++--- disco-test-client-5 ---+++ 
+++--- Summary for Test: LoadTest-2023-11-02_15_OnDemand_disco-test-client-5 ---++ 
+Start Date-Time: Thu 11/02/2023 15:53:50.17 
+----------------------------------------------------------------------- 
+ 
+Handling files: 72
+negative TCs: 0
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests: 0
+DiscoGetSchedulesRequests: 0
+DiscoDeleteScheduleRequests: 0
+DiscoDataRequests: 72
+ 
+--- Responses --- 
+DiscoScheduleResponses with scheduleIds: 0
+DiscoGetSchedulesResponses with scheduleIds: 0
+DiscoDataResponses with values: 72
+ 
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT: 0
+TestRun.log Warnings, Errors: 0
+disco-service.log Warnings, Errors: 0
+siemens-adapter.log Warnings, Errors: 0
+ 
+----------------------------------------------------------------------- 
+End Date-Time: Thu 11/02/2023 15:55:58.16 
