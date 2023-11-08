@@ -1,0 +1,2818 @@
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 18:18:51.06, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 18:23:51.36, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 18:28:32.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 18:52:47.56, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 18:57:48.17, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:02:47.62, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:07:46.01, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:12:46.07, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:17:44.99, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:22:46.30, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:27:44.57, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:32:44.15, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:37:44.40, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:42:44.50, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:47:40.82, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:52:42.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 19:57:44.40, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:02:42.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:07:42.18, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:12:44.16, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:17:42.70, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:22:42.31, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:27:43.29, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:32:42.87, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:37:41.26, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:42:41.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:47:40.72, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:52:40.10, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 20:57:40.90, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:02:43.94, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:07:43.91, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:12:38.79, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:17:35.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:22:38.55, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:27:39.10, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:32:39.76, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:37:37.27, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:42:33.43, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:47:30.54, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:52:35.01, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 21:57:32.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:02:30.15, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:07:25.73, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:12:21.95, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:17:23.57, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:22:24.12, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:27:20.03, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:32:16.55, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:37:13.40, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:42:13.33, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:47:15.55, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:52:14.26, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 22:57:13.79, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:02:11.47, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:07:10.20, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:12:08.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:17:08.05, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:22:07.26, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:27:03.43, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:32:04.28, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:37:02.30, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:42:00.57, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:46:57.47, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:51:53.22, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 23:56:51.21, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:01:49.42, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:06:46.08, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:11:48.92, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:16:45.87, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:21:45.15, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:26:44.13, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:31:44.60, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:36:42.25, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:41:38.45, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:46:36.13, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:51:34.27, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  0:56:32.90, Max qty of messages: 10 ---
++------------+------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  EXCHANGE  |      ROUTING KEY       |                                                                                                                                                   BODY                                                                                                                                                    |
++------------+------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"error","message":{"domain":"otp.sasl","file":"supervisor2.erl","line":1130,"mfa":["supervisor2","terminate_dynamic_children",1],"msg":" |
+|            |                        |    supervisor: {<0.22426.27>,amqp_channel_sup_sup}\n    errorContext: shutdown_error\n    reason: shutdown\n    offender: [{nb_children,1},\n               {id,channel_sup},\n               {mfargs,\n                   {amqp_channel_sup,start_link,\n                       [direct,<0.22423.27>,\n  |
+|            |                        |                       <<\"<rabbit@rabbitmq-local.1698930011.22423.27>\">>]}},\n               {restart_type,temporary},\n               {shutdown,infinity},\n               {child_type,supervisor}]","pid":"<0.22426.27>"},"stream":"stdout","timestamp":"2023-11-05T00:56:33.017059400Z"}              |
++------------+------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:01:34.70, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:06:33.33, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:11:29.64, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:16:28.75, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:21:25.06, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:26:25.60, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:31:28.65, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:36:25.99, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:41:25.21, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:46:21.96, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:51:22.81, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  1:56:22.54, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:01:22.13, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:06:20.81, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:11:20.37, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:16:18.05, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:21:16.09, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:26:13.98, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:31:13.66, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:36:10.31, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:41:08.35, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:46:08.33, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:51:06.37, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  2:56:06.49, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:01:06.24, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:06:05.88, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:11:04.47, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:16:03.51, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:21:03.44, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:26:00.77, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:30:58.70, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:35:54.47, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:40:54.66, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:45:52.99, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:50:49.58, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  3:55:49.33, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:00:50.88, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:05:51.90, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:10:49.22, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:15:49.67, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:20:46.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:25:43.16, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:30:43.37, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:35:40.21, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:40:40.01, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:45:41.20, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:50:36.47, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  4:55:35.05, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:00:31.66, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:05:28.45, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:10:23.53, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:15:24.30, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:20:25.84, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:25:21.37, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:30:18.77, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:35:14.45, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:40:16.55, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:45:16.23, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:50:14.62, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  5:55:14.71, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:00:16.12, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:05:13.74, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:10:10.98, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:15:07.14, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:20:05.47, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:25:02.76, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:30:03.79, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:35:05.40, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:40:02.77, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:45:02.11, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:49:56.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:54:55.90, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  6:59:57.11, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:04:55.45, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:09:55.04, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:14:51.65, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:19:49.13, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:24:49.07, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:29:45.14, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:34:47.45, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:39:44.76, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:44:43.13, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:49:40.67, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:54:36.69, Max qty of messages: 10 ---
++------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  EXCHANGE  |      ROUTING KEY       |                                                                                                               BODY                                                                                                               |
++------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing |
+|            |                        | AMQP connection <0.2343.35> (10.1.162.77:64510 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                     |
+|            |                        | connection","pid":"<0.2343.35>"},"stream":"stdout","timestamp":"2023-11-05T07:54:19.129616600Z"}                                                                                                                                 |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing |
+|            |                        | AMQP connection <0.2638.35> (10.1.162.77:64519 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                     |
+|            |                        | connection","pid":"<0.2638.35>"},"stream":"stdout","timestamp":"2023-11-05T07:54:19.129616600Z"}                                                                                                                                 |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing |
+|            |                        | AMQP connection <0.650.35> (10.1.162.77:64523 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                      |
+|            |                        | connection","pid":"<0.650.35>"},"stream":"stdout","timestamp":"2023-11-05T07:54:19.129616600Z"}                                                                                                                                  |
++------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  7:59:39.23, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:04:37.64, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:09:35.35, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:14:35.77, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:19:31.85, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:24:28.55, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:29:27.05, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:34:30.28, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:39:26.23, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:44:24.67, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:49:21.80, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:54:20.16, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  8:59:20.76, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:04:19.49, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:09:18.11, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:14:16.51, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:19:15.23, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:24:12.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:29:12.75, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:34:08.64, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:39:07.12, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:44:09.39, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:49:07.52, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:54:05.74, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time:  9:59:02.80, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:03:59.64, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:08:57.57, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:13:57.62, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:18:55.49, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:23:52.49, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:28:51.32, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:33:51.08, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:38:47.96, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:43:46.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:48:46.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:53:46.76, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 10:58:43.25, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:03:40.48, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:08:39.49, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:13:38.85, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:18:38.03, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:23:39.11, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:28:41.48, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:33:42.07, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:38:38.43, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:43:35.08, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:48:37.99, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:53:36.09, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 11:58:39.81, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:03:37.40, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:08:34.37, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:13:36.17, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:18:34.28, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:23:31.83, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:28:33.29, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:33:32.01, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:38:28.89, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:43:26.27, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:48:25.53, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:53:23.22, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 12:58:19.58, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:03:17.05, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:08:20.54, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:13:22.51, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:18:21.28, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:23:12.50, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:28:11.12, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:33:09.29, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:38:11.55, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:43:10.71, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:48:06.50, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:53:06.76, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 13:57:52.32, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:01:09.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:06:10.31, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:11:09.16, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:16:06.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:21:09.62, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:26:11.68, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:31:11.24, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:36:08.67, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:41:10.62, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:46:10.47, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:51:10.19, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 14:56:08.08, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:01:07.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:06:05.24, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:11:05.55, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:16:06.54, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:21:05.87, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:26:04.06, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:31:03.79, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:36:02.44, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:41:04.56, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:46:02.88, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:51:02.26, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 15:56:01.92, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:06:01.44, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:11:02.11, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:16:03.15, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:21:05.99, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:26:02.06, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:31:01.17, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:36:00.10, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:41:00.13, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:45:59.11, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:50:56.22, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 16:55:54.30, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:00:51.25, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:05:51.67, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:10:51.89, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:15:50.98, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:20:50.29, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:25:47.11, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:30:44.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:35:46.96, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:40:46.23, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:45:43.48, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:50:42.18, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 17:55:40.39, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:00:37.25, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:05:36.38, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:10:35.49, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:15:28.89, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:20:32.96, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:25:29.49, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:30:29.68, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:35:27.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:40:25.55, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:45:21.87, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:50:22.78, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 18:55:20.04, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:00:19.41, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:05:20.76, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:10:17.75, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:15:15.41, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:20:15.64, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:25:14.69, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:30:15.57, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:35:14.36, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:40:16.09, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:45:13.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:50:15.12, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 19:55:12.46, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:00:09.72, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:05:09.09, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:10:08.73, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:15:06.62, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:20:03.95, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:25:00.39, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:29:57.31, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:34:57.35, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:39:53.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:44:53.90, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:49:53.82, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:54:51.66, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 20:59:47.41, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:04:48.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:09:46.40, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:14:48.23, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:19:47.57, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:24:42.46, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:29:40.56, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:34:42.30, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:39:38.62, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:44:34.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:49:32.14, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:54:33.77, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 21:59:30.33, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:04:27.51, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:09:30.02, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:14:28.14, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:19:22.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:24:22.92, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:29:23.15, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:34:19.96, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:39:16.26, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:44:15.83, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:49:16.75, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:54:13.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 22:59:11.14, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:04:14.16, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:09:14.02, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:14:10.43, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:19:07.42, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:24:02.49, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:29:03.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:34:03.15, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:39:00.84, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:44:00.90, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:48:59.21, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:53:54.10, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sun 11/05/2023 Time: 23:58:50.95, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:03:47.63, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:08:42.56, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:13:45.50, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:18:43.28, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:23:38.95, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:28:38.00, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:33:35.81, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:38:34.70, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:43:31.26, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:48:27.25, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:53:29.40, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  0:58:27.79, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:03:22.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:08:21.37, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:13:23.20, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:18:20.54, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:23:15.58, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:28:18.01, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:33:16.44, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:38:11.82, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:43:10.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:48:11.74, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:53:09.22, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  1:58:06.09, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:03:09.80, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:08:08.66, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:13:05.95, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:18:01.60, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:22:58.09, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:28:00.68, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:32:58.54, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:37:56.58, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:42:58.12, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:47:56.28, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:52:54.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  2:57:53.36, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:02:52.06, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:07:49.87, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:12:49.36, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:17:47.63, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:22:44.75, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:27:44.24, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:32:39.57, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:37:38.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:42:33.95, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:47:31.31, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:52:26.74, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  3:57:27.04, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:02:28.86, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:07:29.67, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:12:28.42, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:17:26.72, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:22:24.38, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:27:24.16, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:32:23.02, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:37:20.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:42:18.40, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:47:14.92, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:52:13.66, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  4:57:10.37, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:02:10.51, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:07:06.91, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:12:03.82, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:17:04.79, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:22:06.40, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:27:02.37, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:32:02.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:37:01.95, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:41:57.19, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:46:56.56, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:51:56.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  5:56:53.07, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:01:53.90, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:06:55.51, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:11:52.65, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:16:49.83, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:21:52.42, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:26:49.75, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:31:54.07, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:36:50.30, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:41:49.07, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:46:51.05, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:51:48.67, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  6:56:45.89, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:01:49.01, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:06:48.01, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:11:46.96, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:16:45.20, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:21:43.28, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:26:43.14, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:31:41.51, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:36:41.20, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:41:37.56, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:46:35.28, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:51:34.37, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  7:56:31.65, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:01:28.37, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:06:25.23, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:11:24.24, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:16:22.98, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:21:23.77, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:26:23.50, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:31:21.03, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:36:17.90, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:41:20.08, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:46:18.36, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:51:18.26, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  8:56:15.22, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:01:12.92, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:06:11.20, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:11:09.81, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:16:09.09, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:21:07.63, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:26:05.43, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:31:01.69, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:35:58.30, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:41:01.75, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:45:59.31, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:50:57.92, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time:  9:55:56.86, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:00:54.24, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:05:50.69, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:10:50.45, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:15:46.61, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:20:49.25, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:25:47.44, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:30:46.67, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:35:41.87, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:40:38.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:45:40.46, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:50:42.63, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 10:55:41.20, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:00:40.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:05:37.59, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:10:35.64, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:15:31.85, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:20:31.16, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:25:33.71, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:30:30.56, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:35:27.46, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:40:25.17, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:45:24.58, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:50:24.07, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 11:55:23.19, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:00:25.64, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:05:23.29, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:10:20.80, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:15:17.99, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:20:15.17, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:25:17.40, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:30:15.68, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:35:10.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:40:11.48, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:45:07.89, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:50:06.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 12:55:08.21, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:00:05.83, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:05:06.75, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:10:06.60, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:15:11.66, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:20:10.97, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:25:04.50, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:30:02.75, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:35:02.20, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:40:04.80, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:45:07.16, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:50:10.22, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 13:55:03.35, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 14:00:04.28, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 14:05:02.23, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 14:09:58.69, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 14:15:06.03, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 14:16:19.61, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 14:20:04.17, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 14:25:01.22, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 14:30:06.88, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 14:34:51.42, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 18:12:32.95, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 18:20:24.24, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 18:25:26.76, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 18:30:19.87, Max qty of messages: 10 ---
++------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  EXCHANGE  |      ROUTING KEY       |                                                                                                                                            BODY                                                                                                                                             |
++------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.7145.69> (10.1.162.77:54170 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                                |
+|            |                        | connection","pid":"<0.7145.69>"},"stream":"stdout","timestamp":"2023-11-06T18:29:36.928672700Z"}                                                                                                                                                                                            |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.9193.69> (10.1.162.77:54202 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                                |
+|            |                        | connection","pid":"<0.9193.69>"},"stream":"stdout","timestamp":"2023-11-06T18:29:36.928672700Z"}                                                                                                                                                                                            |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.6132.69> (10.1.162.77:54135 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                                |
+|            |                        | connection","pid":"<0.6132.69>"},"stream":"stdout","timestamp":"2023-11-06T18:29:37.245531500Z"}                                                                                                                                                                                            |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.8667.69> (10.1.162.77:54153 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                                |
+|            |                        | connection","pid":"<0.8667.69>"},"stream":"stdout","timestamp":"2023-11-06T18:29:37.245531500Z"}                                                                                                                                                                                            |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.7531.69> (10.1.162.77:54175 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                                |
+|            |                        | connection","pid":"<0.7531.69>"},"stream":"stdout","timestamp":"2023-11-06T18:29:37.245531500Z"}                                                                                                                                                                                            |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.9340.69> (10.1.162.77:54208 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                                |
+|            |                        | connection","pid":"<0.9340.69>"},"stream":"stdout","timestamp":"2023-11-06T18:29:37.245531500Z"}                                                                                                                                                                                            |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.8596.69> (10.1.162.77:54145 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                                |
+|            |                        | connection","pid":"<0.8596.69>"},"stream":"stdout","timestamp":"2023-11-06T18:29:38.877185900Z"}                                                                                                                                                                                            |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.8709.69> (10.1.162.77:54169 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                                |
+|            |                        | connection","pid":"<0.8709.69>"},"stream":"stdout","timestamp":"2023-11-06T18:29:38.877185900Z"}                                                                                                                                                                                            |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.7996.69> (10.1.162.77:54194 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                                |
+|            |                        | connection","pid":"<0.7996.69>"},"stream":"stdout","timestamp":"2023-11-06T18:29:38.877185900Z"}                                                                                                                                                                                            |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"error","message":{"domain":"otp.sasl","file":"supervisor2.erl","line":1025,"mfa":["supervisor2","do_terminate",2],"msg":" |
+|            |                        |    supervisor: {<0.6348.69>,rabbit_channel_sup}\n    errorContext: shutdown_error\n    reason: noproc\n    offender: [{pid,<0.7035.69>},\n               {id,channel},\n               {mfargs,\n                   {rabbit_channel,start_link,\n                                           |
+|            |                        | [1,<0.8596.69>,<0.6881.69>,<0.8596.69>,\n                        <<\"10.1.162.77:54145 -> 172.16.239.6:5671\">>,\n                        rabbit_framing_amqp_0_9_1,\n                        {user,<<\"disco-test-client\">>,\n                            [user],\n                       |
+|            |                        |        [{rabbit_auth_backend_internal,none}]},\n                        <<\"/\">>,\n                        [{<<\"publisher_confirms\">>,bool,true},\n                         {<<\"exchange_exchange_bindings\">>,bool,true},\n                         {<<\"basic.nack\">>,bool,true},\n  |
+|            |                        |                         {<<\"consumer_cancel_notify\">>,bool,true},\n                         {<<\"connection.blocked\">>,bool,true},\n                         {<<\"authentication_failure_close\">>,bool,true}],\n                        <0.8606.69>,<0.6879.69>]}},\n                   |
+|            |                        | {restart_type,intrinsic},\n               {shutdown,70000},\n               {child_type,worker}]","pid":"<0.6348.69>"},"stream":"stdout","timestamp":"2023-11-06T18:29:38.877185900Z"}                                                                                                      |
++------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 18:34:59.61, Max qty of messages: 10 ---
++------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  EXCHANGE  |      ROUTING KEY       |                                                                                                                                            BODY                                                                                                                                             |
++------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.12308.69> (10.1.162.77:54386 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                               |
+|            |                        | connection","pid":"<0.12308.69>"},"stream":"stdout","timestamp":"2023-11-06T18:34:41.507323700Z"}                                                                                                                                                                                           |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.12987.69> (10.1.162.77:54409 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                               |
+|            |                        | connection","pid":"<0.12987.69>"},"stream":"stdout","timestamp":"2023-11-06T18:34:41.507323700Z"}                                                                                                                                                                                           |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.13619.69> (10.1.162.77:54428 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                               |
+|            |                        | connection","pid":"<0.13619.69>"},"stream":"stdout","timestamp":"2023-11-06T18:34:41.507323700Z"}                                                                                                                                                                                           |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"error","message":{"domain":"otp.sasl","file":"supervisor2.erl","line":1025,"mfa":["supervisor2","do_terminate",2],"msg":" |
+|            |                        |    supervisor: {<0.9092.69>,rabbit_channel_sup}\n    errorContext: shutdown_error\n    reason: noproc\n    offender: [{pid,<0.11626.69>},\n               {id,channel},\n               {mfargs,\n                   {rabbit_channel,start_link,\n                                          |
+|            |                        | [1,<0.13619.69>,<0.8971.69>,<0.13619.69>,\n                        <<\"10.1.162.77:54428 -> 172.16.239.6:5671\">>,\n                        rabbit_framing_amqp_0_9_1,\n                        {user,<<\"disco-test-client\">>,\n                            [user],\n                     |
+|            |                        |         [{rabbit_auth_backend_internal,none}]},\n                        <<\"/\">>,\n                        [{<<\"publisher_confirms\">>,bool,true},\n                         {<<\"exchange_exchange_bindings\">>,bool,true},\n                         {<<\"basic.nack\">>,bool,true},\n |
+|            |                        |                         {<<\"consumer_cancel_notify\">>,bool,true},\n                         {<<\"connection.blocked\">>,bool,true},\n                         {<<\"authentication_failure_close\">>,bool,true}],\n                        <0.11928.69>,<0.8972.69>]}},\n                  |
+|            |                        | {restart_type,intrinsic},\n               {shutdown,70000},\n               {child_type,worker}]","pid":"<0.9092.69>"},"stream":"stdout","timestamp":"2023-11-06T18:34:41.507323700Z"}                                                                                                      |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.10918.69> (10.1.162.77:54360 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                               |
+|            |                        | connection","pid":"<0.10918.69>"},"stream":"stdout","timestamp":"2023-11-06T18:34:41.655084600Z"}                                                                                                                                                                                           |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.13638.69> (10.1.162.77:54430 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                               |
+|            |                        | connection","pid":"<0.13638.69>"},"stream":"stdout","timestamp":"2023-11-06T18:34:41.655084600Z"}                                                                                                                                                                                           |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.12419.69> (10.1.162.77:54388 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                               |
+|            |                        | connection","pid":"<0.12419.69>"},"stream":"stdout","timestamp":"2023-11-06T18:34:41.655084600Z"}                                                                                                                                                                                           |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.10660.69> (10.1.162.77:54412 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                               |
+|            |                        | connection","pid":"<0.10660.69>"},"stream":"stdout","timestamp":"2023-11-06T18:34:41.655084600Z"}                                                                                                                                                                                           |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.10893.69> (10.1.162.77:54348 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                               |
+|            |                        | connection","pid":"<0.10893.69>"},"stream":"stdout","timestamp":"2023-11-06T18:34:42.325103900Z"}                                                                                                                                                                                           |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing                                                            |
+|            |                        | AMQP connection <0.12188.69> (10.1.162.77:54381 -> 172.16.239.6:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                                                                               |
+|            |                        | connection","pid":"<0.12188.69>"},"stream":"stdout","timestamp":"2023-11-06T18:34:42.325103900Z"}                                                                                                                                                                                           |
++------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 19:06:51.72, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 19:12:08.05, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 19:17:32.48, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 19:22:43.87, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  0:50:13.88, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  0:55:20.43, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  1:06:20.76, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  1:11:20.56, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  1:16:31.48, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  1:21:40.76, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  1:26:23.23, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  2:33:20.65, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+

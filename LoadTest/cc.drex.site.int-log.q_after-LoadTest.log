@@ -1,0 +1,20 @@
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time: 20:07:48.83, Max qty of messages: 200 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time: 22:30:19.16, Max qty of messages: 200 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time: 22:46:15.12, Max qty of messages: 200 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Wed 11/08/2023 Time: 14:34:31.20, Max qty of messages: 200 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+

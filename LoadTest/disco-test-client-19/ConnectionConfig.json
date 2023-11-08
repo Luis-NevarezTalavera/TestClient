@@ -1,0 +1,60 @@
+﻿{
+  "busConnection": {
+    "Key": "local",
+    "Host": "localhost",
+    "Port": 5671,
+    "HttpPort": 15671,
+    "Protocol": "amqps",
+    "Username": "disco-test-client",
+    "Password": "disco-test-client"
+  },
+  "CloseAppTimeOutSeconds": 3570,
+  "scheduleCreationBus": {
+    "busName": "createScheduleBus",
+    "directExchangeName": "cc.disco.ed",
+    "topicExchangeName": "cc.disco.et",
+    "queueName": "cc.disco.create-schedule.request.q"
+  },
+  "scheduleDeleteBus": {
+    "busName": "deleteScheduleBus",
+    "directExchangeName": "cc.disco.ed",
+    "topicExchangeName": "cc.disco.et",
+    "queueName": "cc.disco.delete-schedule.request.q"
+  },
+  "scheduleGetBus": {
+    "busName": "getScheduleBus",
+    "directExchangeName": "cc.disco.ed",
+    "topicExchangeName": "cc.disco.et",
+    "queueName": "cc.disco.get-schedules.request.q"
+  },
+  "onDemandRequestBus": {
+    "busName": "onDemandRequestBus",
+    "directExchangeName": "cc.disco.ed",
+    "topicExchangeName": "cc.disco.et",
+    "queueName": "cc.disco.data.request.q"
+  },
+  "onDemandDataResponseBus": {
+    "busName": "onDemandDataResponseBus",
+    "directExchangeName": "cc.disco.ed",
+    "topicExchangeName": "cc.disco.et",
+    "queueName": "cc.disco.data.response.disco-test-client-19.q"
+  },
+  "scheduleResponseBus": {
+    "busName": "scheduleResponseBus",
+    "directExchangeName": "cc.disco.ed",
+    "topicExchangeName": "cc.disco.et",
+    "queueName": "cc.disco.schedule.response.disco-test-client-19.q"
+  },
+  "getScheduleResponseBus": {
+    "busName": "getScheduleResponseBus",
+    "directExchangeName": "cc.disco.ed",
+    "topicExchangeName": "cc.disco.et",
+    "queueName": "cc.disco.get-schedules.response.disco-test-client-19.q"
+  },
+  "defaultSender": {
+    "busName": "defaultSender",
+    "directExchangeName": "cc.disco.ed",
+    "topicExchangeName": "cc.disco.et",
+    "queueName": "cc.disco.data.request.q"
+  }
+}

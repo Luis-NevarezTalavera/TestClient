@@ -1,0 +1,41 @@
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 23:32:32.00, Max qty of messages: 10 ---
++------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  EXCHANGE  |      ROUTING KEY       |                                                                                                                                            BODY                                                                                                                                             |
++------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"fb4e948072c1","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"error","message":{"domain":"otp.sasl","file":"supervisor2.erl","line":1025,"mfa":["supervisor2","do_terminate",2],"msg":" |
+|            |                        |    supervisor: {<0.13796.70>,rabbit_channel_sup}\n    errorContext: shutdown_error\n    reason: noproc\n    offender: [{pid,<0.13810.70>},\n               {id,channel},\n               {mfargs,\n                   {rabbit_channel,start_link,\n                                         |
+|            |                        | [1,<0.13742.70>,<0.13795.70>,<0.13742.70>,\n                        <<\"10.1.162.77:57110 -> 172.16.239.6:5671\">>,\n                        rabbit_framing_amqp_0_9_1,\n                        {user,<<\"disco-test-client\">>,\n                            [user],\n                    |
+|            |                        |         [{rabbit_auth_backend_internal,none}]},\n                        <<\"/\">>,\n                        [{<<\"publisher_confirms\">>,bool,true},\n                         {<<\"exchange_exchange_bindings\">>,bool,true},\n                         {<<\"basic.nack\">>,bool,true},\n |
+|            |                        |                         {<<\"consumer_cancel_notify\">>,bool,true},\n                         {<<\"connection.blocked\">>,bool,true},\n                         {<<\"authentication_failure_close\">>,bool,true}],\n                        <0.13792.70>,<0.13804.70>]}},\n                 |
+|            |                        | {restart_type,intrinsic},\n               {shutdown,70000},\n               {child_type,worker}]","pid":"<0.13796.70>"},"stream":"stdout","timestamp":"2023-11-06T23:32:21.498264500Z"}                                                                                                     |
++------------+------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 23:54:41.89, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Mon 11/06/2023 Time: 23:59:48.32, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  0:04:49.52, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  0:19:39.98, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  0:24:44.93, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Tue 11/07/2023 Time:  0:29:49.81, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
