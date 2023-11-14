@@ -1,0 +1,610 @@
+2023-11-10 20:42:53.465 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.disco-test-client-17.q"
+2023-11-10 20:42:56.684 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-10 20:42:56.864 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-11-10 20:42:56.867 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-11-10 20:42:57.002 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-11-10 20:42:57.146 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.disco-test-client-17.q"
+2023-11-10 20:42:57.459 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.disco-test-client-17.q"
+2023-11-10 20:42:58.611 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-10 20:42:58.683 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-11-10 20:42:58.683 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-11-10 20:42:58.739 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-11-10 20:42:58.776 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.get-schedules.response.disco-test-client-17.q"
+2023-11-10 20:42:58.815 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.disco-test-client-17.q"
+2023-11-10 20:43:00.385 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-10 20:43:00.447 +00:00 [INF] Bus "getScheduleResponseBus" started
+2023-11-10 20:43:00.447 +00:00 [INF] Successfully created bus instance RebusBus getScheduleResponseBus (isDefaultBus: false)
+2023-11-10 20:43:00.518 +00:00 [INF] Bus "getScheduleResponseBus" setting number of workers to 1
+2023-11-10 20:43:00.618 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-10 20:43:00.618 +00:00 [INF] Hosting environment: Production
+2023-11-10 20:43:00.618 +00:00 [INF] Content root path: C:\ABS\TestClient\LoadTest
+2023-11-10 20:43:00.635 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftRangeLocalRequestConfig.json
+2023-11-10 20:43:00.668 +00:00 [INF] Successfully initialized consumer for "cc.disco.get-schedules.response.disco-test-client-17.q"
+2023-11-10 20:43:00.710 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:00.952 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-22056-drdl",
+    "destination": "Local",
+    "onDemandRange": {
+      "start": "2023-11-03T14:00:00Z",
+      "end": "2023-11-04T14:00:00Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-10 20:43:00.971 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-32-30-35-36-2D-64-72-64-6C-10-01-D2-3E-15-0A-06-08-E0-F9-93-AA-06-12-06-08-E0-9C-99-AA-06-18-80-DD-DB-01-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-10 20:43:00.976 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-11-10 20:43:02.378 +00:00 [INF] Bus "onDemandRequestBus" started
+2023-11-10 20:43:02.611 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:02.630 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftRangeLocalRequestConfig.json handling has been finished.
+2023-11-10 20:43:02.631 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftRangeRemoteRequestConfig.json
+2023-11-10 20:43:02.632 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:02.632 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-22056-drdr",
+    "destination": "Remote",
+    "onDemandRange": {
+      "start": "2023-11-03T14:00:00Z",
+      "end": "2023-11-04T14:00:00Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-10 20:43:02.632 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-32-30-35-36-2D-64-72-64-72-10-02-D2-3E-15-0A-06-08-E0-F9-93-AA-06-12-06-08-E0-9C-99-AA-06-18-80-DD-DB-01-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-10 20:43:02.739 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:02.751 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftRangeRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:43:02.751 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftSingleLocalRequestConfig.json
+2023-11-10 20:43:02.751 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:02.752 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-22056-dsdl",
+    "destination": "Local",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:00:00Z"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-10 20:43:02.753 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-32-30-35-36-2D-64-73-64-6C-10-01-CA-3E-08-0A-06-08-E0-F9-93-AA-06-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-10 20:43:02.806 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:02.827 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftSingleLocalRequestConfig.json handling has been finished.
+2023-11-10 20:43:02.827 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftSingleRemoteRequestConfig.json
+2023-11-10 20:43:02.828 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:02.828 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-22056-dsdr",
+    "destination": "Remote",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:00:00Z"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-10 20:43:02.828 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-32-30-35-36-2D-64-73-64-72-10-02-CA-3E-08-0A-06-08-E0-F9-93-AA-06-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-10 20:43:02.915 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:02.946 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftSingleRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:43:02.946 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationRangeLocalRequestConfig.json
+2023-11-10 20:43:02.947 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:02.949 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21122-drll",
+    "destination": "Local",
+    "onDemandRange": {
+      "start": "2023-11-03T14:23:52Z",
+      "end": "2023-11-04T14:23:52Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-10 20:43:02.954 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-32-32-2D-64-72-6C-6C-10-01-D2-3E-15-0A-06-08-F8-84-94-AA-06-12-06-08-F8-A7-99-AA-06-18-80-DD-DB-01-92-7D-04-0A-02-01-02
+2023-11-10 20:43:03.014 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:03.022 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationRangeLocalRequestConfig.json handling has been finished.
+2023-11-10 20:43:03.022 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationRangeRemoteRequestConfig.json
+2023-11-10 20:43:03.023 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:03.023 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21122-drlr",
+    "destination": "Remote",
+    "onDemandRange": {
+      "start": "2023-11-03T14:23:52Z",
+      "end": "2023-11-04T14:23:52Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-10 20:43:03.023 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-32-32-2D-64-72-6C-72-10-02-D2-3E-15-0A-06-08-F8-84-94-AA-06-12-06-08-F8-A7-99-AA-06-18-80-DD-DB-01-92-7D-04-0A-02-01-02
+2023-11-10 20:43:03.084 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:03.095 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationRangeRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:43:03.095 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationSingleLocalRequestConfig.json
+2023-11-10 20:43:03.096 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:03.096 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21122-dsll",
+    "destination": "Local",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:23:52Z"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-10 20:43:03.096 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-32-32-2D-64-73-6C-6C-10-01-CA-3E-08-0A-06-08-F8-84-94-AA-06-92-7D-04-0A-02-01-02
+2023-11-10 20:43:03.114 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:03.157 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationSingleLocalRequestConfig.json handling has been finished.
+2023-11-10 20:43:03.157 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationSingleRemoteRequestConfig.json
+2023-11-10 20:43:03.157 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:03.158 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21122-dslr",
+    "destination": "Remote",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:23:52Z"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-10 20:43:03.158 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-32-32-2D-64-73-6C-72-10-02-CA-3E-08-0A-06-08-F8-84-94-AA-06-92-7D-04-0A-02-01-02
+2023-11-10 20:43:03.167 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:03.173 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationSingleRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:43:03.173 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherRangeLocalRequestConfig.json
+2023-11-10 20:43:03.174 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:03.175 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21162-drwl",
+    "destination": "Local",
+    "onDemandRange": {
+      "start": "2023-11-03T14:00:00Z",
+      "end": "2023-11-04T14:00:00Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-10 20:43:03.177 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-36-32-2D-64-72-77-6C-10-01-D2-3E-15-0A-06-08-E0-F9-93-AA-06-12-06-08-E0-9C-99-AA-06-18-80-DD-DB-01-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-10 20:43:03.201 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:03.212 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherRangeLocalRequestConfig.json handling has been finished.
+2023-11-10 20:43:03.212 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherRangeRemoteRequestConfig.json
+2023-11-10 20:43:03.213 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:03.214 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21162-drwr",
+    "destination": "Remote",
+    "onDemandRange": {
+      "start": "2023-11-03T14:00:00Z",
+      "end": "2023-11-04T14:00:00Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-10 20:43:03.215 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-36-32-2D-64-72-77-72-10-02-D2-3E-15-0A-06-08-E0-F9-93-AA-06-12-06-08-E0-9C-99-AA-06-18-80-DD-DB-01-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-10 20:43:03.230 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:03.243 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherRangeRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:43:03.244 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherSingleLocalRequestConfig.json
+2023-11-10 20:43:03.244 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:03.244 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21162-dswl",
+    "destination": "Local",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:00:00Z"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-10 20:43:03.244 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-36-32-2D-64-73-77-6C-10-01-CA-3E-08-0A-06-08-E0-F9-93-AA-06-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-10 20:43:03.264 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:03.301 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherSingleLocalRequestConfig.json handling has been finished.
+2023-11-10 20:43:03.301 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherSingleRemoteRequestConfig.json
+2023-11-10 20:43:03.302 +00:00 [INF] Defined as on demand request
+2023-11-10 20:43:03.302 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21162-dswr",
+    "destination": "Remote",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:00:00Z"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-10 20:43:03.302 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-36-32-2D-64-73-77-72-10-02-CA-3E-08-0A-06-08-E0-F9-93-AA-06-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-10 20:43:03.345 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:43:03.475 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherSingleRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:44:49.693 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-22056-dsdr", "destination": "Remote", "executed": "2023-11-10T20:44:49.341269600Z", "dataPointCollections": [ { "draftDataType": "Trim", "dataPoints": [ { "timestamp": "2023-11-03T13:59:56.887Z", "value": 0.006744881450987505, "unit": "MetricTonsPerHour" } ] } ], "page": 1, "continue": false, "onDemandSingle": { "target": "2023-11-03T14:00:00Z" }, "draftDataTypes": { "dataType": [ "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-11-10 20:44:56.197 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-21122-dsll", "destination": "Local", "executed": "2023-11-10T20:44:55.998470700Z", "dataPointCollections": [ { "locationDataType": "Latitude", "dataPoints": [ { "timestamp": "2023-11-03T14:23:49.442Z", "value": 29.7492304, "unit": "Degrees" } ] }, { "locationDataType": "Longitude", "dataPoints": [ { "timestamp": "2023-11-03T14:23:49.442Z", "value": -95.2878848, "unit": "Degrees" } ] } ], "page": 1, "continue": false, "onDemandSingle": { "target": "2023-11-03T14:23:52Z" }, "locationDataTypes": { "dataType": [ "Latitude", "Longitude" ] } }
+2023-11-10 20:44:57.271 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-21122-dslr", "destination": "Remote", "executed": "2023-11-10T20:44:57.083070500Z", "dataPointCollections": [ { "locationDataType": "Latitude", "dataPoints": [ { "timestamp": "2023-11-03T14:23:49.442Z", "value": 29.7492304, "unit": "Degrees" } ] }, { "locationDataType": "Longitude", "dataPoints": [ { "timestamp": "2023-11-03T14:23:49.442Z", "value": -95.2878848, "unit": "Degrees" } ] } ], "page": 1, "continue": false, "onDemandSingle": { "target": "2023-11-03T14:23:52Z" }, "locationDataTypes": { "dataType": [ "Latitude", "Longitude" ] } }
+2023-11-10 20:45:00.104 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-21122-drlr", "destination": "Remote", "executed": "2023-11-10T20:44:51.845145200Z", "dataPointCollections": [ { "locationDataType": "Latitude", "dataPoints": [ { "timestamp": "2023-11-03T14:00:00Z", "value": 24.7755962, "unit": "Degrees" }, { "timestamp": "2023-11-03T15:00:00Z", "value": 29.148775, "unit": "Degrees" }, { "timestamp": "2023-11-03T16:00:00Z", "value": 27.3163431, "unit": "Degrees" }, { "timestamp": "2023-11-03T17:00:00Z", "value": 25.9880502, "unit": "Degrees" }, { "timestamp": "2023-11-03T18:00:00Z", "value": 24.606113, "unit": "Degrees" }, { "timestamp": "2023-11-03T19:00:00Z", "value": 24.6106105, "unit": "Degrees" }, { "timestamp": "2023-11-03T20:00:00Z", "value": 29.315357, "unit": "Degrees" }, { "timestamp": "2023-11-03T21:00:00Z", "value": 27.4287558, "unit": "Degrees" }, { "timestamp": "2023-11-03T22:00:00Z", "value": 26.1059446, "unit": "Degrees" }, { "timestamp": "2023-11-03T23:00:00Z", "value": 24.731729, "unit": "Degrees" }, { "timestamp": "2023-11-04T00:00:00Z", "value": 24.4427449, "unit": "Degrees" }, { "timestamp": "2023-11-04T01:00:00Z", "value": 29.4138269, "unit": "Degrees" }, { "timestamp": "2023-11-04T02:00:00Z", "value": 27.5334159, "unit": "Degrees" }, { "timestamp": "2023-11-04T03:00:00Z", "value": 26.1943654, "unit": "Degrees" }, { "timestamp": "2023-11-04T04:00:00Z", "value": 24.8220155, "unit": "Degrees" }, { "timestamp": "2023-11-04T05:00:00Z", "value": 24.3220915, "unit": "Degrees" }, { "timestamp": "2023-11-04T06:00:00Z", "value": 29.5535083, "unit": "Degrees" }, { "timestamp": "2023-11-04T07:00:00Z", "value": 27.6225708, "unit": "Degrees" }, { "timestamp": "2023-11-04T08:00:00Z", "value": 26.2754178, "unit": "Degrees" }, { "timestamp": "2023-11-04T09:00:00Z", "value": 24.912302, "unit": "Degrees" }, { "timestamp": "2023-11-04T10:00:00Z", "value": 24.2270799, "unit": "Degrees" }, { "timestamp": "2023-11-04T11:00:00Z", "value": 29.6969696, "unit": "Degrees" }, { "timestamp": "2023-11-04T12:00:00Z", "value": 27.7117257, "unit": "Degrees" }, { "timestamp": "2023-11-04T13:00:00Z", "value": 26.3601544, "unit": "Degrees" }, { "timestamp": "2023-11-04T14:00:00Z", "value": 25.0025885, "unit": "Degrees" }, { "timestamp": "2023-11-04T15:00:00Z", "value": 24.441242, "unit": "Degrees" } ] }, { "locationDataType": "Longitude", "dataPoints": [ { "timestamp": "2023-11-03T14:00:00Z", "value": -80.3264122, "unit": "Degrees" }, { "timestamp": "2023-11-03T15:00:00Z", "value": -94.4578429, "unit": "Degrees" }, { "timestamp": "2023-11-03T16:00:00Z", "value": -91.1827076, "unit": "Degrees" }, { "timestamp": "2023-11-03T17:00:00Z", "value": -87.5900196, "unit": "Degrees" }, { "timestamp": "2023-11-03T18:00:00Z", "value": -84.0565109, "unit": "Degrees" }, { "timestamp": "2023-11-03T19:00:00Z", "value": -80.4837724, "unit": "Degrees" }, { "timestamp": "2023-11-03T20:00:00Z", "value": -94.6417141, "unit": "Degrees" }, { "timestamp": "2023-11-03T21:00:00Z", "value": -91.4739575, "unit": "Degrees" }, { "timestamp": "2023-11-03T22:00:00Z", "value": -87.9111716, "unit": "Degrees" }, { "timestamp": "2023-11-03T23:00:00Z", "value": -84.3703829, "unit": "Degrees" }, { "timestamp": "2023-11-04T00:00:00Z", "value": -80.7740732, "unit": "Degrees" }, { "timestamp": "2023-11-04T01:00:00Z", "value": -94.8254278, "unit": "Degrees" }, { "timestamp": "2023-11-04T02:00:00Z", "value": -91.7451212, "unit": "Degrees" }, { "timestamp": "2023-11-04T03:00:00Z", "value": -88.1520356, "unit": "Degrees" }, { "timestamp": "2023-11-04T04:00:00Z", "value": -84.5959784, "unit": "Degrees" }, { "timestamp": "2023-11-04T05:00:00Z", "value": -80.9827269, "unit": "Degrees" }, { "timestamp": "2023-11-04T06:00:00Z", "value": -94.9117725, "unit": "Degrees" }, { "timestamp": "2023-11-04T07:00:00Z", "value": -91.9761125, "unit": "Degrees" }, { "timestamp": "2023-11-04T08:00:00Z", "value": -88.3728276, "unit": "Degrees" }, { "timestamp": "2023-11-04T09:00:00Z", "value": -84.8215739, "unit": "Degrees" }, { "timestamp": "2023-11-04T10:00:00Z", "value": -81.1903217, "unit": "Degrees" }, { "timestamp": "2023-11-04T11:00:00Z", "value": -94.9960567, "unit": "Degrees" }, { "timestamp": "2023-11-04T12:00:00Z", "value": -92.2071038, "unit": "Degrees" }, { "timestamp": "2023-11-04T13:00:00Z", "value": -88.6036556, "unit": "Degrees" }, { "timestamp": "2023-11-04T14:00:00Z", "value": -85.0471694, "unit": "Degrees" }, { "timestamp": "2023-11-04T15:00:00Z", "value": -83.6445539, "unit": "Degrees" } ] } ], "page": 1, "continue": false, "onDemandRange": { "start": "2023-11-03T14:23:52Z", "end": "2023-11-04T14:23:52Z", "intervalMilliseconds": "3600000" }, "locationDataTypes": { "dataType": [ "Latitude", "Longitude" ] } }
+2023-11-10 20:45:04.933 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-21162-dswr", "destination": "Remote", "executed": "2023-11-10T20:45:04.732663100Z", "dataPointCollections": [ { "weatherDataType": "TrueWindDirection", "dataPoints": [ { "timestamp": "2023-11-03T13:59:56.887Z", "value": 0.5900693285342665, "unit": "NewtonMeter" } ] } ], "page": 1, "continue": false, "onDemandSingle": { "target": "2023-11-03T14:00:00Z" }, "weatherDataTypes": { "dataType": [ "WetTemperature", "DryTemperature", "RelativeWindSpeed", "TrueWindDirection", "SeaWaterTemperature", "SeaWaterDepth", "AirPressure", "RelativeHumidity", "Swell", "SeaScale" ] } }
+2023-11-10 20:45:07.879 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-21162-drwr", "destination": "Remote", "executed": "2023-11-10T20:45:00.145872700Z", "dataPointCollections": [ { "weatherDataType": "TrueWindDirection", "dataPoints": [ { "timestamp": "2023-11-03T14:00:00Z", "value": 0.5900693285342665, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T15:00:00Z", "value": 6.004053874192966e-06, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T16:00:00Z", "value": 0.584110399422527, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T17:00:00Z", "value": 0.5850582893079503, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T18:00:00Z", "value": 0.5850004995872178, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T19:00:00Z", "value": 0.5868865829679568, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T20:00:00Z", "value": 0.6500707792172749, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T21:00:00Z", "value": 0.5836115105936587, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T22:00:00Z", "value": 0.5845542687058145, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T23:00:00Z", "value": 0.5845072899978337, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T00:00:00Z", "value": 0.5874456060880747, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T01:00:00Z", "value": 0.432812163193213, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T02:00:00Z", "value": 0.583145402280167, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T03:00:00Z", "value": 0.584174909324761, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T04:00:00Z", "value": 0.5841513923070312, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T05:00:00Z", "value": 0.5878453169739736, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T06:00:00Z", "value": 0.4366493198085054, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T07:00:00Z", "value": 0.5827471125356993, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T08:00:00Z", "value": 0.5838261525836891, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T09:00:00Z", "value": 0.5837943225227671, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T10:00:00Z", "value": 0.5886191185179867, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T11:00:00Z", "value": 0.1379287467371006, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T12:00:00Z", "value": 0.5823476886590323, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T13:00:00Z", "value": 0.5834605108383836, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T14:00:00Z", "value": 0.5834360820429041, "unit": "NewtonMeter" } ] } ], "page": 1, "continue": false, "onDemandRange": { "start": "2023-11-03T14:00:00Z", "end": "2023-11-04T14:00:00Z", "intervalMilliseconds": "3600000" }, "weatherDataTypes": { "dataType": [ "WetTemperature", "DryTemperature", "RelativeWindSpeed", "TrueWindDirection", "SeaWaterTemperature", "SeaWaterDepth", "AirPressure", "RelativeHumidity", "Swell", "SeaScale" ] } }
+2023-11-10 20:48:25.923 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.disco-test-client-17.q"
+2023-11-10 20:48:29.054 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-10 20:48:29.122 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-11-10 20:48:29.127 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-11-10 20:48:29.260 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-11-10 20:48:29.334 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.disco-test-client-17.q"
+2023-11-10 20:48:29.487 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.disco-test-client-17.q"
+2023-11-10 20:48:31.366 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-10 20:48:31.474 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-11-10 20:48:31.474 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-11-10 20:48:31.573 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-11-10 20:48:31.634 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.get-schedules.response.disco-test-client-17.q"
+2023-11-10 20:48:31.700 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.disco-test-client-17.q"
+2023-11-10 20:48:33.779 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-10 20:48:33.944 +00:00 [INF] Bus "getScheduleResponseBus" started
+2023-11-10 20:48:33.944 +00:00 [INF] Successfully created bus instance RebusBus getScheduleResponseBus (isDefaultBus: false)
+2023-11-10 20:48:34.039 +00:00 [INF] Bus "getScheduleResponseBus" setting number of workers to 1
+2023-11-10 20:48:34.161 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-10 20:48:34.162 +00:00 [INF] Hosting environment: Production
+2023-11-10 20:48:34.162 +00:00 [INF] Content root path: C:\ABS\TestClient\LoadTest
+2023-11-10 20:48:34.177 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftRangeLocalRequestConfig.json
+2023-11-10 20:48:34.255 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:34.324 +00:00 [INF] Successfully initialized consumer for "cc.disco.get-schedules.response.disco-test-client-17.q"
+2023-11-10 20:48:34.548 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-22056-drdl",
+    "destination": "Local",
+    "onDemandRange": {
+      "start": "2023-11-03T14:00:00Z",
+      "end": "2023-11-04T14:00:00Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-10 20:48:34.560 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-32-30-35-36-2D-64-72-64-6C-10-01-D2-3E-15-0A-06-08-E0-F9-93-AA-06-12-06-08-E0-9C-99-AA-06-18-80-DD-DB-01-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-10 20:48:34.568 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-11-10 20:48:36.302 +00:00 [INF] Bus "onDemandRequestBus" started
+2023-11-10 20:48:36.625 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:36.642 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftRangeLocalRequestConfig.json handling has been finished.
+2023-11-10 20:48:36.643 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftRangeRemoteRequestConfig.json
+2023-11-10 20:48:36.644 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:36.644 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-22056-drdr",
+    "destination": "Remote",
+    "onDemandRange": {
+      "start": "2023-11-03T14:00:00Z",
+      "end": "2023-11-04T14:00:00Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-10 20:48:36.644 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-32-30-35-36-2D-64-72-64-72-10-02-D2-3E-15-0A-06-08-E0-F9-93-AA-06-12-06-08-E0-9C-99-AA-06-18-80-DD-DB-01-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-10 20:48:36.720 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:36.735 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftRangeRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:48:36.736 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftSingleLocalRequestConfig.json
+2023-11-10 20:48:36.737 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:36.738 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-22056-dsdl",
+    "destination": "Local",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:00:00Z"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-10 20:48:36.738 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-32-30-35-36-2D-64-73-64-6C-10-01-CA-3E-08-0A-06-08-E0-F9-93-AA-06-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-10 20:48:36.784 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:36.799 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftSingleLocalRequestConfig.json handling has been finished.
+2023-11-10 20:48:36.799 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftSingleRemoteRequestConfig.json
+2023-11-10 20:48:36.800 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:36.800 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-22056-dsdr",
+    "destination": "Remote",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:00:00Z"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-10 20:48:36.800 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-32-30-35-36-2D-64-73-64-72-10-02-CA-3E-08-0A-06-08-E0-F9-93-AA-06-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-10 20:48:36.878 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:36.935 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandDraftSingleRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:48:36.935 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationRangeLocalRequestConfig.json
+2023-11-10 20:48:36.936 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:36.937 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21122-drll",
+    "destination": "Local",
+    "onDemandRange": {
+      "start": "2023-11-03T14:23:52Z",
+      "end": "2023-11-04T14:23:52Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-10 20:48:36.939 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-32-32-2D-64-72-6C-6C-10-01-D2-3E-15-0A-06-08-F8-84-94-AA-06-12-06-08-F8-A7-99-AA-06-18-80-DD-DB-01-92-7D-04-0A-02-01-02
+2023-11-10 20:48:37.013 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:37.047 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationRangeLocalRequestConfig.json handling has been finished.
+2023-11-10 20:48:37.047 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationRangeRemoteRequestConfig.json
+2023-11-10 20:48:37.047 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:37.048 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21122-drlr",
+    "destination": "Remote",
+    "onDemandRange": {
+      "start": "2023-11-03T14:23:52Z",
+      "end": "2023-11-04T14:23:52Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-10 20:48:37.048 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-32-32-2D-64-72-6C-72-10-02-D2-3E-15-0A-06-08-F8-84-94-AA-06-12-06-08-F8-A7-99-AA-06-18-80-DD-DB-01-92-7D-04-0A-02-01-02
+2023-11-10 20:48:37.137 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:37.162 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationRangeRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:48:37.163 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationSingleLocalRequestConfig.json
+2023-11-10 20:48:37.163 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:37.163 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21122-dsll",
+    "destination": "Local",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:23:52Z"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-10 20:48:37.163 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-32-32-2D-64-73-6C-6C-10-01-CA-3E-08-0A-06-08-F8-84-94-AA-06-92-7D-04-0A-02-01-02
+2023-11-10 20:48:37.358 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:37.384 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationSingleLocalRequestConfig.json handling has been finished.
+2023-11-10 20:48:37.384 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationSingleRemoteRequestConfig.json
+2023-11-10 20:48:37.384 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:37.385 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21122-dslr",
+    "destination": "Remote",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:23:52Z"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-10 20:48:37.385 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-32-32-2D-64-73-6C-72-10-02-CA-3E-08-0A-06-08-F8-84-94-AA-06-92-7D-04-0A-02-01-02
+2023-11-10 20:48:37.612 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:37.649 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandLocationSingleRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:48:37.649 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherRangeLocalRequestConfig.json
+2023-11-10 20:48:37.650 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:37.651 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21162-drwl",
+    "destination": "Local",
+    "onDemandRange": {
+      "start": "2023-11-03T14:00:00Z",
+      "end": "2023-11-04T14:00:00Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-10 20:48:37.653 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-36-32-2D-64-72-77-6C-10-01-D2-3E-15-0A-06-08-E0-F9-93-AA-06-12-06-08-E0-9C-99-AA-06-18-80-DD-DB-01-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-10 20:48:37.762 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:37.772 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherRangeLocalRequestConfig.json handling has been finished.
+2023-11-10 20:48:37.772 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherRangeRemoteRequestConfig.json
+2023-11-10 20:48:37.773 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:37.773 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21162-drwr",
+    "destination": "Remote",
+    "onDemandRange": {
+      "start": "2023-11-03T14:00:00Z",
+      "end": "2023-11-04T14:00:00Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-10 20:48:37.773 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-36-32-2D-64-72-77-72-10-02-D2-3E-15-0A-06-08-E0-F9-93-AA-06-12-06-08-E0-9C-99-AA-06-18-80-DD-DB-01-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-10 20:48:37.894 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:38.032 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherRangeRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:48:38.032 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherSingleLocalRequestConfig.json
+2023-11-10 20:48:38.032 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:38.033 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21162-dswl",
+    "destination": "Local",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:00:00Z"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-10 20:48:38.033 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-36-32-2D-64-73-77-6C-10-01-CA-3E-08-0A-06-08-E0-F9-93-AA-06-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-10 20:48:38.135 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:38.185 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherSingleLocalRequestConfig.json handling has been finished.
+2023-11-10 20:48:38.185 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherSingleRemoteRequestConfig.json
+2023-11-10 20:48:38.186 +00:00 [INF] Defined as on demand request
+2023-11-10 20:48:38.186 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client-17_sa-21162-dswr",
+    "destination": "Remote",
+    "onDemandSingle": {
+      "target": "2023-11-03T14:00:00Z"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-10 20:48:38.186 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-31-37-5F-73-61-2D-32-31-31-36-32-2D-64-73-77-72-10-02-CA-3E-08-0A-06-08-E0-F9-93-AA-06-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-10 20:48:38.275 +00:00 [INF] Binary is sent 1-th time
+2023-11-10 20:48:38.321 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-17\OnDemand\disco-test-client-17_OnDemandWeatherSingleRemoteRequestConfig.json handling has been finished.
+2023-11-10 20:48:53.388 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-22056-dsdr", "destination": "Remote", "executed": "2023-11-10T20:48:52.969883400Z", "dataPointCollections": [ { "draftDataType": "Trim", "dataPoints": [ { "timestamp": "2023-11-03T13:59:56.887Z", "value": 0.006744881450987505, "unit": "MetricTonsPerHour" } ] } ], "page": 1, "continue": false, "onDemandSingle": { "target": "2023-11-03T14:00:00Z" }, "draftDataTypes": { "dataType": [ "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-11-10 20:48:59.149 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-21122-dslr", "destination": "Remote", "executed": "2023-11-10T20:48:58.885513200Z", "dataPointCollections": [ { "locationDataType": "Latitude", "dataPoints": [ { "timestamp": "2023-11-03T14:23:49.442Z", "value": 29.7492304, "unit": "Degrees" } ] }, { "locationDataType": "Longitude", "dataPoints": [ { "timestamp": "2023-11-03T14:23:49.442Z", "value": -95.2878848, "unit": "Degrees" } ] } ], "page": 1, "continue": false, "onDemandSingle": { "target": "2023-11-03T14:23:52Z" }, "locationDataTypes": { "dataType": [ "Latitude", "Longitude" ] } }
+2023-11-10 20:49:00.895 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-22056-drdr", "destination": "Remote", "executed": "2023-11-10T20:48:52.319018400Z", "dataPointCollections": [ { "draftDataType": "Trim", "dataPoints": [ { "timestamp": "2023-11-03T14:00:00Z", "value": 0.006744881450987505, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-03T15:00:00Z", "value": 0.00674893588549578, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-03T16:00:00Z", "value": 0.0045786309771150314, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-03T17:00:00Z", "value": 0.0029509041707416316, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-03T18:00:00Z", "value": 0.006760555616846175, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-03T19:00:00Z", "value": 0.006421193148634694, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-03T20:00:00Z", "value": 0.008479700984502422, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-03T21:00:00Z", "value": 0.0022292886941061786, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-03T22:00:00Z", "value": 0.0008378189193798058, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-03T23:00:00Z", "value": 0.0013774246923322676, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T00:00:00Z", "value": 0.003073396774261307, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T01:00:00Z", "value": 0.005505978976032018, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T02:00:00Z", "value": 0.0032793742969790475, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T03:00:00Z", "value": 0.001608070395824962, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T04:00:00Z", "value": 0.009039896309369237, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T05:00:00Z", "value": 0.0026938817786973236, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T06:00:00Z", "value": 0.0021335607209819986, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T07:00:00Z", "value": 0.00639119791340913, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T08:00:00Z", "value": 0.007276282464009031, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T09:00:00Z", "value": 0.0025629757637088647, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T10:00:00Z", "value": 0.0074809087318979325, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T11:00:00Z", "value": 0.000876008872820615, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T12:00:00Z", "value": 0.009860719432095029, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T13:00:00Z", "value": 0.007253360107267863, "unit": "MetricTonsPerHour" }, { "timestamp": "2023-11-04T14:00:00Z", "value": 0.009204121208173658, "unit": "MetricTonsPerHour" } ] } ], "page": 1, "continue": false, "onDemandRange": { "start": "2023-11-03T14:00:00Z", "end": "2023-11-04T14:00:00Z", "intervalMilliseconds": "3600000" }, "draftDataTypes": { "dataType": [ "MeanDraft", "AftDraft", "ForwardDraft", "MidshipDraftPort", "MidshipDraftStarboard", "Trim" ] } }
+2023-11-10 20:49:01.640 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-21162-dswr", "destination": "Remote", "executed": "2023-11-10T20:49:01.223451800Z", "dataPointCollections": [ { "weatherDataType": "TrueWindDirection", "dataPoints": [ { "timestamp": "2023-11-03T13:59:56.887Z", "value": 0.5900693285342665, "unit": "NewtonMeter" } ] } ], "page": 1, "continue": false, "onDemandSingle": { "target": "2023-11-03T14:00:00Z" }, "weatherDataTypes": { "dataType": [ "WetTemperature", "DryTemperature", "RelativeWindSpeed", "TrueWindDirection", "SeaWaterTemperature", "SeaWaterDepth", "AirPressure", "RelativeHumidity", "Swell", "SeaScale" ] } }
+2023-11-10 20:49:05.989 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-21122-drlr", "destination": "Remote", "executed": "2023-11-10T20:48:55.984654400Z", "dataPointCollections": [ { "locationDataType": "Latitude", "dataPoints": [ { "timestamp": "2023-11-03T14:00:00Z", "value": 24.7755962, "unit": "Degrees" }, { "timestamp": "2023-11-03T15:00:00Z", "value": 29.148775, "unit": "Degrees" }, { "timestamp": "2023-11-03T16:00:00Z", "value": 27.3163431, "unit": "Degrees" }, { "timestamp": "2023-11-03T17:00:00Z", "value": 25.9880502, "unit": "Degrees" }, { "timestamp": "2023-11-03T18:00:00Z", "value": 24.606113, "unit": "Degrees" }, { "timestamp": "2023-11-03T19:00:00Z", "value": 24.6106105, "unit": "Degrees" }, { "timestamp": "2023-11-03T20:00:00Z", "value": 29.315357, "unit": "Degrees" }, { "timestamp": "2023-11-03T21:00:00Z", "value": 27.4287558, "unit": "Degrees" }, { "timestamp": "2023-11-03T22:00:00Z", "value": 26.1059446, "unit": "Degrees" }, { "timestamp": "2023-11-03T23:00:00Z", "value": 24.731729, "unit": "Degrees" }, { "timestamp": "2023-11-04T00:00:00Z", "value": 24.4427449, "unit": "Degrees" }, { "timestamp": "2023-11-04T01:00:00Z", "value": 29.4138269, "unit": "Degrees" }, { "timestamp": "2023-11-04T02:00:00Z", "value": 27.5334159, "unit": "Degrees" }, { "timestamp": "2023-11-04T03:00:00Z", "value": 26.1943654, "unit": "Degrees" }, { "timestamp": "2023-11-04T04:00:00Z", "value": 24.8220155, "unit": "Degrees" }, { "timestamp": "2023-11-04T05:00:00Z", "value": 24.3220915, "unit": "Degrees" }, { "timestamp": "2023-11-04T06:00:00Z", "value": 29.5535083, "unit": "Degrees" }, { "timestamp": "2023-11-04T07:00:00Z", "value": 27.6225708, "unit": "Degrees" }, { "timestamp": "2023-11-04T08:00:00Z", "value": 26.2754178, "unit": "Degrees" }, { "timestamp": "2023-11-04T09:00:00Z", "value": 24.912302, "unit": "Degrees" }, { "timestamp": "2023-11-04T10:00:00Z", "value": 24.2270799, "unit": "Degrees" }, { "timestamp": "2023-11-04T11:00:00Z", "value": 29.6969696, "unit": "Degrees" }, { "timestamp": "2023-11-04T12:00:00Z", "value": 27.7117257, "unit": "Degrees" }, { "timestamp": "2023-11-04T13:00:00Z", "value": 26.3601544, "unit": "Degrees" }, { "timestamp": "2023-11-04T14:00:00Z", "value": 25.0025885, "unit": "Degrees" }, { "timestamp": "2023-11-04T15:00:00Z", "value": 24.441242, "unit": "Degrees" } ] }, { "locationDataType": "Longitude", "dataPoints": [ { "timestamp": "2023-11-03T14:00:00Z", "value": -80.3264122, "unit": "Degrees" }, { "timestamp": "2023-11-03T15:00:00Z", "value": -94.4578429, "unit": "Degrees" }, { "timestamp": "2023-11-03T16:00:00Z", "value": -91.1827076, "unit": "Degrees" }, { "timestamp": "2023-11-03T17:00:00Z", "value": -87.5900196, "unit": "Degrees" }, { "timestamp": "2023-11-03T18:00:00Z", "value": -84.0565109, "unit": "Degrees" }, { "timestamp": "2023-11-03T19:00:00Z", "value": -80.4837724, "unit": "Degrees" }, { "timestamp": "2023-11-03T20:00:00Z", "value": -94.6417141, "unit": "Degrees" }, { "timestamp": "2023-11-03T21:00:00Z", "value": -91.4739575, "unit": "Degrees" }, { "timestamp": "2023-11-03T22:00:00Z", "value": -87.9111716, "unit": "Degrees" }, { "timestamp": "2023-11-03T23:00:00Z", "value": -84.3703829, "unit": "Degrees" }, { "timestamp": "2023-11-04T00:00:00Z", "value": -80.7740732, "unit": "Degrees" }, { "timestamp": "2023-11-04T01:00:00Z", "value": -94.8254278, "unit": "Degrees" }, { "timestamp": "2023-11-04T02:00:00Z", "value": -91.7451212, "unit": "Degrees" }, { "timestamp": "2023-11-04T03:00:00Z", "value": -88.1520356, "unit": "Degrees" }, { "timestamp": "2023-11-04T04:00:00Z", "value": -84.5959784, "unit": "Degrees" }, { "timestamp": "2023-11-04T05:00:00Z", "value": -80.9827269, "unit": "Degrees" }, { "timestamp": "2023-11-04T06:00:00Z", "value": -94.9117725, "unit": "Degrees" }, { "timestamp": "2023-11-04T07:00:00Z", "value": -91.9761125, "unit": "Degrees" }, { "timestamp": "2023-11-04T08:00:00Z", "value": -88.3728276, "unit": "Degrees" }, { "timestamp": "2023-11-04T09:00:00Z", "value": -84.8215739, "unit": "Degrees" }, { "timestamp": "2023-11-04T10:00:00Z", "value": -81.1903217, "unit": "Degrees" }, { "timestamp": "2023-11-04T11:00:00Z", "value": -94.9960567, "unit": "Degrees" }, { "timestamp": "2023-11-04T12:00:00Z", "value": -92.2071038, "unit": "Degrees" }, { "timestamp": "2023-11-04T13:00:00Z", "value": -88.6036556, "unit": "Degrees" }, { "timestamp": "2023-11-04T14:00:00Z", "value": -85.0471694, "unit": "Degrees" }, { "timestamp": "2023-11-04T15:00:00Z", "value": -83.6445539, "unit": "Degrees" } ] } ], "page": 1, "continue": false, "onDemandRange": { "start": "2023-11-03T14:23:52Z", "end": "2023-11-04T14:23:52Z", "intervalMilliseconds": "3600000" }, "locationDataTypes": { "dataType": [ "Latitude", "Longitude" ] } }
+2023-11-10 20:49:08.024 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client-17_sa-21162-drwr", "destination": "Remote", "executed": "2023-11-10T20:49:00.199820700Z", "dataPointCollections": [ { "weatherDataType": "TrueWindDirection", "dataPoints": [ { "timestamp": "2023-11-03T14:00:00Z", "value": 0.5900693285342665, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T15:00:00Z", "value": 6.004053874192966e-06, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T16:00:00Z", "value": 0.584110399422527, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T17:00:00Z", "value": 0.5850582893079503, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T18:00:00Z", "value": 0.5850004995872178, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T19:00:00Z", "value": 0.5868865829679568, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T20:00:00Z", "value": 0.6500707792172749, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T21:00:00Z", "value": 0.5836115105936587, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T22:00:00Z", "value": 0.5845542687058145, "unit": "NewtonMeter" }, { "timestamp": "2023-11-03T23:00:00Z", "value": 0.5845072899978337, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T00:00:00Z", "value": 0.5874456060880747, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T01:00:00Z", "value": 0.432812163193213, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T02:00:00Z", "value": 0.583145402280167, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T03:00:00Z", "value": 0.584174909324761, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T04:00:00Z", "value": 0.5841513923070312, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T05:00:00Z", "value": 0.5878453169739736, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T06:00:00Z", "value": 0.4366493198085054, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T07:00:00Z", "value": 0.5827471125356993, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T08:00:00Z", "value": 0.5838261525836891, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T09:00:00Z", "value": 0.5837943225227671, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T10:00:00Z", "value": 0.5886191185179867, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T11:00:00Z", "value": 0.1379287467371006, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T12:00:00Z", "value": 0.5823476886590323, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T13:00:00Z", "value": 0.5834605108383836, "unit": "NewtonMeter" }, { "timestamp": "2023-11-04T14:00:00Z", "value": 0.5834360820429041, "unit": "NewtonMeter" } ] } ], "page": 1, "continue": false, "onDemandRange": { "start": "2023-11-03T14:00:00Z", "end": "2023-11-04T14:00:00Z", "intervalMilliseconds": "3600000" }, "weatherDataTypes": { "dataType": [ "WetTemperature", "DryTemperature", "RelativeWindSpeed", "TrueWindDirection", "SeaWaterTemperature", "SeaWaterDepth", "AirPressure", "RelativeHumidity", "Swell", "SeaScale" ] } }

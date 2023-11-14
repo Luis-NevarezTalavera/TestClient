@@ -1,21 +1,21 @@
 ﻿{
-  "key": "disco-test-client",
-  "datasetToVendorMapping": [
-    {
-      "datatype": "Navigation",
-      "vendor": "Siemens"
-    },
-    {
-      "datatype": "Draft",
-      "vendor": "Siemens"
-    },
-    {
-      "datatype": "Weather",
-      "vendor": "Siemens"
-    },
-    {
-      "datatype": "Fuel",
-      "vendor": "Siemens"
-    }
-  ] 
-} 
+    "datasetToVendorMapping": [
+        {
+            "datatype": "Draft",
+            "vendor": "Siemens"
+        },
+        {
+            "datatype": "Weather",
+            "vendor": "Siemens"
+        },
+        {
+            "datatype": "Fuel",
+            "vendor": "Siemens"
+        },
+        {
+            "datatype": "Navigation",
+            "vendor": "Siemens"
+        }
+    ],
+    "key": "disco-test-client"
+}

@@ -7,11 +7,10 @@
     "requestId": "disco-test-client-6_sa-22056-dsdl",
     "destination": "Local",
     "onDemandSingle": {
-      "target": "2023-07-26T14:00:00Z"
+      "target": "2023-11-03T14:00:00Z"
     },
     "draftDataTypes": {
       "dataType": [
-        "Unknown",
         "MeanDraft",
         "AftDraft",
         "ForwardDraft",

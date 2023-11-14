@@ -1,0 +1,23 @@
+2023-11-13 14:51:52.175 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.disco-test-client-19.q"
+2023-11-13 14:51:54.104 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-13 14:51:54.161 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-11-13 14:51:54.166 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-11-13 14:51:54.219 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-11-13 14:51:54.262 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.disco-test-client-19.q"
+2023-11-13 14:51:54.322 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.disco-test-client-19.q"
+2023-11-13 14:51:56.334 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-13 14:51:56.360 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-11-13 14:51:56.361 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-11-13 14:51:56.395 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-11-13 14:51:56.400 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.get-schedules.response.disco-test-client-19.q"
+2023-11-13 14:51:56.410 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.disco-test-client-19.q"
+2023-11-13 14:51:57.870 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-13 14:51:57.878 +00:00 [INF] Bus "getScheduleResponseBus" started
+2023-11-13 14:51:57.879 +00:00 [INF] Successfully created bus instance RebusBus getScheduleResponseBus (isDefaultBus: false)
+2023-11-13 14:51:57.883 +00:00 [INF] Bus "getScheduleResponseBus" setting number of workers to 1
+2023-11-13 14:51:57.885 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-13 14:51:57.885 +00:00 [INF] Hosting environment: Production
+2023-11-13 14:51:57.885 +00:00 [INF] Content root path: C:\ABS\TestClient\LoadTest
+2023-11-13 14:51:57.902 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-19\OnDemand\disco-test-client-19_OnDemandDraftRangeLocalRequestConfig.json
+2023-11-13 14:51:57.904 +00:00 [INF] Successfully initialized consumer for "cc.disco.get-schedules.response.disco-test-client-19.q"
+2023-11-13 14:51:57.989 +00:00 [INF] Defined as on demand request

@@ -7,11 +7,10 @@
     "requestId": "disco-test-client-6_sa-21122-dsll",
     "destination": "Local",
     "onDemandSingle": {
-      "target": "2023-07-26T14:23:52Z"
+      "target": "2023-11-03T14:23:52Z"
     },
     "locationDataTypes": {
       "dataType": [
-        "Unknown",
         "Latitude",
         "Longitude"
       ]

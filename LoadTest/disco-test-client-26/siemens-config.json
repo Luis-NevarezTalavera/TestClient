@@ -88,6 +88,20 @@
         "discoDataType": "SeaScale",
         "vendorSensorAlias": "Sea_Scale"
       }
+    ],
+    "navigationDataTypeToVendorSensorAliasMapping": [
+      {
+        "discoDataType": "Anchorage",
+        "vendorSensorAlias": ""
+      },
+      {
+        "discoDataType": "Distance",
+        "vendorSensorAlias": ""
+      },
+      {
+        "discoDataType": "Propulsion",
+        "vendorSensorAlias": ""
+      }
     ]
   },
   "discoDataTypeUnitToVendorSensorUnitMapping": [

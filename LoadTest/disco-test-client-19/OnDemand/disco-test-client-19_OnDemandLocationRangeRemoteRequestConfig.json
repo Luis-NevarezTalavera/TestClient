@@ -13,7 +13,6 @@
     },
     "locationDataTypes": {
       "dataType": [
-        "Unknown",
         "Latitude",
         "Longitude"
       ]

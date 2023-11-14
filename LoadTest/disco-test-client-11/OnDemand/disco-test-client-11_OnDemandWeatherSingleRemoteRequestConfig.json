@@ -7,11 +7,10 @@
     "requestId": "disco-test-client-11_sa-21162-dswr",
     "destination": "Remote",
     "onDemandSingle": {
-      "target": "2023-07-26T14:00:00Z"
+      "target": "2023-11-03T14:00:00Z"
     },
     "weatherDataTypes": {
       "dataType": [
-        "Unknown",
         "WetTemperature",
         "DryTemperature",
         "RelativeWindSpeed",

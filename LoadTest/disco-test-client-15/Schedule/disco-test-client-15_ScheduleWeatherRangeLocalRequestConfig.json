@@ -15,7 +15,6 @@
     },
     "weatherDataTypes": {
       "dataType": [
-        "Unknown",
         "WetTemperature",
         "DryTemperature",
         "RelativeWindSpeed",

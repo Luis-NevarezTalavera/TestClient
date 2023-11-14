@@ -13,7 +13,6 @@
     },
     "draftDataTypes": {
       "dataType": [
-        "Unknown",
         "MeanDraft",
         "AftDraft",
         "ForwardDraft",
