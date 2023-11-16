@@ -5,6 +5,10 @@
             "vendor": "Siemens"
         },
         {
+            "datatype": "Location",
+            "vendor": "Siemens"
+        },
+        {
             "datatype": "Weather",
             "vendor": "Siemens"
         },

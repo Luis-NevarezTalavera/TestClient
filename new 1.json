@@ -1,50 +1,51 @@
-c:\ABS\cc-platform\logs\site>for /l %i in (9,-1,0) do grep "Hangfire" disco-service-2023-10-2%i_*.log | grep "warn" | wc -l
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-26_*.log   | grep "warn"   | wc -l
-24
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-23_*.log   | grep "warn"   | wc -l
-32
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-20_*.log   | grep "warn"   | wc -l
-31
-
-c:\ABS\cc-platform\logs\site>for /l %i in (9,-1,0) do grep "Hangfire" disco-service-2023-10-1%i_*.log | grep "warn" | wc -l
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-19_*.log   | grep "warn"   | wc -l
-6
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-13_*.log   | grep "warn"   | wc -l
-2
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-12_*.log   | grep "warn"   | wc -l
-0
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-11_*.log   | grep "warn"   | wc -l
-0
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-10_*.log   | grep "warn"   | wc -l
-0
-
-c:\ABS\cc-platform\logs\site>for /l %i in (9,-1,0) do grep "Hangfire" disco-service-2023-10-0%i_*.log | grep "warn" | wc -l
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-09_*.log   | grep "warn"   | wc -l
-0
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-07_*.log   | grep "warn"   | wc -l
-0
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-06_*.log   | grep "warn"   | wc -l
-0
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-05_*.log   | grep "warn"   | wc -l
-0
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-04_*.log   | grep "warn"   | wc -l
-0
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-03_*.log   | grep "warn"   | wc -l
-0
-
-c:\ABS\cc-platform\logs\site>grep "Hangfire" disco-service-2023-10-02_*.log   | grep "warn"   | wc -l
-0
+{
+    "continue": false,
+    "dataPointCollections": [
+        {
+            "dataPoints": [
+                {
+                    "timestamp": "2023-11-15T16:30:11.680850600Z",
+                    "unit": "NewtonMeter",
+                    "value": 102872.937620807
+                }
+            ],
+            "navigationDataType": "Distance"
+        },
+        {
+            "dataPoints": [
+                {
+                    "timestamp": "2023-11-15T16:30:11.681391400Z",
+                    "unit": "Hours",
+                    "value": 99.25
+                }
+            ],
+            "navigationDataType": "Anchorage"
+        },
+        {
+            "dataPoints": [
+                {
+                    "timestamp": "2023-11-15T16:30:11.681523700Z",
+                    "unit": "Hours",
+                    "value": 37861.56789679
+                }
+            ],
+            "navigationDataType": "Propulsion"
+        }
+    ],
+    "destination": "Local",
+    "executed": "2023-11-15T16:29:52.517688200Z",
+    "navigationDataTypes": {
+        "dataType": [
+            "Anchorage",
+            "Distance",
+            "Propulsion"
+        ]
+    },
+    "onDemandRange": {
+        "end": "2023-11-08T14:00:00Z",
+        "intervalMilliseconds": "3600000",
+        "start": "2023-11-05T14:00:00Z"
+    },
+    "page": 1,
+    "requestId": "disco-test-client_sa-22054_dnrl"
+}

@@ -1,0 +1,25 @@
+﻿{
+  "DestinationQueue": "cc.disco.data.request.q",
+  "NSamples": 1,
+  "SamplingIntervalInMs": 1,
+  "RequestType": "OnDemand",
+  "Request": {
+    "requestId": "disco-test-client_sa-22054-drnr",
+    "destination": "Remote",
+    "onDemandRange": {
+      "start": "2023-11-08T14:00:00Z",
+      "end": "2023-11-09T14:00:00Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "navigationDataTypes": {
+      "dataType": [
+        "Anchorage",
+        "Distance",
+        "Propulsion"
+      ]
+    }
+  },
+  "Headers": {
+    "cc.disco.client": "disco-test-client"
+  }
+}
