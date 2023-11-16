@@ -4,10 +4,10 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "OnDemand",
   "Request": {
-    "requestId": "disco-test-client_sa-22054-dsnr",
-    "destination": "Remote",
+    "requestId": "disco-test-client_sa-22054-dsnl-neg",
+    "destination": "Local",
     "onDemandSingle": {
-      "target": "2023-11-11T14:00:00Z"
+      "target": "2023-11-10T14:00:00Z"
     },
     "navigationDataTypes": {
       "dataType": [
