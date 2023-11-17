@@ -1,26 +1,23 @@
 ﻿{
-  "DestinationQueue": "cc.disco.create-schedule.request.q",
+  "DestinationQueue": "cc.disco.data.request.q",
   "NSamples": 1,
   "SamplingIntervalInMs": 1,
   "RequestType": "CreateSchedule",
   "Request": {
-    "requestId": "disco-test-client_sa-20359-sdrl",
-    "scheduleId": "disco-test-client_sa-20359-sdrl",
-    "destination": "Local",
+    "requestId": "disco-test-client_sa-22054-snrr",
+    "scheduleId": "disco-test-client_sa-22054-snrr",
+    "destination": "Remote",
     "scheduleRange": {
       "cronExpression": "0/5 * * ? ?",
       "start": "23:59:59.999",
       "end": "00:00:00.000",
       "intervalMilliseconds": "360000"
     },
-    "draftDataTypes": {
+    "navigationDataTypes": {
       "dataType": [
-        "MeanDraft",
-        "AftDraft",
-        "ForwardDraft",
-        "MidshipDraftPort",
-        "MidshipDraftStarboard",
-        "Trim"
+        "Anchorage",
+        "Distance",
+        "Propulsion"
       ]
     }
   },

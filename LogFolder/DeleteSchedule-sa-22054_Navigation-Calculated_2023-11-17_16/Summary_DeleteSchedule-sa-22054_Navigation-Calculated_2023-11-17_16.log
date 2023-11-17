@@ -1,0 +1,26 @@
+++--- Summary for Test:	DeleteSchedule-sa-22054_Navigation-Calculated_2023-11-17_16 ---++ 
+Start Date-Time:	Fri 11/17/2023 16:49:53.13 
+----------------------------------------------------------------------- 
+ 
+Handling files:	42
+negative TCs:	12
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests:	0
+DiscoGetSchedulesRequests:	6
+DiscoDeleteScheduleRequests:	36
+DiscoDataRequests:	0
+ 
+--- Responses --- 
+DiscoScheduleResponses with scheduleIds:	33
+DiscoGetSchedulesResponses with scheduleIds:	4
+DiscoDataResponses with values:	122
+ 
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT:	0
+TestRun.log Warnings, Errors:	0
+disco-service.log Warnings, Errors:	75
+siemens-adapter.log Warnings, Errors:	2
+ 
+----------------------------------------------------------------------- 
+End Date-Time:	Fri 11/17/2023 16:51:59.86    

@@ -1,0 +1,26 @@
+++--- Summary for Test:	Schedule-sa-22054_Navigation-Calculated_2023-11-17_16 ---++ 
+Start Date-Time:	Fri 11/17/2023 16:46:13.00 
+----------------------------------------------------------------------- 
+ 
+Handling files:	24
+negative TCs:	8
+ 
+--- Requests --- 
+DiscoCreateScheduleRequests:	24
+DiscoGetSchedulesRequests:	0
+DiscoDeleteScheduleRequests:	0
+DiscoDataRequests:	0
+ 
+--- Responses --- 
+DiscoScheduleResponses with scheduleIds:	12
+DiscoGetSchedulesResponses with scheduleIds:	0
+DiscoDataResponses with values:	33
+ 
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT:	4
+TestRun.log Warnings, Errors:	0
+disco-service.log Warnings, Errors:	72
+siemens-adapter.log Warnings, Errors:	2
+ 
+----------------------------------------------------------------------- 
+End Date-Time:	Fri 11/17/2023 16:48:20.81    
