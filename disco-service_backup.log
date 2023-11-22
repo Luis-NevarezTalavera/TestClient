@@ -1,0 +1,7 @@
+Wed 11/22/2023 15:59:53.36 
+{"Timestamp":"2023-11-22 15:59:55Z","EventId":0,"LogLevel":"Information","Category":"Abs.CommonCore.Disco.Console.Program","Message":"Importing RabbitMQ certificates...","State":{"Message":"Importing RabbitMQ certificates...","{OriginalFormat}":"Importing RabbitMQ certificates..."},"Scopes":[]}
+Unhandled exception. System.Exception: Certificate path environment variable (RABBITMQ_LOCAL_CERT_PATH) not found
+   at Abs.CommonCore.Platform.Certificates.CertificateImporter.ImportCertificateFromEnvironmentVariables(ILogger logger, String pathEnvironmentVariable, String passwordEnvironmentVariable)
+   at Abs.CommonCore.Platform.Certificates.CertificateImporter.ImportLocalRabbitCertificates(ILogger logger, String pathEnvironmentVariable, String passwordEnvironmentVariable)
+   at Abs.CommonCore.Disco.Console.Program.Run(Action`1 setupHost, Action`1 overrideHost, String[] args, CancellationToken token) in C:\app\service\Console\Program.cs:line 41
+   at Abs.CommonCore.Disco.Console.Program.<Main>(String[] args)

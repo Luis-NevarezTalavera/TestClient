@@ -3,8 +3,8 @@
   "NSamples": 1,
   "SamplingIntervalInMs": 1,
   "Request": {
-    "requestId": "disco-test-client_sa-20359-snrl",
-    "scheduleId": "disco-test-client_sa-20359-snrl"
+    "requestId": "disco-test-client_sa-22054-snrl",
+    "scheduleId": "disco-test-client_sa-22054-snrl"
   },
   "Headers": {
     "cc.disco.client": "disco-test-client"

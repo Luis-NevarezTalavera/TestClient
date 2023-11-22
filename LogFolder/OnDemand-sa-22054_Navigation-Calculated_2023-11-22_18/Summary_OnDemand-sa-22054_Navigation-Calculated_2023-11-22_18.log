@@ -1,0 +1,22 @@
+++--- Summary for Test:	OnDemand-sa-22054_Navigation-Calculated_2023-11-22_18	---++ 
+Start Date-Time:	Wed 11/22/2023 18:11:16.23 
+----------------------------------------------------------------------- 
+Handling files:	23
+negative TCs:	7
+--- Requests --- 
+DiscoCreateScheduleRequests:	0
+DiscoGetSchedulesRequests:	0
+DiscoDeleteScheduleRequests:	0
+DiscoDataRequests:	23
+--- Responses --- 
+DiscoScheduleResponses with scheduleIds:	0
+DiscoGetSchedulesResponses with scheduleIds:	0
+DiscoDataResponses with values:	17
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT:	3
+TestRun.log Warnings, Errors:	0
+disco-service.log Warnings, Errors:	12
+siemens-adapter.log Warnings, Errors:	2
+ 
+----------------------------------------------------------------------- 
+End Date-Time:	Wed 11/22/2023 18:13:26.55    
