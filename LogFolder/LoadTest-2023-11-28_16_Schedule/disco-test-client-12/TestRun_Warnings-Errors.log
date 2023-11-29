@@ -1,0 +1,4 @@
+2023-11-28 18:07:54.265 +00:00 [INF] DiscoDataResponse Received message: { "error": { "code": "INTERNAL", "message": "MessageProcessor ProcessMessageAsync Unhandled Exception" }, "dataPointCollections": [ ], "page": 0, "continue": false }
+2023-11-28 18:19:03.064 +00:00 [INF] DiscoDataResponse Received message: { "error": { "code": "INTERNAL", "message": "MessageProcessor ProcessMessageAsync Unhandled Exception" }, "dataPointCollections": [ ], "page": 0, "continue": false }
+2023-11-28 18:25:01.694 +00:00 [INF] DiscoDataResponse Received message: { "error": { "code": "INTERNAL", "message": "MessageProcessor ProcessMessageAsync Unhandled Exception" }, "dataPointCollections": [ ], "page": 0, "continue": false }
+2023-11-28 18:37:42.567 +00:00 [INF] DiscoDataResponse Received message: { "error": { "code": "INTERNAL", "message": "MessageProcessor ProcessMessageAsync Unhandled Exception" }, "dataPointCollections": [ ], "page": 0, "continue": false }

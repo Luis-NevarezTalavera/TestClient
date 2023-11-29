@@ -1,0 +1,25 @@
+﻿{
+    "datasetToVendorMapping": [
+        {
+            "datatype": "Draft",
+            "vendor": "Siemens"
+        },
+        {
+            "datatype": "Location",
+            "vendor": "Siemens"
+        },
+        {
+            "datatype": "Weather",
+            "vendor": "Siemens"
+        },
+        {
+            "datatype": "Fuel",
+            "vendor": "Siemens"
+        },
+        {
+            "datatype": "Navigation",
+            "vendor": "Siemens"
+        }
+    ],
+    "key": "disco-test-client-50"
+}

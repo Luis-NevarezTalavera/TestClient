@@ -1,0 +1,21 @@
+++--- Summary for Test:	LoadTest-2023-11-28_19_Schedule_disco-test-client-9	---++ 
+Start Date-Time 1:	Tue 11/28/2023 19:37:21.16 
+----------------------------------------------------------------------- 
+Handling files:	12
+negative TCs:	0
+--- Requests --- 
+DiscoCreateScheduleRequests:	12
+DiscoGetSchedulesRequests:	0
+DiscoDeleteScheduleRequests:	0
+DiscoDataRequests:	0
+--- Responses --- 
+DiscoScheduleResponses with scheduleIds:	18
+DiscoGetSchedulesResponses with scheduleIds:	0
+DiscoDataResponses with values:	185
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT:	0
+TestRun.log Warnings, Errors:	1
+disco-service.log Warnings, Errors:	66
+siemens-adapter.log Warnings, Errors:	96
+ 
+----------------------------------------------------------------------- 

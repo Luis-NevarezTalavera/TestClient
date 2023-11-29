@@ -1,0 +1,12 @@
+﻿{
+  "RequestType": "DeleteSchedule",
+  "NSamples": 1,
+  "SamplingIntervalInMs": 1,
+  "Request": {
+    "requestId": "disco-test-client-42_sa-20359-slsl",
+    "scheduleId": "disco-test-client-42_sa-20359-slsl"
+  },
+  "Headers": {
+    "cc.disco.client": "disco-test-client-42"
+  }
+}

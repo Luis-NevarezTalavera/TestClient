@@ -1,0 +1,24 @@
+﻿{
+  "DestinationQueue": "cc.disco.data.request.q",
+  "NSamples": 1,
+  "SamplingIntervalInMs": 1,
+  "RequestType": "OnDemand",
+  "Request": {
+    "requestId": "disco-test-client-54_sa-21122-drll",
+    "destination": "Local",
+    "onDemandRange": {
+      "start": "2023-11-03T14:23:52Z",
+      "end": "2023-11-04T14:23:52Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  },
+  "Headers": {
+    "cc.disco.client":  "disco-test-client-54"
+  }
+}

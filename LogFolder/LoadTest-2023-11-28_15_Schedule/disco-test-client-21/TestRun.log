@@ -1,0 +1,330 @@
+2023-11-28 15:43:00.333 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.disco-test-client-21.q"
+2023-11-28 15:43:02.337 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-28 15:43:02.379 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-11-28 15:43:02.384 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-11-28 15:43:02.429 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-11-28 15:43:02.467 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.disco-test-client-21.q"
+2023-11-28 15:43:02.504 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.disco-test-client-21.q"
+2023-11-28 15:43:03.924 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-28 15:43:03.974 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-11-28 15:43:03.974 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-11-28 15:43:04.025 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-11-28 15:43:04.078 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.get-schedules.response.disco-test-client-21.q"
+2023-11-28 15:43:04.129 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.disco-test-client-21.q"
+2023-11-28 15:43:05.571 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-11-28 15:43:05.590 +00:00 [INF] Bus "getScheduleResponseBus" started
+2023-11-28 15:43:05.590 +00:00 [INF] Successfully created bus instance RebusBus getScheduleResponseBus (isDefaultBus: false)
+2023-11-28 15:43:05.627 +00:00 [INF] Bus "getScheduleResponseBus" setting number of workers to 1
+2023-11-28 15:43:05.655 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-28 15:43:05.655 +00:00 [INF] Hosting environment: Production
+2023-11-28 15:43:05.655 +00:00 [INF] Content root path: C:\ABS\TestClient\LoadTest
+2023-11-28 15:43:05.673 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleDraftRangeLocalRequestConfig.json
+2023-11-28 15:43:05.712 +00:00 [INF] Successfully initialized consumer for "cc.disco.get-schedules.response.disco-test-client-21.q"
+2023-11-28 15:43:05.807 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:06.043 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-sdrl",
+    "scheduleId": "disco-test-client-21_sa-20359-sdrl",
+    "destination": "Local",
+    "scheduleRange": {
+      "cronExpression": "0/5 * * ? ?",
+      "start": "23:59:59.999",
+      "end": "00:00:00.000",
+      "intervalMilliseconds": "360000"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-28 15:43:06.062 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-64-72-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-64-72-6C-20-01-D2-3E-2D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-12-0C-32-33-3A-35-39-3A-35-39-2E-39-39-39-1A-0C-30-30-3A-30-30-3A-30-30-2E-30-30-30-20-C0-FC-15-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-28 15:43:06.069 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-11-28 15:43:07.588 +00:00 [INF] Bus "createScheduleBus" started
+2023-11-28 15:43:07.746 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:07.758 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleDraftRangeLocalRequestConfig.json handling has been finished.
+2023-11-28 15:43:07.758 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleDraftRangeRemoteRequestConfig.json
+2023-11-28 15:43:07.778 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:07.779 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-sdrr",
+    "scheduleId": "disco-test-client-21_sa-20359-sdrr",
+    "destination": "Remote",
+    "scheduleRange": {
+      "cronExpression": "0/5 * * ? ?",
+      "start": "23:59:59.999",
+      "end": "00:00:00.000",
+      "intervalMilliseconds": "360000"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-28 15:43:07.779 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-64-72-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-64-72-72-20-02-D2-3E-2D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-12-0C-32-33-3A-35-39-3A-35-39-2E-39-39-39-1A-0C-30-30-3A-30-30-3A-30-30-2E-30-30-30-20-C0-FC-15-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-28 15:43:07.792 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:07.802 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleDraftRangeRemoteRequestConfig.json handling has been finished.
+2023-11-28 15:43:07.802 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleDraftSingleLocalRequestConfig.json
+2023-11-28 15:43:07.828 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:07.829 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-sdsl",
+    "scheduleId": "disco-test-client-21_sa-20359-sdsl",
+    "destination": "Local",
+    "scheduleSingle": {
+      "cronExpression": "0/5 * * ? ?"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-28 15:43:07.830 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-64-73-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-64-73-6C-20-01-CA-3E-0D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-28 15:43:07.846 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:08.911 +00:00 [INF] Binary is sent 2-st time
+2023-11-28 15:43:09.926 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleDraftSingleLocalRequestConfig.json handling has been finished.
+2023-11-28 15:43:09.926 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleDraftSingleRemoteRequestConfig.json
+2023-11-28 15:43:09.977 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:09.977 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-sdsr",
+    "scheduleId": "disco-test-client-21_sa-20359-sdsr",
+    "destination": "Remote",
+    "scheduleSingle": {
+      "cronExpression": "0/5 * * ? ?"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-11-28 15:43:09.977 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-64-73-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-64-73-72-20-02-CA-3E-0D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-11-28 15:43:10.064 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:11.086 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleDraftSingleRemoteRequestConfig.json handling has been finished.
+2023-11-28 15:43:11.086 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleLocationRangeLocalRequestConfig.json
+2023-11-28 15:43:11.124 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:11.126 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-slrl",
+    "scheduleId": "disco-test-client-21_sa-20359-slrl",
+    "destination": "Local",
+    "scheduleRange": {
+      "cronExpression": "0/5 * * ? ?",
+      "start": "23:59:59.999",
+      "end": "00:00:00.000",
+      "intervalMilliseconds": "360000"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-28 15:43:11.129 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-6C-72-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-6C-72-6C-20-01-D2-3E-2D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-12-0C-32-33-3A-35-39-3A-35-39-2E-39-39-39-1A-0C-30-30-3A-30-30-3A-30-30-2E-30-30-30-20-C0-FC-15-92-7D-04-0A-02-01-02
+2023-11-28 15:43:11.233 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:11.255 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleLocationRangeLocalRequestConfig.json handling has been finished.
+2023-11-28 15:43:11.255 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleLocationRangeRemoteRequestConfig.json
+2023-11-28 15:43:11.308 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:11.308 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-slrr",
+    "scheduleId": "disco-test-client-21_sa-20359-slrr",
+    "destination": "Remote",
+    "scheduleRange": {
+      "cronExpression": "0/5 * * ? ?",
+      "start": "23:59:59.999",
+      "end": "00:00:00.000",
+      "intervalMilliseconds": "360000"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-28 15:43:11.308 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-6C-72-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-6C-72-72-20-02-D2-3E-2D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-12-0C-32-33-3A-35-39-3A-35-39-2E-39-39-39-1A-0C-30-30-3A-30-30-3A-30-30-2E-30-30-30-20-C0-FC-15-92-7D-04-0A-02-01-02
+2023-11-28 15:43:11.365 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:11.384 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleLocationRangeRemoteRequestConfig.json handling has been finished.
+2023-11-28 15:43:11.384 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleLocationSingleLocalRequestConfig.json
+2023-11-28 15:43:11.431 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:11.431 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-slsl",
+    "scheduleId": "disco-test-client-21_sa-20359-slsl",
+    "destination": "Local",
+    "scheduleSingle": {
+      "cronExpression": "0/5 * * ? ?"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-28 15:43:11.431 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-6C-73-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-6C-73-6C-20-01-CA-3E-0D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-92-7D-04-0A-02-01-02
+2023-11-28 15:43:11.447 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:11.459 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleLocationSingleLocalRequestConfig.json handling has been finished.
+2023-11-28 15:43:11.459 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleLocationSingleRemoteRequestConfig.json
+2023-11-28 15:43:11.487 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:11.487 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-slsr",
+    "scheduleId": "disco-test-client-21_sa-20359-slsr",
+    "destination": "Remote",
+    "scheduleSingle": {
+      "cronExpression": "0/5 * * ? ?"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  }
+2023-11-28 15:43:11.488 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-6C-73-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-6C-73-72-20-02-CA-3E-0D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-92-7D-04-0A-02-01-02
+2023-11-28 15:43:11.516 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:11.529 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleLocationSingleRemoteRequestConfig.json handling has been finished.
+2023-11-28 15:43:11.529 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleWeatherRangeLocalRequestConfig.json
+2023-11-28 15:43:11.567 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:11.569 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-swrl",
+    "scheduleId": "disco-test-client-21_sa-20359-swrl",
+    "destination": "Local",
+    "scheduleRange": {
+      "cronExpression": "0/5 * * ? ?",
+      "start": "23:59:59.999",
+      "end": "00:00:00.000",
+      "intervalMilliseconds": "360000"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-28 15:43:11.574 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-77-72-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-77-72-6C-20-01-D2-3E-2D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-12-0C-32-33-3A-35-39-3A-35-39-2E-39-39-39-1A-0C-30-30-3A-30-30-3A-30-30-2E-30-30-30-20-C0-FC-15-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-28 15:43:11.601 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:11.616 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleWeatherRangeLocalRequestConfig.json handling has been finished.
+2023-11-28 15:43:11.616 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleWeatherRangeRemoteRequestConfig.json
+2023-11-28 15:43:11.665 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:11.666 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-swrr",
+    "scheduleId": "disco-test-client-21_sa-20359-swrr",
+    "destination": "Remote",
+    "scheduleRange": {
+      "cronExpression": "0/5 * * ? ?",
+      "start": "23:59:59.999",
+      "end": "00:00:00.000",
+      "intervalMilliseconds": "360000"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-28 15:43:11.668 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-77-72-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-77-72-72-20-02-D2-3E-2D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-12-0C-32-33-3A-35-39-3A-35-39-2E-39-39-39-1A-0C-30-30-3A-30-30-3A-30-30-2E-30-30-30-20-C0-FC-15-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-28 15:43:11.699 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:11.716 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleWeatherRangeRemoteRequestConfig.json handling has been finished.
+2023-11-28 15:43:11.717 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleWeatherSingleLocalRequestConfig.json
+2023-11-28 15:43:11.737 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:11.737 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-swsl",
+    "scheduleId": "disco-test-client-21_sa-20359-swsl",
+    "destination": "Local",
+    "scheduleSingle": {
+      "cronExpression": "0/5 * * ? ?"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-28 15:43:11.737 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-77-73-6C-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-77-73-6C-20-01-CA-3E-0D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-28 15:43:11.753 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:11.760 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleWeatherSingleLocalRequestConfig.json handling has been finished.
+2023-11-28 15:43:11.760 +00:00 [INF] Handling file C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleWeatherSingleRemoteRequestConfig.json
+2023-11-28 15:43:11.790 +00:00 [INF] Defined as create schedule request
+2023-11-28 15:43:11.791 +00:00 [INF] Created DiscoCreateScheduleRequest object with payload: {
+    "requestId": "disco-test-client-21_sa-20359-swsr",
+    "scheduleId": "disco-test-client-21_sa-20359-swsr",
+    "destination": "Remote",
+    "scheduleSingle": {
+      "cronExpression": "0/5 * * ? ?"
+    },
+    "weatherDataTypes": {
+      "dataType": [
+        "WetTemperature",
+        "DryTemperature",
+        "RelativeWindSpeed",
+        "TrueWindDirection",
+        "SeaWaterTemperature",
+        "SeaWaterDepth",
+        "AirPressure",
+        "RelativeHumidity",
+        "Swell",
+        "SeaScale"
+      ]
+    }
+  }
+2023-11-28 15:43:11.791 +00:00 [INF] Sending binary: 0A-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-77-73-72-12-22-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-2D-32-31-5F-73-61-2D-32-30-33-35-39-2D-73-77-73-72-20-02-CA-3E-0D-0A-0B-30-2F-35-20-2A-20-2A-20-3F-20-3F-A2-7D-0C-0A-0A-01-02-04-05-06-07-08-09-0A-0B
+2023-11-28 15:43:11.801 +00:00 [INF] Binary is sent 1-th time
+2023-11-28 15:43:11.805 +00:00 [INF] File C:\ABS\TestClient\LoadTest\disco-test-client-21\Schedule\disco-test-client-21_ScheduleWeatherSingleRemoteRequestConfig.json handling has been finished.
+2023-11-28 15:43:48.547 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-sdrl", "scheduleId": "disco-test-client-21_sa-20359-sdrl", "executed": "2023-11-28T15:43:48.145864300Z" }
+2023-11-28 15:43:48.935 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-sdrr", "scheduleId": "disco-test-client-21_sa-20359-sdrr", "executed": "2023-11-28T15:43:48.679388800Z" }
+2023-11-28 15:43:49.284 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-sdsl", "scheduleId": "disco-test-client-21_sa-20359-sdsl", "executed": "2023-11-28T15:43:48.938062600Z" }
+2023-11-28 15:43:53.850 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-sdsr", "scheduleId": "disco-test-client-21_sa-20359-sdsr", "executed": "2023-11-28T15:43:53.600873900Z" }
+2023-11-28 15:43:54.966 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-slrl", "scheduleId": "disco-test-client-21_sa-20359-slrl", "executed": "2023-11-28T15:43:54.689328400Z" }
+2023-11-28 15:43:55.217 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-slrr", "scheduleId": "disco-test-client-21_sa-20359-slrr", "executed": "2023-11-28T15:43:54.972187500Z" }
+2023-11-28 15:43:55.757 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-slsl", "scheduleId": "disco-test-client-21_sa-20359-slsl", "executed": "2023-11-28T15:43:55.493347900Z" }
+2023-11-28 15:43:56.334 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-slsr", "scheduleId": "disco-test-client-21_sa-20359-slsr", "executed": "2023-11-28T15:43:56.106169200Z" }
+2023-11-28 15:43:56.892 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-swrl", "scheduleId": "disco-test-client-21_sa-20359-swrl", "executed": "2023-11-28T15:43:56.598210200Z" }
+2023-11-28 15:43:57.165 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-swrr", "scheduleId": "disco-test-client-21_sa-20359-swrr", "executed": "2023-11-28T15:43:56.897616100Z" }
+2023-11-28 15:43:57.381 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-swsl", "scheduleId": "disco-test-client-21_sa-20359-swsl", "executed": "2023-11-28T15:43:57.171837400Z" }
+2023-11-28 15:43:57.871 +00:00 [INF] DiscoScheduleResponse Received message: { "requestId": "disco-test-client-21_sa-20359-swsr", "scheduleId": "disco-test-client-21_sa-20359-swsr", "executed": "2023-11-28T15:43:57.643207500Z" }

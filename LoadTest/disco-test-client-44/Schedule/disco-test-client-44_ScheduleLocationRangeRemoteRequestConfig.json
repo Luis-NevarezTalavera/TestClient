@@ -1,0 +1,26 @@
+﻿{
+  "DestinationQueue": "cc.disco.create-schedule.request.q",
+  "NSamples": 1,
+  "SamplingIntervalInMs": 1,
+  "RequestType": "CreateSchedule",
+  "Request": {
+    "requestId": "disco-test-client-44_sa-20359-slrr",
+    "scheduleId": "disco-test-client-44_sa-20359-slrr",
+    "destination": "Remote",
+    "scheduleRange": {
+      "cronExpression": "0/5 * * ? ?",
+      "start": "23:59:59.999",
+      "end": "00:00:00.000",
+      "intervalMilliseconds": "360000"
+    },
+    "locationDataTypes": {
+      "dataType": [
+        "Latitude",
+        "Longitude"
+      ]
+    }
+  },
+  "Headers": {
+    "cc.disco.client": "disco-test-client-44"
+  }
+}
