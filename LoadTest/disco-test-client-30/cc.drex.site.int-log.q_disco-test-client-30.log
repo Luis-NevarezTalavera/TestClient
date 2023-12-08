@@ -1,0 +1,27 @@
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Wed 12/06/2023 Time: 23:03:45.50, Max qty of messages: 10 ---
++------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|  EXCHANGE  |      ROUTING KEY       |                                                                                                               BODY                                                                                                               |
++------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"94d949d09eed","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing |
+|            |                        | AMQP connection <0.18838.8> (10.1.162.77:60897 -> 172.16.239.216:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                   |
+|            |                        | connection","pid":"<0.18838.8>"},"stream":"stdout","timestamp":"2023-12-06T23:03:42.961886600Z"}                                                                                                                                 |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"94d949d09eed","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing |
+|            |                        | AMQP connection <0.18878.8> (10.1.162.77:60899 -> 172.16.239.216:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                   |
+|            |                        | connection","pid":"<0.18878.8>"},"stream":"stdout","timestamp":"2023-12-06T23:03:42.961886600Z"}                                                                                                                                 |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"94d949d09eed","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing |
+|            |                        | AMQP connection <0.18918.8> (10.1.162.77:60901 -> 172.16.239.216:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                   |
+|            |                        | connection","pid":"<0.18918.8>"},"stream":"stdout","timestamp":"2023-12-06T23:03:42.961886600Z"}                                                                                                                                 |
+| cc.drex.ed | cc.drex.site.int-log.q | {"container_id":"94d949d09eed","container_name":"rabbitmq-local","container_type":"infrastructure","image":"ghcr.io/abs-wavesight/rabbitmq:windows-2019","level":"warn","message":{"domain":"rabbitmq.connection","msg":"closing |
+|            |                        | AMQP connection <0.18958.8> (10.1.162.77:60904 -> 172.16.239.216:5671, vhost: '/', user: 'disco-test-client'):\nclient unexpectedly closed TCP                                                                                   |
+|            |                        | connection","pid":"<0.18958.8>"},"stream":"stdout","timestamp":"2023-12-06T23:03:42.961886600Z"}                                                                                                                                 |
++------------+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Thu 12/07/2023 Time: 22:17:10.00, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+
+--- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Thu 12/07/2023 Time: 22:54:20.23, Max qty of messages: 10 ---
++----------+-------------+------+
+| EXCHANGE | ROUTING KEY | BODY |
++----------+-------------+------+
++----------+-------------+------+

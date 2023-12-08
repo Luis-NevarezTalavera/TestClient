@@ -1,7 +1,0 @@
-2023-11-13 14:51:43.941 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.disco-test-client-11.q"
-2023-11-13 14:51:45.588 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
-2023-11-13 14:51:45.602 +00:00 [INF] Bus "onDemandDataResponseBus" started
-2023-11-13 14:51:45.607 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
-2023-11-13 14:51:45.654 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
-2023-11-13 14:51:45.689 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.disco-test-client-11.q"
-2023-11-13 14:51:45.732 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.disco-test-client-11.q"

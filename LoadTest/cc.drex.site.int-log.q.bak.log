@@ -1,5 +1,0 @@
---- Getting localhost Rabbit-MQ messages from queue: cc.drex.site.int-log.q, Logged as user: guest, Date: Sat 11/04/2023 Time: 17:44:54.23, Max qty of messages: 200 ---
-+----------+-------------+------+
-| EXCHANGE | ROUTING KEY | BODY |
-+----------+-------------+------+
-+----------+-------------+------+
