@@ -8,7 +8,7 @@
     "Username": "disco-test-client",
     "Password": "disco-test-client"
   },
-  "CloseAppTimeOutSeconds": 285,
+  "CloseAppTimeOutSeconds": 1080,
   "scheduleCreationBus": {
     "busName": "createScheduleBus",
     "directExchangeName": "cc.disco.ed",
