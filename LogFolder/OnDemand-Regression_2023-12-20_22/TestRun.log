@@ -1,0 +1,89 @@
+2023-12-20 22:31:56.084 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.data.response.disco-test-client.q"
+2023-12-20 22:31:58.002 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-12-20 22:31:58.025 +00:00 [INF] Bus "onDemandDataResponseBus" started
+2023-12-20 22:31:58.030 +00:00 [INF] Successfully created bus instance RebusBus onDemandDataResponseBus (isDefaultBus: false)
+2023-12-20 22:31:58.053 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 1
+2023-12-20 22:31:58.059 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.schedule.response.disco-test-client.q"
+2023-12-20 22:31:58.079 +00:00 [INF] Successfully initialized consumer for "cc.disco.data.response.disco-test-client.q"
+2023-12-20 22:31:59.113 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-12-20 22:31:59.117 +00:00 [INF] Bus "scheduleResponseBus" started
+2023-12-20 22:31:59.117 +00:00 [INF] Successfully created bus instance RebusBus scheduleResponseBus (isDefaultBus: false)
+2023-12-20 22:31:59.124 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 1
+2023-12-20 22:31:59.125 +00:00 [INF] Initializing RabbitMQ connection manager for transport with input queue "cc.disco.get-schedules.response.disco-test-client.q"
+2023-12-20 22:31:59.128 +00:00 [INF] Successfully initialized consumer for "cc.disco.schedule.response.disco-test-client.q"
+2023-12-20 22:32:00.348 +00:00 [INF] Starting periodic task "CleanupTrackedErrors" with interval 00:00:10
+2023-12-20 22:32:00.355 +00:00 [INF] Bus "getScheduleResponseBus" started
+2023-12-20 22:32:00.355 +00:00 [INF] Successfully created bus instance RebusBus getScheduleResponseBus (isDefaultBus: false)
+2023-12-20 22:32:00.374 +00:00 [INF] Bus "getScheduleResponseBus" setting number of workers to 1
+2023-12-20 22:32:00.382 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-20 22:32:00.382 +00:00 [INF] Hosting environment: Production
+2023-12-20 22:32:00.382 +00:00 [INF] Content root path: c:\ABS\TestClient
+2023-12-20 22:32:00.400 +00:00 [INF] Handling file TestClientRequests\OnDemand\OnDemandDraftRangeLocalRequestConfig.json
+2023-12-20 22:32:00.456 +00:00 [INF] Successfully initialized consumer for "cc.disco.get-schedules.response.disco-test-client.q"
+2023-12-20 22:32:00.633 +00:00 [INF] Defined as on demand request
+2023-12-20 22:32:00.871 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client_sa-22056-drdl",
+    "destination": "Local",
+    "onDemandRange": {
+      "start": "2023-07-24T14:00:00Z",
+      "end": "2023-07-31T14:00:00Z",
+      "intervalMilliseconds": "3600000"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-12-20 22:32:00.941 +00:00 [INF] Sending binary: 0A-1F-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-5F-73-61-2D-32-32-30-35-36-2D-64-72-64-6C-10-01-D2-3E-15-0A-06-08-E0-87-FA-A5-06-12-06-08-E0-FC-9E-A6-06-18-80-DD-DB-01-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-12-20 22:32:00.947 +00:00 [INF] Initializing RabbitMQ connection manager for one-way transport
+2023-12-20 22:32:02.264 +00:00 [INF] Bus "onDemandRequestBus" started
+2023-12-20 22:32:02.510 +00:00 [INF] Binary is sent 1-th time
+2023-12-20 22:32:03.522 +00:00 [INF] Binary is sent 2-st time
+2023-12-20 22:32:04.532 +00:00 [INF] Bus "getScheduleResponseBus" setting number of workers to 0
+2023-12-20 22:32:04.551 +00:00 [INF] File TestClientRequests\OnDemand\OnDemandDraftRangeLocalRequestConfig.json handling has been finished.
+2023-12-20 22:32:04.552 +00:00 [INF] Handling file TestClientRequests\OnDemand\OnDemandDraftRangeLocalRequestConfig_neg.json
+2023-12-20 22:32:04.586 +00:00 [INF] Defined as on demand request
+2023-12-20 22:32:04.587 +00:00 [INF] Created DiscoDataRequest object with payload: {
+    "requestId": "disco-test-client_sa-22056-drdl-neg",
+    "destination": "Local",
+    "onDemandRange": {
+      "start": "2023-07-24T14:00:00Z",
+      "end": "2023-07-31T14:00:00Z",
+      "intervalMilliseconds": "60000"
+    },
+    "draftDataTypes": {
+      "dataType": [
+        "MeanDraft",
+        "AftDraft",
+        "ForwardDraft",
+        "MidshipDraftPort",
+        "MidshipDraftStarboard",
+        "Trim"
+      ]
+    }
+  }
+2023-12-20 22:32:04.587 +00:00 [INF] Sending binary: 0A-23-64-69-73-63-6F-2D-74-65-73-74-2D-63-6C-69-65-6E-74-5F-73-61-2D-32-32-30-35-36-2D-64-72-64-6C-2D-6E-65-67-10-01-D2-3E-14-0A-06-08-E0-87-FA-A5-06-12-06-08-E0-FC-9E-A6-06-18-E0-D4-03-8A-7D-08-0A-06-01-02-03-04-05-06
+2023-12-20 22:32:04.600 +00:00 [INF] Binary is sent 1-th time
+2023-12-20 22:32:04.638 +00:00 [INF] Stopping periodic task "CleanupTrackedErrors"
+2023-12-20 22:32:04.645 +00:00 [INF] Disposing RabbitMQ connection
+2023-12-20 22:32:04.668 +00:00 [INF] Bus "getScheduleResponseBus" stopped
+2023-12-20 22:32:04.668 +00:00 [INF] Bus instance RebusBus getScheduleResponseBus successfully disposed
+2023-12-20 22:32:04.668 +00:00 [INF] Bus "scheduleResponseBus" setting number of workers to 0
+2023-12-20 22:32:04.776 +00:00 [INF] Stopping periodic task "CleanupTrackedErrors"
+2023-12-20 22:32:04.779 +00:00 [INF] Disposing RabbitMQ connection
+2023-12-20 22:32:04.780 +00:00 [INF] Bus "scheduleResponseBus" stopped
+2023-12-20 22:32:04.780 +00:00 [INF] Bus instance RebusBus scheduleResponseBus successfully disposed
+2023-12-20 22:32:04.781 +00:00 [INF] Bus "onDemandDataResponseBus" setting number of workers to 0
+2023-12-20 22:32:04.847 +00:00 [INF] DiscoDataResponse Received message: { "requestId": "disco-test-client_sa-22056-drdl-neg", "destination": "Local", "executed": "2023-12-20T22:32:04.607568Z", "error": { "code": "HARD_LIMIT_DATA_POINTS_COUNT_EXCEED", "message": "Date Request exceeds interval points limit for 10000 data points." }, "dataPointCollections": [ ], "page": 0, "continue": false }
+2023-12-20 22:32:04.885 +00:00 [INF] Stopping periodic task "CleanupTrackedErrors"
+2023-12-20 22:32:04.887 +00:00 [INF] Disposing RabbitMQ connection
+2023-12-20 22:32:04.888 +00:00 [INF] Bus "onDemandDataResponseBus" stopped
+2023-12-20 22:32:04.888 +00:00 [INF] Bus instance RebusBus onDemandDataResponseBus successfully disposed
+2023-12-20 22:32:04.889 +00:00 [INF] Application is shutting down...
+2023-12-20 22:32:05.605 +00:00 [INF] Binary is sent 2-st time
