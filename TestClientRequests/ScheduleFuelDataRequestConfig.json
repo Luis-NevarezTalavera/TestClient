@@ -3,6 +3,7 @@
   "NSamples": 5,
   "SamplingIntervalInMs": 100,
   "Request": {
+    "version": "v2",
     "requestId": "test_us-20359-2",
     "scheduleId": "test_us-20359-2",
     "destination": "Local",

@@ -4,6 +4,7 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "CreateSchedule",
   "Request": {
+    "version": "v2",
     "requestId": "disco-test-client_sa-20359-swsl-neg",
     "scheduleId": "disco-test-client_sa-20359-swsl-neg",
     "destination": "Local",

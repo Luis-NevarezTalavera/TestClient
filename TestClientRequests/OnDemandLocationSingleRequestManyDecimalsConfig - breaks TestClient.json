@@ -4,6 +4,7 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "OnDemand",
   "Request": {
+    "version": "v2",
     "requestId": "454a68bd-b9b7-4ec5-9250-d65c87688ed7",
     "destination": "Unknown",
     "onDemandSingle": {
