@@ -3,7 +3,6 @@
   "NSamples": 1,
   "SamplingIntervalInMs": 1,
   "Request": {
-    "version": "v2",
     "requestId": "disco-test-client_sa-20359-sdsr",
     "scheduleId": "disco-test-client_sa-20359-sdsr"
   },

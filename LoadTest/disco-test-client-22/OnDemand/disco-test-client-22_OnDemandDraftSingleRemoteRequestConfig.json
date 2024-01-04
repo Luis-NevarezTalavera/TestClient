@@ -4,6 +4,7 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "OnDemand",
   "Request": {
+    "version": "v2",
     "requestId": "disco-test-client-22_sa-22056-dsdr",
     "destination": "Remote",
     "onDemandSingle": {

@@ -1,0 +1,21 @@
+++--- Summary for Test:	Schedule-Regression_2024-01-04_14	---++ 
+Start Date-Time:	Thu 01/04/2024 14:34:45.22 
+----------------------------------------------------------------------- 
+Handling files:	12
+negative TCs:	4
+--- Requests --- 
+DiscoCreateScheduleRequests:	12
+DiscoGetSchedulesRequests:	0
+DiscoDeleteScheduleRequests:	0
+DiscoDataRequests:	0
+--- Responses --- 
+DiscoScheduleResponses with scheduleIds:	8
+DiscoGetSchedulesResponses with scheduleIds:	0
+DiscoDataResponses with values:	19
+-- BAD_REQUEST / HARD_LIMIT / Warnings / Errors --- 
+TestRun.log BAD_REQUEST|HARD_LIMIT:	3
+TestRun.log Warnings, Errors:	1
+disco-service.log Warnings, Errors:	2
+siemens-adapter.log Warnings, Errors:	1
+----------------------------------------------------------------------- 
+End Date-Time:	Thu 01/04/2024 14:36:58.42    

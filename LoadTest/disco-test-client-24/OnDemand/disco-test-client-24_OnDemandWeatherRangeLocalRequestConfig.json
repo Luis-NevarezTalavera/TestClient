@@ -4,6 +4,7 @@
   "SamplingIntervalInMs": 1,
   "RequestType": "OnDemand",
   "Request": {
+    "version": "v2",
     "requestId": "disco-test-client-24_sa-21162-drwl",
     "destination": "Local",
     "onDemandRange": {

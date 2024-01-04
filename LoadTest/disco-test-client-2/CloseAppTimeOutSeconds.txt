@@ -1,1 +1,1 @@
-"CloseAppTimeOutSeconds": 1080,
+"CloseAppTimeOutSeconds": 480,
